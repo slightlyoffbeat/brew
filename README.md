@@ -1,29 +1,24 @@
-# Bones
-__A Lightweight Wordpress Development Theme__
+# Brew
+__A Wordpress starter theme based on Bones and Bootstrap 3__
 
-Bones is designed to make the life of developers easier. It's built
-using HTML5 & has a strong semantic foundation. It was updated recently
-using some of the HTML5 Boilerplate's recommended markup and setup.
-It's constantly growing so be sure to check back often if you are a
-frequent user. I'm always open to contribution. :)
-
-Designed by **Eddie Machado**: http://themble.com/bones
-
-Special Thanks to:
-* Paul Irish & the HTML5 Boilerplate
-* Yoast for some WP functions & optimization ideas
-* Andrew Rogers for code optimization
-* David Dellanave for speed & code optimization
-* and several other developers. :)
-
-Submit Bugs & or Fixes:
-https://github.com/eddiemachado/bones/issues
+Created by **Dan Brown**: http://danvswild.com
 
 
-## License
-__[WTFPL](http://sam.zoy.org/wtfpl/)__
+I searched and searched, but I couldn't find a Wordpress starter theme that was based on Bootstrap 3 that I liked.  Most were either too bloated, or were blatantly ripping off open source code and selling it as their own.  This project is simply pulling together excellent projects such as bootstrap, wordpress, bones, etc into a simple starter theme.
 
-	Are You Serious? Yes.
+Features:
+* LESS
+* Bootstrap 3
+* Bones framework
+* sidebar and footer widgets
+
+Planned:
+* Bootstrap Page templates (full width, blog, sidebar)
+
+Code Used:
+* [Bootstrap 3](https://github.com/twbs/bootstrap)
+* [Bones](https://github.com/eddiemachado/bones)
+* [Bootstrap Nav Walker](https://github.com/twittem/wp-bootstrap-navwalker)
 
 
 ## Meta
