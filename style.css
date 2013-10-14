@@ -1,0 +1,79 @@
+/******************************************************************
+Theme Name: Bones (Rename Me!)
+Theme URI: http://www.themble.com/bones
+Description: This site was built using the Bones Development Theme. For more information about Bones or to view documentation, you can visit the <a href="https://github.com/eddiemachado/bones/issues" title="Bones Issues">Bones Issues</a> page on Github. You'll want to customize this for your clients with your own information.
+Author: Your Name Here
+Author URI: http://www.yoururlhere.com
+Version: 1.3
+Tags: flexible-width, translation-ready, microformats, rtl-language-support
+
+License: WTFPL
+License URI: http://sam.zoy.org/wtfpl/
+Are You Serious? Yes.
+
+
+MAKE SURE TO READ BELOW BEFORE GETTING STARTED FOR THE FIRST TIME!
+------------------------------------------------------------------
+
+You may be thinking…
+
+WHOA, WHOA, WHOA…WHAT HAPPENED HERE?
+
+But before you freak out, let me take a few minutes to explain.
+
+Bones now uses LESS or Sass by default. If you prefer
+using regular CSS, then feel free to modify this theme how you like
+and keep a copy as your own personal starting point.
+
+DON'T DISMISS IT JUST YET THOUGH, USING LESS or Sass ISN'T AS
+COMPLICATED AS YOU THINK.
+
+It does take a few minutes to wrap your head around, but it will all
+be worth it. Need a quick intro? Here are a few quick reads:
+
+http://cognition.happycog.com/article/preprocess-this
+http://coding.smashingmagazine.com/2011/09/09/an-introduction-to-less-and-comparison-to-sass/
+
+I would HIGHLY RECOMMEND, if you are going to be working with
+LESS or Sass, that you work locally. Sass isn't readable by a browser
+and using a LESS js file to parse it on live sites can make your site sluggish.
+
+That being said, here are a few MUST HAVE TOOLS for working with a
+pre-processor: (You really only need one of them)
+
+CodeKit: (Highly Recommended)
+http://incident57.com/codekit/
+
+LESS App:
+http://incident57.com/less/
+
+Compass App: (Windows / Mac Users)
+http://compass.handlino.com/
+
+SimpLESS: (Windows Users)
+http://wearekiss.com/simpless
+
+WinLESS: (Windows Users)
+http://winless.org/
+
+These applications compile LESS or Sass into valid CSS. This
+way you can keep your production files easy to read and your
+CSS minified and speedy. Simply set the output to the
+library/css folder and you are all set. It's a thing of beauty.
+
+---------------------------------------------------------------
+
+Remember, once you download Bones it's up to you how to use it,
+so go nuts. Set things up and develop in a way that's easiest for
+you. If LESS/Sass is still a bit confusing for you, then remove them
+and customize this template as you see fit.
+
+If you're frustrated with this new direction and don't like change,
+take a few minutes and think about how much better a developer you 
+can become by just TRYING out new technologies. It may be tough at 
+first but it WILL make you a better developer. TRUST ME ON THIS. Give
+it a week, maybe two, and you will never go back.
+
+Happy Developing!
+
+******************************************************************/

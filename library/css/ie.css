@@ -1,0 +1,526 @@
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: IE Stylesheet
+
+So instead of using the respond.js file to add media query support
+to IE, we're going to use SASS to create an easily readable css file.
+Here, we import all the styles the standard stylesheet gets, only
+without the media queries. No need to worry about editing anything!
+
+******************************************************************/
+/*
+Remember, all the BASE styles are called already since IE can
+read those. Below, we need to import only the stuff IE can't 
+understand (what's inside the media queries). We also need to
+import the mixins file so SASS can understand the variables.
+*/
+/* import mixins */
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Mixins & Constants Stylesheet
+
+This is where you can take advantage of Sass' great features:
+Mixins & Constants. I won't go in-depth on how they work exactly,
+there are a few articles below that will help do that. What I will
+tell you is that this will help speed up simple changes like
+changing a color or adding CSS3 techniques gradients.
+
+A WORD OF WARNING: It's very easy to overdo it here. Be careful and
+remember less is more.
+
+******************************************************************/
+/*********************
+CLEARFIXIN'
+*********************/
+.clearfix {
+  zoom: 1; }
+  .clearfix:before, .clearfix:after {
+    content: "";
+    display: table; }
+  .clearfix:after {
+    clear: both; }
+
+/*********************
+TOOLS
+*********************/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.image-replacement {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+/*********************
+COLORS
+Need help w/ choosing your colors? Try this site out:
+http://0to255.com/
+*********************/
+/*
+Here's a great tutorial on how to
+use color variables properly:
+http://sachagreif.com/sass-color-variables/
+*/
+/*********************
+TYPOGRAPHY
+*********************/
+/* 	To embed your own fonts, use this syntax
+	and place your fonts inside the
+	library/fonts folder. For more information
+	on embedding fonts, go to:
+	http://www.fontsquirrel.com/
+	Be sure to remove the comment brackets.
+*/
+/*	@font-face {
+    	font-family: 'Font Name';
+    	src: url('library/fonts/font-name.eot');
+    	src: url('library/fonts/font-name.eot?#iefix') format('embedded-opentype'),
+             url('library/fonts/font-name.woff') format('woff'),
+             url('library/fonts/font-name.ttf') format('truetype'),
+             url('library/fonts/font-name.svg#font-name') format('svg');
+    	font-weight: normal;
+    	font-style: normal;
+	}
+*/
+/*
+use the best ampersand
+http://simplebits.com/notebook/2008/08/14/ampersands-2/
+*/
+span.amp {
+  font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
+  font-style: italic; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.alert-help, .alert-info, .alert-error, .alert-success {
+  margin: 10px;
+  padding: 5px 18px;
+  border: 1px solid; }
+
+.alert-help {
+  border-color: #e8dc59;
+  background: #ebe16f; }
+
+.alert-info {
+  border-color: #bfe4f4;
+  background: #d5edf8; }
+
+.alert-error {
+  border-color: #f8cdce;
+  background: #fbe3e4; }
+
+.alert-success {
+  border-color: #deeaae;
+  background: #e6efc2; }
+
+/*********************
+TRANSITION
+*********************/
+/*
+I totally rewrote this to be cleaner and easier to use.
+You'll need to be using Sass 3.2+ for these to work.
+Thanks to @anthonyshort for the inspiration on these.
+USAGE: @include transition(all 0.2s ease-in-out);
+*/
+/*********************
+CSS3 GRADIENTS
+Be careful with these since they can
+really slow down your CSS. Don't overdue it.
+*********************/
+/* @include css-gradient(#dfdfdf,#f8f8f8); */
+/*********************
+BOX SIZING
+*********************/
+/* @include box-sizing(border-box); */
+/* NOTE: value of "padding-box" is only supported in Gecko. So
+probably best not to use it. I mean, were you going to anyway? */
+/*********************
+BUTTONS
+*********************/
+.button, .button:visited {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 1px solid #be0d37;
+  border-top-color: #db0f3f;
+  border-left-color: #db0f3f;
+  padding: 4px 12px;
+  color: white;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  margin-bottom: 20px;
+  line-height: 21px;
+  border-radius: 4px;
+  background-color: #e40f42;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f01d4f), to(#e40f42));
+  background-image: -webkit-linear-gradient(top, #f01d4f, #e40f42);
+  background-image: -moz-linear-gradient(top, #f01d4f, #e40f42);
+  background-image: -o-linear-gradient(top, #f01d4f, #e40f42);
+  background-image: linear-gradient(to bottom, #f01d4f, #e40f42); }
+  .button:hover, .button:focus, .button:visited:hover, .button:visited:focus {
+    color: white;
+    border: 1px solid #be0d37;
+    border-top-color: #9d0a2d;
+    border-left-color: #9d0a2d;
+    background-color: #cc0e3b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e40f42), to(#cc0e3b));
+    background-image: -webkit-linear-gradient(top, #e40f42, #cc0e3b);
+    background-image: -moz-linear-gradient(top, #e40f42, #cc0e3b);
+    background-image: -o-linear-gradient(top, #e40f42, #cc0e3b);
+    background-image: linear-gradient(to bottom, #e40f42, #cc0e3b); }
+  .button:active, .button:visited:active {
+    background-color: #f01d4f;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e40f42), to(#f01d4f));
+    background-image: -webkit-linear-gradient(top, #e40f42, #f01d4f);
+    background-image: -moz-linear-gradient(top, #e40f42, #f01d4f);
+    background-image: -o-linear-gradient(top, #e40f42, #f01d4f);
+    background-image: linear-gradient(to bottom, #e40f42, #f01d4f); }
+
+.blue-button, .blue-button:visited {
+  border-color: #1472ad;
+  text-shadow: 0 1px 1px #1472ad;
+  background-color: #1681c4;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1990db), to(#1681c4));
+  background-image: -webkit-linear-gradient(top, #1990db, #1681c4);
+  background-image: -moz-linear-gradient(top, #1990db, #1681c4);
+  background-image: -o-linear-gradient(top, #1990db, #1681c4);
+  background-image: linear-gradient(to bottom, #1990db, #1681c4);
+  box-shadow: inset 0 0 3px #59b3ec; }
+  .blue-button:hover, .blue-button:focus, .blue-button:visited:hover, .blue-button:visited:focus {
+    border-color: #116396;
+    background-color: #1472ad;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1784c9), to(#1472ad));
+    background-image: -webkit-linear-gradient(top, #1784c9, #1472ad);
+    background-image: -moz-linear-gradient(top, #1784c9, #1472ad);
+    background-image: -o-linear-gradient(top, #1784c9, #1472ad);
+    background-image: linear-gradient(to bottom, #1784c9, #1472ad); }
+  .blue-button:active, .blue-button:visited:active {
+    background-color: #1990db;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1681c4), to(#1990db));
+    background-image: -webkit-linear-gradient(top, #1681c4, #1990db);
+    background-image: -moz-linear-gradient(top, #1681c4, #1990db);
+    background-image: -o-linear-gradient(top, #1681c4, #1990db);
+    background-image: linear-gradient(to bottom, #1681c4, #1990db); }
+
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Grid Stylesheet
+
+I've seperated the grid so you can swap it out easily. It's
+called at the top the style.scss stylesheet.
+
+There are a ton of grid solutions out there. You should definitely
+experiment with your own. Here are some recommendations:
+
+http://gridsetapp.com - Love this site. Responsive Grids made easy.
+http://susy.oddbird.net/ - Grids using Compass. Very elegant.
+http://gridpak.com/ - Create your own responsive grid.
+
+The grid below is a combination of the 1140 grid and Twitter Boostrap. 
+I liked 1140 but Boostrap's grid was way more detailed so I merged them 
+together, let's see how this works out. If you want to use 1140, the original 
+values are commented out on each line.
+
+******************************************************************/
+.onecol {
+  width: 5.801104972%; }
+
+/* 4.85%;  } /* grid_1  */
+.twocol {
+  width: 14.364640883%; }
+
+/* 13.45%; } /* grid_2  */
+.threecol {
+  width: 22.928176794%; }
+
+/* 22.05%; } /* grid_3  */
+.fourcol {
+  width: 31.491712705%; }
+
+/* 30.75%; } /* grid_4  */
+.fivecol {
+  width: 40.055248616%; }
+
+/* 39.45%; } /* grid_5  */
+.sixcol {
+  width: 48.618784527%; }
+
+/* 48%;    } /* grid_6  */
+.sevencol {
+  width: 57.182320438000005%; }
+
+/* 56.75%; } /* grid_7  */
+.eightcol {
+  width: 65.74585634900001%; }
+
+/* 65.4%;  } /* grid_8  */
+.ninecol {
+  width: 74.30939226%; }
+
+/* 74.05%; } /* grid_9  */
+.tencol {
+  width: 82.87292817100001%; }
+
+/* 82.7%;  } /* grid_10 */
+.elevencol {
+  width: 91.436464082%; }
+
+/* 91.35%; } /* grid_11 */
+.twelvecol {
+  width: 99.999999993%; }
+
+/* 100%;   } /* grid_12 */
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol {
+  position: relative;
+  float: left;
+  margin-left: 2.762430939%; }
+
+.first {
+  margin-left: 0; }
+
+.last {
+  float: right; }
+
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: 481px and Up Stylesheet
+
+This stylesheet is loaded for larger devices. It's set to 
+481px because at 480px it would load on a landscaped iPhone.
+This isn't ideal because then you would be loading all those
+extra styles on that same mobile connection. 
+
+A word of warning. This size COULD be a larger mobile device,
+so you still want to keep it pretty light and simply expand
+upon your base.scss styles.
+
+******************************************************************/
+/*********************
+NAVIGATION STYLES
+*********************/
+/* .menu is clearfixed inside mixins.scss */
+.menu {
+  /* end .menu ul */ }
+  .menu ul {
+    /* end .menu ul li */
+    /* highlight current page */
+    /* end current highlighters */ }
+    .menu ul li {
+      /*
+      plan your menus and drop-downs wisely.
+      */ }
+      .menu ul li a {
+        /*
+        you can use hover styles here even though this size
+        has the possibility of being a mobile device.
+        */ }
+
+/* end .menu */
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+/* entry content */
+.entry-content {
+  /* at this larger size, we can start to align images */ }
+  .entry-content .alignleft, .entry-content img.alignleft {
+    margin-right: 1.5em;
+    display: inline;
+    float: left; }
+  .entry-content .alignright, .entry-content img.alignright {
+    margin-left: 1.5em;
+    display: inline;
+    float: right; }
+  .entry-content .aligncenter, .entry-content img.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    clear: both; }
+
+/* end .entry-content */
+/*********************
+FOOTER STYLES
+*********************/
+/*
+check your menus here. do they look good?
+do they need tweaking?
+*/
+/* end .footer-links */
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Tablet & Small Desktop Stylesheet
+
+Here's where you can start getting into the good stuff.
+This size will work on iPads, other tablets, and desktops.
+So you can start working with more styles, background images,
+and other resources. You'll also notice the grid starts to
+come into play. Have fun!
+
+******************************************************************/
+/*********************
+GENERAL STYLES
+*********************/
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+.wrap {
+  max-width: 1140px; }
+
+/*********************
+HEADER STYLES
+*********************/
+/*********************
+NAVIGATION STYLES
+*********************/
+.nav {
+  background: #eee;
+  border: 0;
+  /* end .menu ul li */
+  /* highlight current page */
+  /* end current highlighters */ }
+  .nav li {
+    float: left;
+    position: relative;
+    /*
+    plan your menus and drop-downs wisely.
+    */
+    /* showing sub-menus */ }
+    .nav li a {
+      border-bottom: 0;
+      /*
+      you can use hover styles here even though this size
+      has the possibility of being a mobile device.
+      */ }
+      .nav li a:hover, .nav li a:focus {
+        background-color: #dedede; }
+    .nav li ul.sub-menu,
+    .nav li ul.children {
+      margin-top: 0;
+      border: 1px solid #ccc;
+      border-top: 0;
+      position: absolute;
+      display: none;
+      z-index: 8999;
+      /* highlight sub-menu current page */ }
+      .nav li ul.sub-menu li,
+      .nav li ul.children li {
+        /*
+        if you need to go deeper, go nuts
+        just remember deeper menus suck
+        for usability. k, bai.
+        */ }
+        .nav li ul.sub-menu li a,
+        .nav li ul.children li a {
+          padding-left: 10px;
+          border-right: 0;
+          display: block;
+          width: 180px;
+          border-bottom: 1px solid #ccc; }
+        .nav li ul.sub-menu li:last-child a,
+        .nav li ul.children li:last-child a {
+          border-bottom: 0; }
+    .nav li:hover ul {
+      top: auto;
+      display: block; }
+
+/* end .nav */
+/*********************
+SIDEBARS & ASIDES
+*********************/
+.sidebar {
+  margin-top: 2.2em; }
+
+.widgettitle {
+  border-bottom: 2px solid #444;
+  margin-bottom: 0.75em; }
+
+.widget {
+  padding: 0 10px;
+  margin: 2.2em 0; }
+  .widget ul li {
+    margin-bottom: 0.75em;
+    /* deep nesting */ }
+    .widget ul li ul {
+      margin-top: 0.75em;
+      padding-left: 1em; }
+
+/* links widget */
+/* meta widget */
+/* pages widget */
+/* recent-posts widget */
+/* archives widget */
+/* tag-cloud widget */
+/* calendar widget */
+/* category widget */
+/* recent-comments widget */
+/* search widget */
+/* text widget */
+/*********************
+FOOTER STYLES
+*********************/
+/*
+you'll probably need to do quite a bit
+of overriding here if you styled them for
+mobile. Make sure to double check these!
+*/
+.footer-links ul li {
+  /*
+  be careful with the depth of your menus.
+  it's very rare to have multi-depth menus in
+  the footer.
+  */ }
+
+/* end .footer-links */
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: Desktop Stylsheet
+
+This is the desktop size. It's larger than an iPad so it will only
+be seen on the Desktop. 
+
+******************************************************************/
+/* 
+you can call the larger styles if you want, but there's really no need 
+*/
+/******************************************************************
+ADDITIONAL IE FIXES
+These fixes are now ONLY seen by IE, so you don't have to worry
+about using prefixes, although it's best practice. For more info
+on using Modernizr classes, check out this link:
+http://www.modernizr.com/docs/
+******************************************************************/
+/*
+For example, you can use something like:
+
+.no-textshadow .class { ... }
+
+You can also target specific versions by using the classes applied to
+the html element. These can sometimes change, so take a look inside the
+header.php file to see what they are:
+
+
+.lt-ie8 .class { ... }
+
+*/
