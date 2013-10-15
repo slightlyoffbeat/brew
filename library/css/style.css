@@ -6968,6 +6968,9 @@ and more scalable.
 /*********************
 08. POSTS & CONTENT STYLES
 *********************/
+#content {
+  padding-top: 20px;
+}
 /* end .hentry */
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */

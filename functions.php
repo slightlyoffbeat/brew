@@ -151,17 +151,5 @@ function bones_comments( $comment, $args, $depth ) {
 <?php
 } // don't remove this bracket!
 
-/************* SEARCH FORM LAYOUT *****************/
-
-// Search Form
-function bones_wpsearch($form) {
-	$form = '<form role="search" method="get" id="searchform" action="' . home_url( '/' ) . '" >
-	<label class="screen-reader-text" for="s">' . __( 'Search for:', 'bonestheme' ) . '</label>
-	<input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="' . esc_attr__( 'Search the Site...', 'bonestheme' ) . '" />
-	<input type="submit" id="searchsubmit" value="' . esc_attr__( 'Search' ) .'" />
-	</form>';
-	return $form;
-} // don't remove this bracket!
-
 
 ?>
