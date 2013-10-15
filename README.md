@@ -14,11 +14,14 @@ Features:
 
 Planned:
 * Bootstrap Page templates (full width, blog, sidebar)
+* Implement Redux Framework
+* Implement 
 
-Code Used:
+Credit:
 * [Bootstrap 3](https://github.com/twbs/bootstrap)
 * [Bones](https://github.com/eddiemachado/bones)
 * [Bootstrap Nav Walker](https://github.com/twittem/wp-bootstrap-navwalker)
+* [320 Press](https://github.com/320press/wordpress-bootstrap/)
 
 
 ## Meta
