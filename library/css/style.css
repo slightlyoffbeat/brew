@@ -6969,9 +6969,15 @@ and more scalable.
 08. POSTS & CONTENT STYLES
 *********************/
 #content {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 /* end .hentry */
+.page-title {
+  margin-top: 0;
+  padding-bottom: 9px;
+  margin: 0px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+}
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
 /* general post style */
@@ -7118,7 +7124,11 @@ and more scalable.
   /* number of comments span */
 
 }
+.comment-nav ul li {
+  list-style-type: none;
+}
 .commentlist {
+  padding-left: 0;
   /* general comment classes */
 
   /* vcard */
@@ -7143,6 +7153,7 @@ and more scalable.
   list-style-type: none;
   margin-bottom: 1.5em;
   padding: 0.7335em 10px;
+  border: solid 1px #E7E7E7;
   /* end .commentlist li ul.children */
 
 }
@@ -7175,8 +7186,14 @@ and more scalable.
 .commentlist .even {
   background: #fefefe;
 }
+.commentlist .bypostauthor {
+  background: #eff5fb;
+}
+.commentlist .alert {
+  margin: 10px 0 0 82px;
+}
 .commentlist .vcard {
-  margin-left: 50px;
+  margin-left: 82px;
 }
 .commentlist .vcard cite.fn {
   font-weight: 700;
@@ -7200,7 +7217,7 @@ and more scalable.
   background: #fff;
 }
 .commentlist .comment_content {
-  margin-left: 50px;
+  margin-left: 82px;
 }
 .commentlist .comment_content p {
   margin: 0.7335em 0 1.5em;
@@ -7230,6 +7247,10 @@ and more scalable.
   margin: 1.5em 10px;
   padding-bottom: 2.2em;
 }
+.respond-form ul {
+  padding-left: 0;
+  padding-bottom: 20px;
+}
 .respond-form form {
   margin: 0.75em 0;
 }
@@ -7237,6 +7258,7 @@ and more scalable.
   list-style-type: none;
   clear: both;
   margin-bottom: 0.7335em;
+  border: none;
 }
 .respond-form form li label,
 .respond-form form li small {
@@ -7300,7 +7322,23 @@ and more scalable.
 /*********************
 12. SIDEBARS & ASIDES
 *********************/
+#sidebar .widget {
+  margin-bottom: 30px;
+}
+.widgettitle {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 18px;
+  line-height: 24px;
+}
+.widget ul {
+  padding: 0;
+  margin: 0;
+}
 .widget ul li {
+  padding: 5px 0;
+  list-style: none;
   /* deep nesting */
 
 }

@@ -220,7 +220,7 @@ and more scalable.
 *********************/
 
 #content {
-  padding-top: 20px;
+  padding-top: 40px;
 
 	#inner-content {}
 }
@@ -238,7 +238,12 @@ and more scalable.
 
 		.single-title {}
 
-		.page-title {}
+		.page-title {
+      margin-top: 0;
+      padding-bottom: 9px;
+      margin: 0px 0 20px;
+      border-bottom: 1px solid #eeeeee;
+    }
 
 		.archive-title { }
 
@@ -494,176 +499,184 @@ and more scalable.
 /* h3 comment title */
 #comments {
 
-	/* number of comments span */
-	span {}
+  /* number of comments span */
+  span {}
 
 }
 
 .comment-nav {
 
-	ul {
+  ul {
 
-		li {}
+    li {
+      list-style-type: none;
+    }
 
-	}
+  }
 }
 
 
 .commentlist {
+  padding-left: 0;
 
-	li {
-		position: relative;
-		clear: both;
-		overflow: hidden;
-		list-style-type: none;
-		margin-bottom: 1.5em;
-		padding: 0.7335em 10px;
+  li {
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    list-style-type: none;
+    margin-bottom: 1.5em;
+    padding: 0.7335em 10px;
+    border: solid 1px #E7E7E7;
 
-		&:last-child {
-			margin-bottom: 0;
-		}
+    &:last-child {
+      margin-bottom: 0;
+    }
 
-		ul.children {
-			margin: 0;
+    ul.children {
+      margin: 0;
 
-			li {}
+      li {}
 
-			/* variations */
-			.comment {}
-			.alt {}
-			.odd {}
-			.even {}
-			.depth-1 {}           /* change number for different depth */
-			.byuser {}
-			.bypostauthor {}
-			.comment-author-admin {}
+      /* variations */
+      .comment {}
+      .alt {}
+      .odd {}
+      .even {}
+      .depth-1 {}           /* change number for different depth */
+      .byuser {}
+      .bypostauthor {}
+      .comment-author-admin {}
 
-		} /* end .commentlist li ul.children */
-	}
+    } /* end .commentlist li ul.children */
+  }
 
-	li[class*=depth-] {
-		margin-top: 1.1em;
-	}
+  li[class*=depth-] {
+    margin-top: 1.1em;
+  }
 
-	li.depth-1 {
-		margin-left: 0;
-		margin-top: 0;
-	}
+  li.depth-1 {
+    margin-left: 0;
+    margin-top: 0;
+  }
 
-	li:not(.depth-1) {
-		margin-right: -10px;
-		margin-left: -10px;
-		margin-top: 0;
-		padding-bottom: 0;
-	}
+  li:not(.depth-1) {
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: 0;
+    padding-bottom: 0;
+  }
 
-	li.depth-2 {}
-	li.depth-3 {}
-	li.depth-4 {}
-	li.depth-5 {}
+  li.depth-2 {}
+  li.depth-3 {}
+  li.depth-4 {}
+  li.depth-5 {}
 
-	/* general comment classes */
-	.alt {}
-	.odd {
-		background: #eee;
-	}
-	.even {
-		background: #fefefe;
-	}
-	.parent {}
-	.comment {}
-	.children {}
-	.pingback {}
-	.bypostauthor {}
-	.comment-author {}
-	.comment-author-admin {}
-	.thread-alt {}
-	.thread-odd {}
-	.thread-even {}
-
-	/* vcard */
-	.vcard {
-		margin-left: 50px;
-
-		cite.fn {
-			font-weight: 700;
-			font-style: normal;
-
-			a.url {}
-
-		}
-
-		time {
-			float: right;
-
-			a {
-				color: #999;
-				text-decoration: none;
-
-				&:hover {
-					text-decoration: underline;
-				}
-
-			}
-
-		}
-
-		img.photo {}
-
-		img.avatar {
-			position: absolute;
-			left: 10px;
-			padding: 2px;
-			border: 1px solid #cecece;
-			background: #fff;
-		}
-
-	} /* end .commentlist .vcard */
+  /* general comment classes */
+  .alt {}
+  .odd {
+    background: #eee;
+  }
+  .even {
+    background: #fefefe;
+  }
+  .parent {}
+  .comment {}
+  .children {}
+  .pingback {}
+  .bypostauthor {
+    background: lighten(@brand-primary, 43.5%);
+  }
+  .comment-author {}
+  .comment-author-admin {}
+  .thread-alt {}
+  .thread-odd {}
+  .thread-even {}
+  .alert {margin: 10px 0 0 82px;}
 
 
-	/* comment meta */
-	.comment-meta {
+  /* vcard */
+  .vcard {
+    margin-left: 82px;
 
-		a {}
+    cite.fn {
+      font-weight: 700;
+      font-style: normal;
 
-	}
+      a.url {}
 
-	.commentmetadata {
+    }
 
-		a {}
+    time {
+      float: right;
 
-	}
+      a {
+        color: #999;
+        text-decoration: none;
 
-	/* comment content */
-	.comment_content {
-		margin-left: 50px;
+        &:hover {
+          text-decoration: underline;
+        }
 
-		p {
-			margin: 0.7335em 0 1.5em;
-			font-size: 1em;
-			line-height: 1.5em;
-		}
+      }
 
-	} /* end .commentlist .comment_content */
+    }
 
-	/* comment reply link */
-	.comment-reply-link {
-		text-decoration: none;
-		float: right;
-		background: #4598bb;
-		padding: 3px 5px;
-		color: #fff;
-		opacity: 0.65;
-		margin-bottom: 10px;
-		font-weight: 700;
-		font-size: 0.9em;
+    img.photo {}
 
-		&:hover,
-		&:focus {
-			opacity: 1;
-		}
+    img.avatar {
+      position: absolute;
+      left: 10px;
+      padding: 2px;
+      border: 1px solid #cecece;
+      background: #fff;
+    }
 
-	} /* end .commentlist .comment-reply-link */
+  } /* end .commentlist .vcard */
+
+
+  /* comment meta */
+  .comment-meta {
+
+    a {}
+
+  }
+
+  .commentmetadata {
+
+    a {}
+
+  }
+
+  /* comment content */
+  .comment_content {
+    margin-left: 82px;
+
+    p {
+      margin: 0.7335em 0 1.5em;
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+
+  } /* end .commentlist .comment_content */
+
+  /* comment reply link */
+  .comment-reply-link {
+    text-decoration: none;
+    float: right;
+    background: #4598bb;
+    padding: 3px 5px;
+    color: #fff;
+    opacity: 0.65;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 0.9em;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+
+  } /* end .commentlist .comment-reply-link */
 
 } /* end .commentlist */
 
@@ -675,6 +688,11 @@ and more scalable.
 	margin: 1.5em 10px;
 	padding-bottom: 2.2em;
 
+  ul {
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+
 	form {
 		margin: 0.75em 0;
 
@@ -682,6 +700,7 @@ and more scalable.
 			list-style-type: none;
 			clear: both;
 			margin-bottom: 0.7335em;
+      border: none;
 
 			label,
 			small {
@@ -756,19 +775,35 @@ and more scalable.
 		margin: 0 20px 1.1em;
 	}
 
+
+
 /*********************
 12. SIDEBARS & ASIDES
 *********************/
 
-.sidebar {}
+#sidebar {
+  .widget {
+    margin-bottom: 30px;
+  }
+}
 
-	.widgettitle {}
+	.widgettitle {
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e0e0e0;
+      font-size: 18px;
+      line-height: 24px;
+      }
 
 	.widget {
 
 		ul {
+      padding: 0;
+      margin: 0;
 
 			li {
+        padding: 5px 0;
+        list-style: none;
 
 				&:first-child {}
 
