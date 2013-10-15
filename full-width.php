@@ -1,10 +1,16 @@
+<?php
+/*
+Template Name: Page - Full Width
+*/
+?>
+
 <?php get_header(); ?>
 
       <div class="container">
 
         <div id="content" class="clearfix row">
         
-          <div id="main" class="col-md-8 clearfix" role="main">
+          <div id="main" class="col-md-12 clearfix" role="main">
 
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             
@@ -49,11 +55,9 @@
             <?php endif; ?>
         
           </div> <!-- end #main -->
-      
-          <?php get_sidebar(); // sidebar 1 ?>
-      
+            
         </div> <!-- end #content -->
-        
+
       </div> <!-- end .container -->
 
 <?php get_footer(); ?>
