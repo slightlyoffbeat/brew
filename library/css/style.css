@@ -6971,6 +6971,15 @@ and more scalable.
 #content {
   padding-top: 40px;
 }
+.hentry footer {
+  border-top: 1px solid #eee;
+  padding: 5px 0 0;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.hentry footer .commentnum {
+  text-align: right;
+}
 /* end .hentry */
 .page-title {
   margin-top: 0;

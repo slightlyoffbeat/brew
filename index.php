@@ -4,7 +4,7 @@
 
 			<div id="content" class="row clearfix">
 
-						<div id="main" class="col-md-9 clearfix" role="main">
+						<div id="main" class="col-md-8 clearfix" role="main">
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -14,7 +14,7 @@
 
 									<h1 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 									<p class="byline vcard"><?php
-										printf( __( 'Posted <time class="updated" datetime="%1$s" pubdate>%2$s</time> by <span class="author">%3$s</span> <span class="amp">&</span> filed under %4$s.', 'bonestheme' ), get_the_time('Y-m-j'), get_the_time(get_option('date_format')), bones_get_the_author_posts_link(), get_the_category_list(', '));
+										printf( __( '<time class="updated" datetime="%1$s" pubdate>%2$s</time> by <span class="author">%3$s</span>', 'bonestheme' ), get_the_time('Y-m-j'), get_the_time(get_option('date_format')), bones_get_the_author_posts_link(), get_the_category_list(', '));
 									?></p>
 
 								</header> <?php // end article header ?>
@@ -24,9 +24,11 @@
 								</section> <?php // end article section ?>
 
 								<footer class="article-footer">
-									<p class="tags"><?php the_tags( '<span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '' ); ?></p>
-
-								</footer> <?php // end article footer ?>
+                  <div class="row">
+									<p class="tags pull-left col-xs-10"><?php printf( '<span class="">' . __( 'in %1$s&nbsp;&nbsp;', 'bonestheme' ) . '</span>', get_the_category_list(', ') ); ?> <?php the_tags( '<span class="tags-title">' . __( '<i class="icon-tags"></i>', 'bonestheme' ) . '</span> ', ', ', '' ); ?></p>
+                  <p class="commentnum pull-right col-xs-2"><a href="<?php comments_link(); ?>"><?php comments_number( 'no comments', '1 comment', '% comments' ); ?></a></p>
+								  </div>
+                </footer> <?php // end article footer ?>
 
 								<?php // comments_template(); // uncomment if you want to use them ?>
 
@@ -59,9 +61,11 @@
 										</footer>
 									</article>
 
+
 							<?php endif; ?>
 
 						</div> <?php // end #main ?>
+
 
 						<?php get_sidebar(); ?>
 
