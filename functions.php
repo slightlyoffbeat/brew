@@ -12,6 +12,15 @@ sidebars, comments, ect.
 
 require_once( 'library/navwalker.php' ); // navwalker from twittem.  Needed for bootstrap nav
 
+if(!class_exists('ReduxFramework')){
+    require_once(dirname(__FILE__) . '/library/admin/framework.php');
+}
+
+require_once(dirname(__FILE__).'/library/option-config.php');
+
+// require_once(dirname(__FILE__).'/admin/sample/sample-config.php');
+
+
 /*
 1. library/bones.php
 	- head cleanup (remove rsd, uri links, junk css, ect)
@@ -150,7 +159,6 @@ function bones_comments( $comment, $args, $depth ) {
 	<?php // </li> is added by WordPress automatically ?>
 <?php
 } // don't remove this bracket!
-
 
 
 ?>
