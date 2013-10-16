@@ -161,4 +161,14 @@ function bones_comments( $comment, $args, $depth ) {
 } // don't remove this bracket!
 
 
+/************* BOOTSTRAP READMORE BUTTON *********************/
+
+function my_more_link( $more_link, $more_link_text ) {
+            
+    return str_replace( $more_link_text, '<p><a href="' . get_permalink() . '" class="readmore btn btn-primary ">' . __( 'Read More', 'bonestheme' ) . ' </a> </p>', $more_link );
+}
+
+add_filter( 'the_content_more_link', 'my_more_link', 10, 2 );
+
+
 ?>

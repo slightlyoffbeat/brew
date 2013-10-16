@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
-			<div id="content">
+    <div class="container">
 
-				<div id="inner-content" class="wrap clearfix">
+			<div id="content" class="row clearfix">
 
-						<div id="main" class="eightcol first clearfix" role="main">
+						<div id="main" class="col-md-9 clearfix" role="main">
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -20,7 +20,7 @@
 								</header> <?php // end article header ?>
 
 								<section class="entry-content clearfix">
-									<?php the_content(); ?>
+									<?php the_content('dddd'); ?>
 								</section> <?php // end article section ?>
 
 								<footer class="article-footer">
@@ -65,8 +65,9 @@
 
 						<?php get_sidebar(); ?>
 
-				</div> <?php // end #inner-content ?>
 
 			</div> <?php // end #content ?>
+
+    </div> <!-- end ./container -->
 
 <?php get_footer(); ?>
