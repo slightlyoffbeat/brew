@@ -227,8 +227,17 @@ and more scalable.
 
 		.hentry {
 
-			header {}
-
+			header {
+        h1{
+          a{
+            color: @gray-dark;
+          }
+          a:hover {
+            text-decoration: none;
+            color: @gray;
+          }
+        }
+      }
 			footer {
         border-top: 1px solid #eee;
         padding: 5px 0 0;
@@ -240,10 +249,19 @@ and more scalable.
 
 		} /* end .hentry */
 
+    .single-header {
+        margin-bottom: 20px;
+      }
 		.single-title,
-		.page-title {}
+		.page-title {
+      a {
+        color: red;
+      }
+    }
 
-		.single-title {}
+		.single-title {
+      margin-top: 0;
+    }
 
 		.page-title {
       margin-top: 0;
@@ -792,6 +810,9 @@ and more scalable.
   .widget {
     margin-bottom: 30px;
   }
+  @media (min-width: @screen-md) {
+    width: 32%;
+  }
 }
 
 	.widgettitle {
@@ -905,8 +926,8 @@ and more scalable.
     text-shadow: 0 -1px 0 #222;
   }
 
-.btn-primary {
-  margin-left: 20px;
-}
+  .btn-primary {
+    margin-left: 20px;
+  }
 }
 

@@ -6971,6 +6971,13 @@ and more scalable.
 #content {
   padding-top: 40px;
 }
+.hentry header h1 a {
+  color: #333333;
+}
+.hentry header h1 a:hover {
+  text-decoration: none;
+  color: #555555;
+}
 .hentry footer {
   border-top: 1px solid #eee;
   padding: 5px 0 0;
@@ -6981,6 +6988,16 @@ and more scalable.
   text-align: right;
 }
 /* end .hentry */
+.single-header {
+  margin-bottom: 20px;
+}
+.single-title a,
+.page-title a {
+  color: red;
+}
+.single-title {
+  margin-top: 0;
+}
 .page-title {
   margin-top: 0;
   padding-bottom: 9px;
@@ -7333,6 +7350,11 @@ and more scalable.
 *********************/
 #sidebar .widget {
   margin-bottom: 30px;
+}
+@media (min-width: 992px) {
+  #sidebar {
+    width: 32%;
+  }
 }
 .widgettitle {
   margin-bottom: 10px;

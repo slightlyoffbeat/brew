@@ -23,6 +23,7 @@ Credit:
 * [Bootstrap Nav Walker](https://github.com/twittem/wp-bootstrap-navwalker)
 * [320 Press](https://github.com/320press/wordpress-bootstrap/)
 * [Redux Framework](https://github.com/ReduxFramework/ReduxFramework)
+* [Eric Martin](http://www.ericmmartin.com/pagination-function-for-wordpress/)
 
 
 ## Meta

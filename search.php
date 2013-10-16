@@ -4,7 +4,7 @@
       
         <div id="content" class="clearfix row">
         
-          <div id="main" class="col col-lg-9 clearfix" role="main">
+          <div id="main" class="col col-lg-8 clearfix" role="main">
           
             <div class=""><h1 class="page-title"><span><?php _e("Search Results for","bonestheme"); ?>:</span> <?php echo esc_attr(get_search_query()); ?></h1></div>
 
@@ -34,9 +34,8 @@
             
             <?php endwhile; ?>  
             
-            <?php if (function_exists('page_navi')) { // if expirimental feature is active ?>
-
-              <?php page_navi(); // use the page navi function ?>
+            <?php if (function_exists("emm_paginate")) { ?>
+              <?php emm_paginate(); ?>
 
             <?php } else { // if it is disabled, display regular wp prev & next links ?>
               <nav class="wp-prev-next">

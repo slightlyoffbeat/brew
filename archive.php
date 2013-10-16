@@ -70,8 +70,8 @@
 
 							<?php endwhile; ?>
 
-									<?php if ( function_exists( 'bones_page_navi' ) ) { ?>
-										<?php bones_page_navi(); ?>
+									<?php if (function_exists("emm_paginate")) { ?>
+                      <?php emm_paginate(); ?>
 									<?php } else { ?>
 										<nav class="wp-prev-next">
 											<ul class="clearfix">
