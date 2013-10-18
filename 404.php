@@ -1,22 +1,22 @@
 <?php get_header(); ?>
 
-			<div id="content">
+      <div class="container">
 
-				<div id="inner-content" class="wrap clearfix">
+  			<div id="content">
 
-					<div id="main" class="eightcol first clearfix" role="main">
+					<div id="main" class="col-md-8 clearfix" role="main">
 
 						<article id="post-not-found" class="hentry clearfix">
 
 							<header class="article-header">
 
-								<h1><?php _e( 'Epic 404 - Article Not Found', 'bonestheme' ); ?></h1>
+								<h1>404. Whelp...this sucks</h1>
 
 							</header> <?php // end article header ?>
 
 							<section class="entry-content">
 
-								<p><?php _e( 'The article you were looking for was not found, but maybe try looking again!', 'bonestheme' ); ?></p>
+								<p><?php _e( 'The page you were looking for was not found.', 'bonestheme' ); ?></p>
 
 							</section> <?php // end article section ?>
 
@@ -28,7 +28,7 @@
 
 							<footer class="article-footer">
 
-									<p><?php _e( 'This is the 404.php template.', 'bonestheme' ); ?></p>
+									<p>Look, I can see you're really upset about this. I honestly think you ought to sit down calmly, take a stress pill, and think things over. </p>
 
 							</footer> <?php // end article footer ?>
 
@@ -36,8 +36,9 @@
 
 					</div> <?php // end #main ?>
 
-				</div> <?php // end #inner-content ?>
+  			</div> <?php // end #content ?>
 
-			</div> <?php // end #content ?>
+      </div> <?php // end ./container ?>
+
 
 <?php get_footer(); ?>

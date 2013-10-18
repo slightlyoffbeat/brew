@@ -6970,6 +6970,7 @@ and more scalable.
 *********************/
 #content {
   padding-top: 40px;
+  min-height: 600px;
 }
 .hentry header h1 a {
   color: #333333;

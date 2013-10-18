@@ -30,6 +30,7 @@ Credit:
 * [Redux Framework](https://github.com/ReduxFramework/ReduxFramework) (options framework)
 * [Eric Martin](http://www.ericmmartin.com/pagination-function-for-wordpress/) (pagination)
 * [mkoerner](http://mkoerner.de/breadcrumbs-for-wordpress-themes-with-bootstrap-3/) (breadcrumbs)
+* [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
 
 
 ## Meta
