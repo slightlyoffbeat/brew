@@ -7004,6 +7004,9 @@ and more scalable.
   margin: 0px 0 20px;
   border-bottom: 1px solid #eeeeee;
 }
+.archive-title {
+  margin-top: 0;
+}
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
 /* general post style */
@@ -7016,6 +7019,10 @@ and more scalable.
 /* post meta */
 .byline {
   color: #999;
+}
+/* breadcrumb */
+.breadcrumb > li {
+  color: #999999;
 }
 /* entry content */
 .entry-content {

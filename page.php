@@ -6,6 +6,9 @@
         
           <div id="main" class="col-md-8 clearfix" role="main">
 
+            <!-- UNCOMMENT FOR BREADCRUMBS
+            <?php if ( function_exists('custom_breadcrumb') ) { custom_breadcrumb(); } ?> -->
+
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             
             <article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
