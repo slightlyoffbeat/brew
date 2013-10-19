@@ -3,7 +3,7 @@ __A Wordpress starter theme based on Bones and Bootstrap 3__
 
 Created by **Dan Brown**: http://danvswild.com
 
-![Home Screen](/screenshots/scren1.png)
+![Home Screen](/screenshots/screen1.png)
 
 
 I searched, but I couldn't find a Wordpress starter theme that was based on Bootstrap 3 that I liked.  BREW is just pulling together excellent projects such as bootstrap, wordpress, bones, etc into a simple starter theme.  This is very lightweight with only some very mild CSS changes to make everything look nice out of the box.  My goal is to provide a solid foundation for anyone wanting to develop a wordpress theme with bootstrap.
