@@ -15,11 +15,13 @@ require_once( 'library/navwalker.php' ); //needed for bootstrap navigation
 
 // Redux Framework.  Needed for custom options in admin panel
 // https://github.com/twittem/wp-bootstrap-navwalker
-
+// WIP.  Uncomment if you wish to use.
+/*
 if(!class_exists('ReduxFramework')){
     require_once(dirname(__FILE__) . '/library/admin/framework.php');
 }
 require_once(dirname(__FILE__).'/library/option-config.php');
+*/
 
 
 /* library/bones.php (functions specific to BREW)

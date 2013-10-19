@@ -4,7 +4,7 @@ __A Wordpress starter theme based on Bones and Bootstrap 3__
 Created by **Dan Brown**: http://danvswild.com
 
 
-I searched and searched, but I couldn't find a Wordpress starter theme that was based on Bootstrap 3 that I liked.  This project is just pulling together excellent projects such as bootstrap, wordpress, bones, etc into a simple starter theme.  This is very lightweight with only some very mild CSS changes to make everything look nice out of the box.  My goal is to make this a solid foundation for anyone wanting to develop a theme on wordpress and bootstrap.
+I searched, but I couldn't find a Wordpress starter theme that was based on Bootstrap 3 that I liked.  BREW is just pulling together excellent projects such as bootstrap, wordpress, bones, etc into a simple starter theme.  This is very lightweight with only some very mild CSS changes to make everything look nice out of the box.  My goal is to provide a solid foundation for anyone wanting to develop a wordpress theme with bootstrap.
 
 
 
@@ -19,13 +19,20 @@ Features:
 * Font Awesome 
 
 
-This would not have been possible without the brilliance and hard work of so many people.  I try my best to always provide credit where credit is due.
+To use:
+1. download zip and upload as wordpress theme.
+2. set you variables at /less/custom-variables.less
+3. add custom LESS/CSS at /less/custom.less
+2. Decide if you want breadcrumbs (uncomment on pages where you want it)
+3. Decide if you want Redux options framework (uncomment in functions.php)
+
 
 To do:
 * clean up custom.less
-* implement 
+* Set up (just a few) options using Redux
 
-Credit:
+
+Providing credit where credit is due:
 * [Bootstrap 3](https://github.com/twbs/bootstrap)
 * [Bones](https://github.com/eddiemachado/bones)
 * [Bootstrap Nav Walker](https://github.com/twittem/wp-bootstrap-navwalker) (bootstrap navigation)

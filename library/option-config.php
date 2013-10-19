@@ -128,7 +128,7 @@ function setup_framework_options(){
 
     // Setting dev mode to true allows you to view the class settings/info in the panel.
     // Default: true
-    //$args['dev_mode'] = true;
+  $args['dev_mode'] = false;
 
 	// Set the icon for the dev mode tab.
 	// If $args['icon_type'] = 'image', this should be the path to the icon.
@@ -196,7 +196,7 @@ function setup_framework_options(){
 	$args['import_icon_class'] = 'icon-large';
 
     // Set a custom option name. Don't forget to replace spaces with underscores!
-    $args['opt_name'] = 'twenty_eleven22';
+    $args['opt_name'] = 'brew_options';
 
     // Set a custom menu icon.
     //$args['menu_icon'] = '';
