@@ -3,6 +3,8 @@ __A Wordpress starter theme based on Bones and Bootstrap 3__
 
 Created by **Dan Brown**: http://danvswild.com
 
+[Demo](http://danvswild.com/brew)
+
 ![Home Screen](/screenshots/screen1.png)
 
 
