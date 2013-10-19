@@ -12,7 +12,8 @@ Template Name: Home Page Template
       <div class="col-md-8 col-md-offset-2">
         <h1>BREW</h1>
         <p>A Wordpress starter theme based on Bones and Bootstrap 3</p>
-        <p><a class="btn btn-default btn-lg">Github</a><a class="btn btn-lg btn-primary">Documentation</a></p>
+        <p><a href="http://www.github.com/slightlyoffbeat/brew" target="_blank" class="btn btn-default btn-lg">Github</a>
+          <a href="http://danvswild.com" target="_blank" class="btn btn-lg btn-primary">Author</a></p>
       </div>
     </div><!-- end .row-->
   </div> <!-- end .container-->

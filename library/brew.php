@@ -107,7 +107,7 @@ function emm_paginate_loop($start, $max, $page = 0) {
     $output = "";
     for ($i = $start; $i <= $max; $i++) {
         $output .= ($page === intval($i)) 
-            ? "<li><span class=''>$i</span></li>" 
+            ? "<li><span class='active'>$i</span></li>" 
             : "<li><a href='" . get_pagenum_link($i) . "' class=''>$i</a></li>";
     }
     return $output;

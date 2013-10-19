@@ -1,13 +1,13 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: BREW
+Author: Dan Brown
 
-Stylesheet: Base Mobile Stylesheet
+Stylesheet: Custom Stylesheet
 
-Be light and don't over style since everything here will be
-loaded by mobile devices. You want to keep it as minimal as
-possible. This is called at the top of the main stylsheet
-and will be used across all viewports.
+If you really want to customize bootstrap, you should start with 
+custom-variables.less.  
+
+custom.less is a WIP
 
 ------------ MAP ------------
 
@@ -27,6 +27,11 @@ and will be used across all viewports.
 
 ******************************************************************/
 
+/* Admin Top Navigation fixes */
+
+body.admin-bar .navbar-fixed-top{ 
+        top: 28px; 
+}
 
 
 
@@ -135,7 +140,6 @@ h5, .h5 {}
 *********************/
 
 .header {
-	#inner-header {}
 
 	#logo {}
 
@@ -163,6 +167,9 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
+
+
+
 
 .nav {
 
@@ -422,108 +429,23 @@ and more scalable.
 .wp-prev-next {
 	margin: 1.1em 0 2.2em;
 }
-	.bones_page_navi {
 
-		li {
-			float: left;
-			margin-left: 10px;
+.pagination {
 
-			a {
-				padding: 3px 6px;
-				display: block;
-				text-decoration: none;
-				position: relative;
+	li {
 
-				&:hover,
-				&:focus {
-					color: #f01d4f;
-					text-decoration: underline;
-				}
-			}
+		a {
+
+			&:hover,
+			&:focus {}
 
 		}
 
-		/* current page link */
-		li.bpn-current {
-			padding: 3px 6px;
-			border-bottom: 2px solid #f01d4f;
-			position: relative;
+    .active {}
 
-			a {
-				/* hovering on current page link */
-				&:hover,
-				&:focus {}
+	}
 
-			}
-
-		} /* end .bones_page_navi .bpn-current */
-
-		/* common styles for page-navi links */
-		li.bpn-prev-link,
-		li.bpn-next-link {
-			font-weight: 700;
-
-			a {
-				padding: 0;
-			}
-		}
-
-		/* remove the bg on end links */
-		li.bpn-prev-link a:hover,
-		li.bpn-next-link a:hover,
-		li.bpn-first-page-link a:hover,
-		li.bpn-last-page-link a:hover {
-			background: none;
-		}
-
-		/* previous link */
-		li.bpn-prev-link {
-			a {
-				&:hover,
-				&:focus {}
-			}
-		}
-
-		/* next page link */
-		li.bpn-next-link {
-			a {
-				&:hover,
-				&:focus {}
-			}
-		}
-
-		/* first page link */
-		li.bpn-first-page-link {
-			a {
-				&:hover,
-				&:focus {}
-			}
-		}
-
-		/* last page link */
-		li.bpn-last-page-link {
-			a {
-				&:hover,
-				&:focus {}
-			}
-		}
-
-	} /* end .bones_page_navi */
-
-	/* fallback previous & next links */
-	.wp-prev-next {
-
-		ul {}
-
-		.prev-link {
-			float: left;
-		}
-
-		.next-link {
-			float: right;
-		}
-
-	} /* end .wp-prev-next */
+} /* end pagination */
 
 /******************************************************************
 10. COMMENT STYLES

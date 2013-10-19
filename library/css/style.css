@@ -6839,15 +6839,15 @@ a .icon-flip-vertical:before {
   content: "\f18b";
 }
 /******************************************************************
-Site Name:
-Author:
+Site Name: BREW
+Author: Dan Brown
 
-Stylesheet: Base Mobile Stylesheet
+Stylesheet: Custom Stylesheet
 
-Be light and don't over style since everything here will be
-loaded by mobile devices. You want to keep it as minimal as
-possible. This is called at the top of the main stylsheet
-and will be used across all viewports.
+If you really want to customize bootstrap, you should start with 
+custom-variables.less.  
+
+custom.less is a WIP
 
 ------------ MAP ------------
 
@@ -6866,6 +6866,10 @@ and will be used across all viewports.
 13. FOOTER STYLES
 
 ******************************************************************/
+/* Admin Top Navigation fixes */
+body.admin-bar .navbar-fixed-top {
+  top: 28px;
+}
 /*********************
 01. GENERAL STYLES
 *********************/
@@ -7085,71 +7089,7 @@ and more scalable.
 .wp-prev-next {
   margin: 1.1em 0 2.2em;
 }
-.bones_page_navi {
-  /* current page link */
-
-  /* end .bones_page_navi .bpn-current */
-
-  /* common styles for page-navi links */
-
-  /* remove the bg on end links */
-
-  /* previous link */
-
-  /* next page link */
-
-  /* first page link */
-
-  /* last page link */
-
-}
-.bones_page_navi li {
-  float: left;
-  margin-left: 10px;
-}
-.bones_page_navi li a {
-  padding: 3px 6px;
-  display: block;
-  text-decoration: none;
-  position: relative;
-}
-.bones_page_navi li a:hover,
-.bones_page_navi li a:focus {
-  color: #f01d4f;
-  text-decoration: underline;
-}
-.bones_page_navi li.bpn-current {
-  padding: 3px 6px;
-  border-bottom: 2px solid #f01d4f;
-  position: relative;
-}
-.bones_page_navi li.bpn-current a {
-  /* hovering on current page link */
-
-}
-.bones_page_navi li.bpn-prev-link,
-.bones_page_navi li.bpn-next-link {
-  font-weight: 700;
-}
-.bones_page_navi li.bpn-prev-link a,
-.bones_page_navi li.bpn-next-link a {
-  padding: 0;
-}
-.bones_page_navi li.bpn-prev-link a:hover,
-.bones_page_navi li.bpn-next-link a:hover,
-.bones_page_navi li.bpn-first-page-link a:hover,
-.bones_page_navi li.bpn-last-page-link a:hover {
-  background: none;
-}
-/* end .bones_page_navi */
-/* fallback previous & next links */
-.wp-prev-next .prev-link {
-  float: left;
-}
-.wp-prev-next .next-link {
-  float: right;
-}
-/* end .wp-prev-next */
+/* end pagination */
 /******************************************************************
 10. COMMENT STYLES
 ******************************************************************/

@@ -41,7 +41,7 @@
 
 	<body <?php body_class(); ?>>
 
-    <header>
+    <header class="header">
 
       <nav role="navigation">
         <div class="navbar navbar-inverse navbar-fixed-top">
