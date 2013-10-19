@@ -21,13 +21,13 @@ Template Name: Home Page Template
 
 <div class="container home-three">
   <div class="row">
-    <div class="col-md-4">
+    <div class="featured col-md-4">
       <a href="#"><img class="img-responsive" src="http://placehold.it/750x400"></a>
     </div><!-- /.col-lg-4 -->
-    <div class="col-md-4">
+    <div class="featured col-md-4">
       <a href="#"><img class="img-responsive" src="http://placehold.it/750x400"></a>
     </div><!-- /.col-lg-4 -->
-    <div class="col-md-4">
+    <div class="featured col-md-4">
       <a href="#"><img class="img-responsive" src="http://placehold.it/750x400"></a>
     </div><!-- /.col-lg-4 -->
   </div> <!-- end .row-->

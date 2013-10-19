@@ -6870,6 +6870,15 @@ custom.less is a WIP
 body.admin-bar .navbar-fixed-top {
   top: 28px;
 }
+/* CSS for sample home page */
+.featured {
+  margin-bottom: 40px;
+}
+@media (min-width: 992px) {
+  .featured {
+    margin-bottom: 0;
+  }
+}
 /*********************
 01. GENERAL STYLES
 *********************/
