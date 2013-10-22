@@ -119,6 +119,12 @@ function custom_post_example() {
     	)
     ); 
     
+  // remove anything you don't want on this page:
+    function remove_page_excerpt_field() {
+      //remove_meta_box('trackbacksdiv' , 'custom_type' , 'normal');
+    }
+    add_action( 'admin_menu' , 'remove_page_excerpt_field' );
+
     /*
     	looking for custom meta boxes?
     	check out this fantastic tool:

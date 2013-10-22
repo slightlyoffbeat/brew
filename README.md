@@ -23,7 +23,7 @@ footer screenshot:
 Features:
 * LESS
 * Bootstrap 3
-* Bones framework
+* Bones
 * sidebar and footer widgets
 * Very clean out-of-the-box experience
 * pagination

@@ -13,6 +13,15 @@ sidebars, comments, ect.
 require_once( 'library/navwalker.php' ); //needed for bootstrap navigation
 
 
+// Custom metaboxes and fields
+// https://github.com/jaredatch/Custom-Metaboxes-and-Fields-for-WordPress
+add_action( 'init', 'be_initialize_cmb_meta_boxes', 9999 );
+function be_initialize_cmb_meta_boxes() {
+  if ( !class_exists( 'cmb_Meta_Box' ) ) {
+    require_once( 'library/metabox/init.php' );
+  }
+}
+
 // Redux Framework.  Needed for custom options in admin panel
 // https://github.com/twittem/wp-bootstrap-navwalker
 // WIP.  Uncomment if you wish to use.
