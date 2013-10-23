@@ -1,4 +1,4 @@
-# Brew
+# Brew 0.5
 __A Wordpress starter theme based on Bones and Bootstrap 3__
 
 Created by **Dan Brown**: http://danvswild.com
