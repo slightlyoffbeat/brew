@@ -1,0 +1,870 @@
+/******************************************************************
+Site Name: BREW
+Author: Dan Brown
+
+Stylesheet: Custom Stylesheet
+
+If you really want to customize bootstrap, you should start with 
+custom-variables.less.  
+
+custom.less is a WIP
+
+------------ MAP ------------
+
+01. GENERAL STYLES
+02. WORDPRESS BODY CLASSES
+03. LAYOUT & GRID STYLES
+04. LINK STYLES
+05. H1, H2, H3, H4, H5 STYLES
+06. HEADER STYLES
+07. NAVIGATION STYLES
+08. POSTS & CONTENT STYLES
+09. PAGE NAVI STYLES
+10. COMMENT STYLES
+11. COMMENT FORM STYLES
+12. SIDEBARS & ASIDES
+13. FOOTER STYLES
+
+******************************************************************/
+
+/* Admin Top Navigation fixes */
+
+body.admin-bar .navbar-fixed-top{ 
+        top: 28px; 
+}
+
+/* CSS for sample home page */
+
+.featured {
+  margin-bottom: 40px;
+  @media (min-width: $screen-md) {
+    margin-bottom: 0;
+  }
+}
+
+/*********************
+01. GENERAL STYLES
+*********************/
+
+html, body {
+	/* height: 100%; */
+}
+body {
+  padding-top: $navbar-height; //THIS IS IF YOU HAVE top-nav-fixed ENABLED
+}
+
+/********************
+02. WORDPRESS BODY CLASSES
+    style a page via class
+********************/
+
+.rtl {}                           /* for sites that are read right to left (i.e. hebrew) */
+.home {}                          /* home page */
+.blog {}                          /* blog template page */
+.archive {}                       /* archive page */
+.date {}                          /* date archive page */
+	.date-paged-1 {}                /* replace the number to the corresponding page number */
+.search {}                        /* search page */
+	.search-results {}              /* search result page */
+	.search-no-results {}           /* no results search page */
+	.search-paged-1 {}              /* individual paged search (i.e. body.search-paged-3) */
+.error404 {}                      /* 404 page */
+.single {}                        /* single post page */
+	.postid-1 {}                    /* individual post page by id (i.e. body.postid-73) */
+	.single-paged-1 {}              /* individual paged single (i.e. body.single-paged-3) */
+.attachment {}                    /* attatchment page */
+	.attachmentid-1 {}              /* individual attatchment page (i.e. body.attachmentid-763) */
+	.attachment-mime-type {}        /* style mime type pages */
+.author {}                        /* author page */
+	.author-nicename {}             /* user nicename (i.e. body.author-samueladams) */
+	.author-paged-1 {}              /* paged author archives (i.e. body.author-paged-4) for page 4 */
+.category {}                      /* category page */
+	.category-1 {}                  /* individual category page (i.e. body.category-6) */
+	.category-paged-1 {}            /* replace the number to the corresponding page number */
+.tag {}                           /* tag page */
+	.tag-slug {}                    /* individual tag page (i.e. body.tag-news) */
+	.tag-paged-1 {}                 /* replace the number to the corresponding page number */
+.page-template {}                 /* custom page template page */
+	.page-template-page-php {}      /* individual page template (i.e. body.page-template-contact-php */
+	.page-paged-1 {}                /* replace the number to the corresponding page number */
+	.page-parent {}                 /* parent page template */
+	.page-child {}                  /* child page template */
+	.parent-pageid-1 {}             /* replace the number to the corresponding page number */
+.logged-in {}                     /* if user is logged in */
+.paged {}                         /* paged items like search results or archives */
+	.paged-1 {}                     /* individual paged (i.e. body.paged-3) */
+
+/*********************
+03. LAYOUT & GRID STYLES
+*********************/
+
+
+#container {}
+
+/*********************
+04. LINK STYLES
+*********************/
+
+a, a:visited {
+
+	/* on hover */
+	&:hover, &:focus {}
+
+	/* on click */
+	&:active {}
+
+	/* mobile tap color */
+	&:link {
+		/*
+		this highlights links on iPhones/iPads.
+		so it basically works like the :hover selector
+		for mobile devices.
+		*/
+	}
+}
+
+/******************************************************************
+05. H1, H2, H3, H4, H5 STYLES
+******************************************************************/
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+
+	a {}
+}
+
+h1, .h1 {}
+
+h2, .h2 {}
+
+h3, .h3 {}
+
+h4, .h4 {}
+
+h5, .h5 {}
+
+/*********************
+06. HEADER STYLES
+*********************/
+
+.header {
+
+	#logo {}
+
+	nav {
+		ul.nav {
+			li {
+				a {}
+
+				&:first-child {}
+
+				&:last-child {}
+			}
+		}
+	}
+}
+
+/*********************
+07. NAVIGATION STYLES
+*********************/
+
+/*
+all navs have a .nav class applied via
+the wp_menu function; this is so we can
+easily write one group of styles for
+the navs on the site so our css is cleaner
+and more scalable.
+*/
+
+
+
+
+.nav {
+
+	li {
+
+		a {
+
+			&:hover, &:focus {
+
+			}
+		}
+
+		&:first-child {}
+
+		&:last-child {}
+
+		ul.sub-menu,
+		ul.children {
+
+			li {
+
+				a {
+
+					&:hover,
+					&:focus {}
+
+					&:link {}
+
+				}
+
+				&:first-child {}
+
+				&:last-child {}
+
+			}
+
+		}
+
+	} /* end .menu li */
+
+	/* highlight current page */
+	li.current-menu-item,
+	li.current_page_item,
+	li.current_page_ancestor {
+
+		a {}
+
+	}  /* end current highlighters */
+
+} /* end .nav */
+
+
+/*********************
+08. POSTS & CONTENT STYLES
+*********************/
+
+#content {
+  padding-top: 40px;
+  min-height: 600px;
+
+	#main {}
+}
+
+		.hentry {
+
+			header {
+        h1{
+          a{
+            color: $gray-dark;
+          }
+          a:hover {
+            text-decoration: none;
+            color: $gray;
+          }
+        }
+      }
+			footer {
+        border-top: 1px solid #eee;
+        padding: 5px 0 0;
+        margin-top: 10px;
+        font-size: 12px;
+        .tags{}
+        .commentnum{text-align: right}
+      }
+
+		} /* end .hentry */
+
+    .single-header {
+        margin-bottom: 20px;
+      }
+		.single-title,
+		.page-title {
+      a {
+        color: red;
+      }
+    }
+
+		.single-title {
+      margin-top: 0;
+    }
+
+		.page-title {
+      margin-top: 0;
+      padding-bottom: 9px;
+      margin: 0px 0 20px;
+      border-bottom: 1px solid #eeeeee;
+    }
+
+		.archive-title { 
+      margin-top: 0;
+    }
+
+		/* want to style individual post classes? Booya! */
+		.post-id {}         /* post by id (i.e. post-3) */
+		.post {}            /* general post style */
+		.page {}            /* general article on a page style */
+		.attachment {}      /* general style on an attatchment */
+		.sticky {}          /* sticky post style */
+		.hentry {}          /* hentry class */
+		.category-slug {}   /* style by category (i.e. category-videos) */
+		.tag-slug {}        /* style by tag (i.e. tag-news) */
+
+		/* post meta */
+		.byline {
+			color: #999;
+
+			time {}
+		}
+
+    /* breadcrumb */
+    .breadcrumb > li {
+      color: #999999;
+      }
+
+		/* entry content */
+		.entry-content {
+
+			p {}
+
+
+			ul, ol, table, dl {}
+
+			ul, ol {
+
+				li {}
+
+			}
+
+			ul {
+
+				li {}
+
+			}
+
+			ol {
+
+				li {}
+
+			}
+
+			blockquote {
+
+				&:before {}
+
+			}
+
+			dl {}
+
+			dt {}
+
+			dd {
+				margin-left: 0;
+				font-size: 0.9em;
+				color: #787878;
+				margin-bottom: 1.5em;
+			}
+
+			img {
+				margin: 0 0 1.5em 0;
+				max-width: 100%;
+				height: auto;
+			}
+
+			/*
+			image alignment on a screen this size may be
+			a bit difficult. It's set to start aligning
+			and floating images at the next breakpoint,
+			but it's up to you. Feel free to change it up.
+			*/
+			.alignleft, img.alignleft {}
+			.alignright, img.alignright {}
+			.aligncenter, img.aligncenter {}
+
+			video, object {
+				max-width: 100%;
+				height: auto;
+			}
+
+			pre {
+				background: #eee;
+				border: 1px solid #cecece;
+				padding: 10px;
+			}
+
+		} /* end .entry-content */
+
+		.wp-caption {
+			max-width: 100%;
+			background: #eee;
+			padding: 5px;
+
+			/* images inside wp-caption */
+			img {
+				max-width: 100%;
+				margin-bottom: 0;
+				width: 100%;
+			}
+
+			p.wp-caption-text {
+				font-size: 0.85em;
+				margin: 4px 0 7px;
+				text-align: center;
+			}
+
+		} /* end .wp-caption */
+
+		/* image gallery styles */
+		.gallery {
+
+			dl {
+
+				a {}
+
+				img {}
+
+			}
+
+			dt {}
+
+			dd {}
+
+		} /* end .gallery */
+
+		/* gallery caption styles */
+		.gallery-caption {}
+
+		.size-full {}
+		.size-large {}
+		.size-medium {}
+		.size-thumbnail {}
+
+/******************************************************************
+09. PAGE NAVI STYLES
+******************************************************************/
+
+.page-navigation,
+.wp-prev-next {
+	margin: 1.1em 0 2.2em;
+}
+
+.pagination {
+
+	li {
+
+		a {
+
+			&:hover,
+			&:focus {}
+
+		}
+
+    .active {}
+
+	}
+
+} /* end pagination */
+
+/******************************************************************
+10. COMMENT STYLES
+******************************************************************/
+
+/* h3 comment title */
+#comments {
+
+  /* number of comments span */
+  span {}
+
+}
+
+.comment-nav {
+
+  ul {
+
+    li {
+      list-style-type: none;
+    }
+
+  }
+}
+
+
+.commentlist {
+  padding-left: 0;
+
+  li {
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    list-style-type: none;
+    margin-bottom: 1.5em;
+    padding: 0.7335em 10px;
+    border: solid 1px #E7E7E7;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    ul.children {
+      margin: 0;
+
+      li {}
+
+      /* variations */
+      .comment {}
+      .alt {}
+      .odd {}
+      .even {}
+      .depth-1 {}           /* change number for different depth */
+      .byuser {}
+      .bypostauthor {}
+      .comment-author-admin {}
+
+    } /* end .commentlist li ul.children */
+  }
+
+  li[class*=depth-] {
+    margin-top: 1.1em;
+  }
+
+  li.depth-1 {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  li:not(.depth-1) {
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
+  li.depth-2 {}
+  li.depth-3 {}
+  li.depth-4 {}
+  li.depth-5 {}
+
+  /* general comment classes */
+  .alt {}
+  .odd {
+    background: #eee;
+  }
+  .even {
+    background: #fefefe;
+  }
+  .parent {}
+  .comment {}
+  .children {}
+  .pingback {}
+  .bypostauthor {
+    background: lighten($brand-primary, 43.5%);
+  }
+  .comment-author {}
+  .comment-author-admin {}
+  .thread-alt {}
+  .thread-odd {}
+  .thread-even {}
+  .alert {margin: 10px 0 0 82px;}
+
+
+  /* vcard */
+  .vcard {
+    margin-left: 82px;
+
+    cite.fn {
+      font-weight: 700;
+      font-style: normal;
+
+      a.url {}
+
+    }
+
+    time {
+      float: right;
+
+      a {
+        color: #999;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+      }
+
+    }
+
+    img.photo {}
+
+    img.avatar {
+      position: absolute;
+      left: 10px;
+      padding: 2px;
+      border: 1px solid #cecece;
+      background: #fff;
+    }
+
+  } /* end .commentlist .vcard */
+
+
+  /* comment meta */
+  .comment-meta {
+
+    a {}
+
+  }
+
+  .commentmetadata {
+
+    a {}
+
+  }
+
+  /* comment content */
+  .comment_content {
+    margin-left: 82px;
+
+    p {
+      margin: 0.7335em 0 1.5em;
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+
+  } /* end .commentlist .comment_content */
+
+  /* comment reply link */
+  .comment-reply-link {
+    text-decoration: none;
+    float: right;
+    background: #4598bb;
+    padding: 3px 5px;
+    color: #fff;
+    opacity: 0.65;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 0.9em;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+
+  } /* end .commentlist .comment-reply-link */
+
+} /* end .commentlist */
+
+/******************************************************************
+11. COMMENT FORM STYLES
+******************************************************************/
+
+.respond-form {
+	margin: 1.5em 10px;
+	padding-bottom: 2.2em;
+
+  ul {
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+
+	form {
+		margin: 0.75em 0;
+
+		li {
+			list-style-type: none;
+			clear: both;
+			margin-bottom: 0.7335em;
+      border: none;
+
+			label,
+			small {
+				display: none;
+			}
+		}
+
+		input[type=text],
+		input[type=email],
+		input[type=url],
+		textarea {
+			padding: 3px 6px;
+			background: #efefef;
+			border: 2px solid #cecece;
+			line-height: 1.5em;
+
+			&:focus {
+				background: #fff;
+			}
+
+			/* form validation */
+			&:invalid {
+				outline: none;
+				border-color: #fbc2c4;
+				background-color: #f6e7eb;
+				-webkit-box-shadow: none;
+				   -moz-box-shadow: none;
+				    -ms-box-shadow: none;
+						box-shadow: none;
+			}
+		}
+
+		input[type=text],
+		input[type=email],
+		input[type=url] {
+			max-width: 400px;
+			min-width: 250px;
+		}
+
+		textarea {
+			resize: none;
+			width: 97.3%;
+			height: 150px;
+		}
+
+	}
+}
+
+	/* comment submit button */
+	#submit {}
+
+	/* comment form title */
+	#comment-form-title {
+		margin: 0 0 1.1em;
+	}
+
+	/* cancel comment reply link */
+	#cancel-comment-reply {
+		a {}
+	}
+
+	/* logged in comments */
+	.comments-logged-in-as {}
+
+	/* allowed tags */
+	#allowed_tags {
+		margin: 1.5em 10px 0.7335em 0;
+	}
+
+	/* no comments */
+	.nocomments {
+		margin: 0 20px 1.1em;
+	}
+
+
+
+/*********************
+12. SIDEBARS & ASIDES
+*********************/
+
+#sidebar {
+  .widget {
+    margin-bottom: 30px;
+  }
+  @media (min-width: $screen-md) {
+    width: 32%;
+  }
+}
+
+	.widgettitle {
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e0e0e0;
+      font-size: 18px;
+      line-height: 24px;
+      }
+
+	.widget {
+
+		ul {
+      padding: 0;
+      margin: 0;
+
+			li {
+        padding: 5px 0;
+        list-style: none;
+
+				&:first-child {}
+
+				&:last-child {}
+
+				a {}
+
+				/* deep nesting */
+				ul {}
+
+			}
+
+		}
+
+	}
+
+/*********************
+13. FOOTER STYLES
+*********************/
+
+#footer {
+  border-top: 5px solid $brand-primary;
+  background: #3b3b3b;
+  padding-top: 30px;
+  margin-top: 100px;
+  clear: both;
+  color: #aaa;
+  h4 {
+    color: #fff;
+    text-transform: uppercase;
+  }
+  a {color: #aaa;}
+  li {
+    padding: 7px 0;
+    border-bottom: 1px dotted rgba(255,255,255,.2);
+    margin: 0px 0px;
+  }
+  .widgettitle {
+    margin: 0;
+    padding: 0 0 15px 0;
+    border-bottom: none;
+  }
+}
+
+#footer-wrapper {
+  margin-bottom: 30px;
+}
+
+#sub-floor {
+  color: #aaa;
+  background: #292929;
+  padding: 10px 0;
+}
+
+.copyright {
+  text-align: center;
+  @media (min-width: $screen-md) {
+    text-align: left;
+  }
+}
+
+.attribution {
+  text-align: center;
+  @media (min-width: $screen-md) {
+    text-align: right;
+  }
+}
+
+.widgetFooter {
+  padding-bottom: 25px;
+  @media (min-width: $screen-md) {
+    padding-bottom: 0px;
+  }
+}
+
+/*********************
+14. CUSTOM STYLES
+*********************/
+
+.homebanner {
+  margin-bottom: 40px;
+  padding-top: 70px;
+  text-align: center;
+  height: 350px;
+  background: #2A5781;
+  background-size: cover;
+  color: #fff;
+  h1 {
+    font-size: 50px;
+    color: #ddd;
+    margin-bottom: 10px;
+    text-shadow: 0 -1px 0 #222;
+  }
+
+  .btn-primary {
+    margin-left: 20px;
+  }
+}
+
