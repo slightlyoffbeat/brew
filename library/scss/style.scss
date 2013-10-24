@@ -10,6 +10,11 @@ _base.scss file.  Any customizations should be placed in either
 variables.scss, custom.scss or any additional LESS files.
 ******************************************************************/
 
+
+//
+// IMPORTING STYLES
+//
+
 // Core variables and mixins
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
@@ -29,7 +34,7 @@ variables.scss, custom.scss or any additional LESS files.
 
 // Components
 @import "bootstrap/component-animations";
-@import "bootstrap/glyphicons";
+//@import "bootstrap/glyphicons";  uncomment if you dont' want to use fontawesome
 @import "bootstrap/dropdowns";
 @import "bootstrap/button-groups";
 @import "bootstrap/input-groups";
@@ -67,6 +72,8 @@ variables.scss, custom.scss or any additional LESS files.
 @import "custom-variables"; // custom variables
 @import "custom"; // custom css for wordpress
 
+
+
 /*
 RETINA (2x RESOLUTION DEVICES)
 This applies to the retina iPhone (4s) and iPad (2,3) along with
@@ -91,3 +98,4 @@ Want to get fancy for no good reason? Knock yourself out.
   // iPhone 5 or iPod Touch 5th generation styles (you can include your own file if you want)
   
 }
+
