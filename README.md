@@ -22,6 +22,7 @@ footer screenshot:
 
 Features:
 * LESS
+* SASS (thanks [garrettboatman](https://github.com/garrettboatman)!
 * Bootstrap 3
 * Bones
 * sidebar and footer widgets
