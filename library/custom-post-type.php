@@ -55,7 +55,7 @@ function custom_post_example() {
 			'capability_type' => 'post',
 			'hierarchical' => false,
 			/* the next one is important, it tells what's enabled in the post editor */
-			'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'trackbacks', 'custom-fields', 'comments', 'revisions', 'sticky')
+			'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'trackbacks', 'custom-fields', 'comments', 'revisions', 'sticky', 'page-attributes')
 	 	) /* end of options */
 	); /* end of register post type */
 	
@@ -119,11 +119,6 @@ function custom_post_example() {
     	)
     ); 
     
-  // remove anything you don't want on this page:
-    function remove_page_excerpt_field() {
-      //remove_meta_box('trackbacksdiv' , 'custom_type' , 'normal');
-    }
-    add_action( 'admin_menu' , 'remove_page_excerpt_field' );
 
     /*
     	looking for custom meta boxes?
