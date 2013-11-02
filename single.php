@@ -31,9 +31,9 @@
 
 							</footer> <?php // end article footer ?>
 
-							<?php comments_template(); ?>
 
 						</article> <?php // end article ?>
+            <?php comments_template(); ?>
 
 					<?php endwhile; ?>
 

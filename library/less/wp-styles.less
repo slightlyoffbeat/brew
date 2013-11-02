@@ -1,0 +1,243 @@
+/******************************************************************
+Site Name: Brew
+Author: Dan Brown
+
+Stylesheet: Wordpress Styles
+
+Basic Styling for Wordpress posts/pages etc
+******************************************************************/
+
+* {
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/*********************
+POSTS
+*********************/
+
+.post, #comments, 
+#pings, #no-comments, #respond {
+  margin: 0 0 20px 0;
+  border-radius: 0px;
+  background: #fff;
+  .box-shadow(0 1px 1px rgba(0,0,0,0.05) );
+  border: 1px solid #ddd;
+}
+
+.entry-content {
+
+  p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+.article-header {
+  margin-bottom: 15px;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+  h1, h2, h3, h4, h5, h6 {margin-top: 0;}
+}
+
+.post-title {
+  margin: 0 0 5px;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 1.2;
+}
+
+.byline {
+  color: #999;
+  margin: 0;
+  font-size: 14px;
+}
+
+.post-title a, .post-title a:visited {
+  color: #444;
+}
+
+.post-title a:hover, .post-title a:active {
+  color: #888;
+  text-decoration: none;
+}
+
+.entry-content {
+  padding: 0 20px 20px;
+  > ol, > ul {
+    margin: 0 0 20px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+} /* end .entry-content */
+
+cite {
+  font-style: italic;
+}
+
+
+.article-footer {
+        padding: 10px 20px 10px;
+        border-top: 1px solid #eee;
+        color: #888;
+        font-size: 12px;
+}
+
+.article-footer .commentnum {
+  text-align: right;
+  width: 30%;
+}
+
+.article-footer .tags {
+  width: 70%;
+        
+}
+
+
+.article-footer .post-link {
+        margin-top: -1px;
+        padding-left: 10px;
+
+        &:hover {
+                text-decoration: none;
+        }
+}
+
+
+/*********************
+TABLES
+*********************/
+
+/* content Tables */
+
+#main table {
+        margin: 20px 0;
+        width: 100%;
+        border: 1px solid #dddddd;
+        border-collapse: separate;
+        border-left: 0;
+}
+
+#main table th, #main table td {
+        padding: 8px;
+        border-top: 1px solid #dddddd;
+        border-left: 1px solid #dddddd;
+        vertical-align: top;
+        text-align: left;
+        line-height: 18px;
+}
+
+#main table thead:first-child tr:first-child th,
+#main table tbody:first-child tr:first-child th,
+#main table tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+
+
+/*********************
+COMMENTS
+*********************/
+#comments>h3 {
+  padding: 20px 20px 0;
+  line-height: 1;
+}
+
+#comments .comment-container {
+padding: 20px 20px;
+border-bottom: 1px solid #eee;
+}
+
+/*********************
+WP CORE
+*********************/
+
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+  max-width: 100%;
+  background: #eee;
+  img {
+    max-width: 100%;
+    margin-bottom: 0;
+    width: 100%;
+  }
+  p.wp-caption-text {
+    font-size: 0.85em;
+    margin: 2px 0 7px;
+    text-align: center;
+  }
+} /* end .wp-caption */
+
+.wp-caption.alignleft {
+  margin-right: 20px;
+}
+
+.wp-caption.alignright {
+  margin-left: 20px;
+}
+
+.wp-caption.alignnone img{
+  //margin-top: -10px;
+}
+
+    /* image gallery styles */
+.gallery {
+  dl {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    width: 33%;
+    img {
+      border: 2px solid #cfcfcf;
+    }
+  }
+} /* end .gallery */
