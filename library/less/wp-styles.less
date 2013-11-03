@@ -41,7 +41,7 @@ POSTS
   h1, h2, h3, h4, h5, h6 {margin-top: 0;}
 }
 
-.post-title {
+.entry-title {
   margin: 0 0 5px;
   font-weight: bold;
   font-size: 38px;
@@ -54,11 +54,13 @@ POSTS
   font-size: 14px;
 }
 
-.post-title a, .post-title a:visited {
+.entry-title, .entry-title a, 
+.entry-title a:visited {
   color: #444;
 }
 
-.post-title a:hover, .post-title a:active {
+.entry-title a:hover, 
+.entry-title a:active {
   color: #888;
   text-decoration: none;
 }
@@ -142,14 +144,64 @@ TABLES
 /*********************
 COMMENTS
 *********************/
+#comments {
+  margin-bottom: 20px;
+  h3 {
+    border-bottom: 1px solid #eee;
+  }
+}
 #comments>h3 {
-  padding: 20px 20px 0;
+  padding: 20px 20px 20px;
   line-height: 1;
+  margin: 0;
 }
 
 #comments .comment-container {
 padding: 20px 20px;
 border-bottom: 1px solid #eee;
+}
+
+.comment-author {
+  width: 10%;
+  float: left;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.comment-content {
+  width: 88%;
+  margin-left: 2%;
+  float: left;
+}
+
+.comment {
+  position: relative;
+  clear: both;
+  overflow: hidden;
+  list-style-type: none;
+  img, iframe {
+    max-width: 100%;
+  }
+}
+
+ol.commentlist {
+  margin:0;
+}
+.comment-nav {
+  padding: 10px 20px;
+}
+.comment-prev {
+  float: left;
+}
+
+.comment-next {
+  float: right;
+}
+
+#respond {
+  padding: 20px;
 }
 
 /*********************

@@ -7383,7 +7383,7 @@ POSTS
 .article-header h6 {
   margin-top: 0;
 }
-.post-title {
+.entry-title {
   margin: 0 0 5px;
   font-weight: bold;
   font-size: 38px;
@@ -7394,12 +7394,13 @@ POSTS
   margin: 0;
   font-size: 14px;
 }
-.post-title a,
-.post-title a:visited {
+.entry-title,
+.entry-title a,
+.entry-title a:visited {
   color: #444;
 }
-.post-title a:hover,
-.post-title a:active {
+.entry-title a:hover,
+.entry-title a:active {
   color: #888;
   text-decoration: none;
 }
@@ -7468,13 +7469,58 @@ TABLES
 /*********************
 COMMENTS
 *********************/
+#comments {
+  margin-bottom: 20px;
+}
+#comments h3 {
+  border-bottom: 1px solid #eee;
+}
 #comments > h3 {
-  padding: 20px 20px 0;
+  padding: 20px 20px 20px;
   line-height: 1;
+  margin: 0;
 }
 #comments .comment-container {
   padding: 20px 20px;
   border-bottom: 1px solid #eee;
+}
+.comment-author {
+  width: 10%;
+  float: left;
+}
+.comment-author img {
+  width: 100%;
+  height: auto;
+}
+.comment-content {
+  width: 88%;
+  margin-left: 2%;
+  float: left;
+}
+.comment {
+  position: relative;
+  clear: both;
+  overflow: hidden;
+  list-style-type: none;
+}
+.comment img,
+.comment iframe {
+  max-width: 100%;
+}
+ol.commentlist {
+  margin: 0;
+}
+.comment-nav {
+  padding: 10px 20px;
+}
+.comment-prev {
+  float: left;
+}
+.comment-next {
+  float: right;
+}
+#respond {
+  padding: 20px;
 }
 /*********************
 WP CORE
@@ -7788,13 +7834,6 @@ and more scalable.
 
 }
 .commentlist li {
-  position: relative;
-  clear: both;
-  overflow: hidden;
-  list-style-type: none;
-  margin-bottom: 1.5em;
-  padding: 0.7335em 10px;
-  border: solid 1px #E7E7E7;
   /* end .commentlist li ul.children */
 
 }
@@ -7816,25 +7855,23 @@ and more scalable.
   margin-top: 0;
 }
 .commentlist li:not(.depth-1) {
-  margin-right: -10px;
-  margin-left: -10px;
   margin-top: 0;
   padding-bottom: 0;
 }
 .commentlist .odd {
-  background: #eee;
+  background: #fcfcfc;
 }
 .commentlist .even {
-  background: #fefefe;
+  background: #f9f9f9;
+}
+.commentlist .children article {
+  border-left: 1px solid #eee;
 }
 .commentlist .bypostauthor {
   background: #eff5fb;
 }
 .commentlist .alert {
   margin: 10px 0 0 82px;
-}
-.commentlist .vcard {
-  margin-left: 82px;
 }
 .commentlist .vcard cite.fn {
   font-weight: 700;
@@ -7851,14 +7888,9 @@ and more scalable.
   text-decoration: underline;
 }
 .commentlist .vcard img.avatar {
-  position: absolute;
-  left: 10px;
   padding: 2px;
   border: 1px solid #cecece;
   background: #fff;
-}
-.commentlist .comment_content {
-  margin-left: 82px;
 }
 .commentlist .comment_content p {
   margin: 0.7335em 0 1.5em;

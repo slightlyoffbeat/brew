@@ -455,13 +455,6 @@ and more scalable.
   padding-left: 0;
 
   li {
-    position: relative;
-    clear: both;
-    overflow: hidden;
-    list-style-type: none;
-    margin-bottom: 1.5em;
-    padding: 0.7335em 10px;
-    border: solid 1px #E7E7E7;
 
     &:last-child {
       margin-bottom: 0;
@@ -495,8 +488,6 @@ and more scalable.
   }
 
   li:not(.depth-1) {
-    margin-right: -10px;
-    margin-left: -10px;
     margin-top: 0;
     padding-bottom: 0;
   }
@@ -509,14 +500,16 @@ and more scalable.
   /* general comment classes */
   .alt {}
   .odd {
-    background: #eee;
+    background: #fcfcfc;
   }
   .even {
-    background: #fefefe;
+    background: #f9f9f9;
   }
   .parent {}
   .comment {}
-  .children {}
+  .children {
+    article {border-left: 1px solid #eee;}
+  }
   .pingback {}
   .bypostauthor {
     background: lighten(@brand-primary, 43.5%);
@@ -531,7 +524,6 @@ and more scalable.
 
   /* vcard */
   .vcard {
-    margin-left: 82px;
 
     cite.fn {
       font-weight: 700;
@@ -559,8 +551,6 @@ and more scalable.
     img.photo {}
 
     img.avatar {
-      position: absolute;
-      left: 10px;
       padding: 2px;
       border: 1px solid #cecece;
       background: #fff;
@@ -584,7 +574,6 @@ and more scalable.
 
   /* comment content */
   .comment_content {
-    margin-left: 82px;
 
     p {
       margin: 0.7335em 0 1.5em;
