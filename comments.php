@@ -17,45 +17,64 @@ The comments page for Bones
 ?>
 
 <?php // You can start editing here. ?>
-<div id="comments">
+
+<div id="single-post-nav">
+                <ul class="pager">
+
+                        <?php $trunc_limit = 30; ?>
+
+                        <?php if( '' != get_previous_post() ) { ?>
+                                <li class="previous">
+                                        <?php previous_post_link( '<span class="previous-page">%link</span>', __( '<i class="fa fa-caret-left"></i>', 'bones' ) . '&nbsp;' . brew_truncate_text( get_previous_post()->post_title, $trunc_limit ) ); ?>
+                                </li>
+                        <?php } // end if ?>
+
+                        <?php if( '' != get_next_post() ) { ?>
+                                <li class="next">
+                                <?php next_post_link( '<span class="no-previous-page-link next-page">%link</span>', '&nbsp;' . brew_truncate_text( get_next_post()->post_title, $trunc_limit ) . '&nbsp;' . __( '<i class="fa fa-caret-right"></i>', 'bones' ) ); ?>
+                                </li>
+                        <?php } // end if ?>
+                </ul>
+        </div><!-- /#single-post-nav -->
+
 <?php if ( have_comments() ) : ?>
+
+  <div id="comments" class="havecomments">
+
 	<h3><?php comments_number( __( '<span>No</span> Responses', 'bonestheme' ), __( '<span>One</span> Response', 'bonestheme' ), _n( '<span>%</span> Response', '<span>%</span> Responses', get_comments_number(), 'bonestheme' ) );?> to &#8220;<?php the_title(); ?>&#8221;</h3>
 
 	<ol class="commentlist">
 		<?php wp_list_comments( 'type=comment&callback=bones_comments' ); ?>
 	</ol>
 
-
 	<?php else : // this is displayed if there are no comments so far ?>
 
 	<?php if ( comments_open() ) : ?>
-			<?php // If comments are open, but there are no comments. ?>
-
+	<?php // If comments are open, but there are no comments. ?>
+  <div id="comments" class="nocomments">
+    <h3>No Comments</h3>
+    <p>Be the first to start a conversation</p>
 	<?php else : // comments are closed ?>
-
 	<?php // If comments are closed. ?>
-	<!--p class="nocomments"><?php _e( 'Comments are closed.', 'bonestheme' ); ?></p-->
-
 	<?php endif; ?>
 
 <?php endif; ?>
 
-
 <?php if ( comments_open() ) : ?>
 
+  <?php if(page_has_comments_nav()) : ?>
 
-<?php endif; // if you delete this the sky will fall on your head ?>
+    <nav class="comment-nav clearfix">
+      <div class="comment-prev">
+        <?php previous_comments_link(__( '<i class="fa fa-chevron-left"></i>', 'bones' ) . '  Previous Comments') ?>
+      </div>
+      <div class="comment-next">
+        <?php next_comments_link(__( 'Next Comments  ', 'bones' ) . '<i class="fa fa-chevron-right"></i>') ?>
+      </div>
+    </nav>
+  <?php endif; ?>
 
-<nav class="comment-nav clearfix">
-  <div class="comment-prev">
-      <?php previous_comments_link(__( '<i class="fa fa-chevron-left"></i>', 'bones' ) . '  Previous Comments') ?>
-    </div>
-    <div class="comment-next">
-      <?php next_comments_link(__( 'Next Comments  ', 'standard' ) . '<i class="fa fa-chevron-right"></i>') ?>
-    </div>
-  </nav>
-
-</div> <!-- END #COMMENTS -->
+</div> <!-- END #COMMENTS --> 
 
 <div id="respond" class="respond-form">
 
@@ -114,4 +133,17 @@ The comments page for Bones
   </form>
 
   <?php endif; // If registration required and not logged in ?>
+
 </div> <!-- END #respond -->
+
+<?php else : ?>
+
+  <?php if ( have_comments() ) : ?>
+
+  </div> <!-- END #COMMENTS (have comments, comments now closed) -->
+
+  <?php endif; ?>
+
+<?php endif; // if you delete this the sky will fall on your head ?>
+
+

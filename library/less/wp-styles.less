@@ -146,12 +146,25 @@ COMMENTS
 *********************/
 #comments {
   margin-bottom: 20px;
-  h3 {
+}
+
+.havecomments>h3 {
     border-bottom: 1px solid #eee;
+    padding: 20px 20px 20px;
+  }
+
+.nocomments {
+  >p {
+  padding: 0 20px 10px;
+  }
+  >h3 {
+    padding: 20px 20px 10px;
+    line-height: 1;
+    margin: 0;
   }
 }
+
 #comments>h3 {
-  padding: 20px 20px 20px;
   line-height: 1;
   margin: 0;
 }
@@ -293,3 +306,53 @@ a img.aligncenter {
     }
   }
 } /* end .gallery */
+
+/*********************
+OTHER
+*********************/
+
+/* breadcrumb */
+.breadcrumb {
+  padding: 4px 17px;
+  background: #f9f9f9;
+}
+
+/* next/previous posts */
+#single-post-nav .pager span {
+  width: 100%;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 5px;
+  @media (min-width: @screen-md) {
+    width: auto;
+    padding: 2px 10px;
+  }
+}
+
+.pager .previous-page {
+  margin-bottom: 20px;
+  @media (min-width: @screen-md) {
+    float: left;
+    margin-bottom: 0;
+  }
+}
+
+.pager .next-page {
+  @media (min-width: @screen-md) {
+    float: right;
+  }
+}
+
+.pager, 
+.previous-page, 
+.next-page {
+  a {color: #999;}
+}
+
+.pager a:hover, 
+.previous-page a:hover, 
+.next-page a:hover {
+  color: #444;
+  text-decoration: none;
+  cursor: pointer;
+}
