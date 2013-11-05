@@ -12,6 +12,7 @@ sidebars, comments, ect.
 
 require_once( 'library/navwalker.php' ); //needed for bootstrap navigation
 
+require_once ('admin/index.php');
 
 // Custom metaboxes and fields
 // https://github.com/jaredatch/Custom-Metaboxes-and-Fields-for-WordPress
