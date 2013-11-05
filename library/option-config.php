@@ -286,12 +286,33 @@ function setup_framework_options(){
 
 
 	$sections[] = array(
-		'title' => __('Home Settings', 'redux-framework'),
-		'header' => __('Welcome to the Simple Options Framework Demo', 'redux-framework'),
-		'desc' => __('Redux Framework was created with the developer in mind. It allows for any theme developer to have an advanced theme panel with most of the features a developer would need. For more information check out the Github repo at: <a href="https://github.com/ReduxFramework/Redux-Framework">https://github.com/ReduxFramework/Redux-Framework</a>', 'redux-framework'),
+		'title' => __('Content Settings', 'redux-framework'),
+		'header' => __('Welcome to the BREW options framework', 'redux-framework'),
+		'desc' => __('Presentation options for content', 'redux-framework'),
 		'icon_class' => 'icon-large',
 		'icon' => 'home',
 		'fields' => array(
+
+      array(
+        'id'=>'breadcrumbs',
+        'type' => 'switch', 
+        'title' => __('Breadcrumbs', 'redux-framework'),
+        'subtitle'=> __('enable or disable breadcrumbs', 'redux-framework'),
+        "default"     => 0,
+        ),  
+
+      array(
+        'id'=>'thumbnails',
+        'type' => 'radio',
+        'title' => __('Thumbnail options', 'redux-framework'), 
+        'subtitle' => __('Choose if and where to display post thumbnails', 'redux-framework'),
+        'options' => array(
+          '1' => 'Never', 
+          '2' => 'Always', 
+          '3' => 'Index only',
+          '4' => 'Single posts only'),
+        'default' => '1'
+        ),
 			
 			array(
 				'id'=>'media',
