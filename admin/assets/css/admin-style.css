@@ -156,8 +156,9 @@ border-radius: 2px;
 }
 
 /*menu icons - customize to your liking*/
+#of_container #of-nav li.contentsettings a{ background-image:url(../images/icon-content.png);}
 #of_container #of-nav li.slideroptions a{ background-image:url(../images/icon-slider.png);}
-#of_container #of-nav li.generalsettings a{ background-image:url(../images/icon-settings.png);}
+#of_container #of-nav li.generalsettings a{ background-image:url(../images/icon-beer.png);}
 #of_container #of-nav li.stylingoptions a{ background-image:url(../images/icon-paint.png);}
 #of_container #of-nav li.exampleoptions a{ background-image:url(../images/icon-docs.png);}
 #of_container #of-nav li.homesettings a{ background-image:url(../images/icon-home.png);}

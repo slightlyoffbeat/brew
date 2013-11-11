@@ -104,53 +104,13 @@ global $of_options;
 $of_options = array();
 
 
-// General Settings
-$of_options[] = array(	"name"		=> "General Settings",
+$of_options[] = array(	"name"		=> "Test Stuff",
 						"type"		=> "heading"
 	);
 
-$of_options[] = array( 	"name" 		=> "Tracking Code",
-						"desc" 		=> "Paste your Google Analytics (or other) tracking code here. This will be added into the footer template of your theme.",
-						"id" 		=> "google_analytics",
-						"std" 		=> "",
-						"type" 		=> "textarea"
-				);
-
-// Content Settings
-$of_options[] = array( 	"name" 		=> "Content Settings",
+$of_options[] = array( 	"name" 		=> "Home Settings",
 						"type" 		=> "heading"
 				);
-
-$of_options[] = array( 	"name" 		=> "Breadcrumbs",
-						"desc" 		=> "Turn breadcrumbs on or off (site-wide)",
-						"id" 		=> "breadcrumb",
-						"std" 		=> 1,
-						"type" 		=> "switch"
-				);   	
-$of_featured_select 	= array("Never","Always","Index only","Single post only");
-
-$of_options[] = array( 	"name" 		=> "Display Featured Images",
-						"desc" 		=> "Choose where you would like to display featured images",
-						"id" 		=> "featured",
-						"std" 		=> "Never",
-						"type" 		=> "select",
-						"options" 	=> $of_featured_select
-				);
-
-$of_author_select 		= array("Never","Always");
-
-$of_options[] = array( 	"name" 		=> "Display Author Profile",
-						"desc" 		=> "Choose if you would like to display author profiles after a post",
-						"id" 		=> "author",
-						"std" 		=> "Never",
-						"type" 		=> "select",
-						"options" 	=> $of_author_select
-				);
-
-
-$of_options[] = array( 	"name" 		=> "Home Settings",
-		"type" 		=> "heading"
-);
 					
 $of_options[] = array( 	"name" 		=> "Hello there!",
 						"desc" 		=> "",
@@ -584,12 +544,12 @@ $of_options[] = array( 	"name" 		=> "Hello there!",
 										"id" 		=> "example_colorpicker_6",
 										"std" 		=> "#2098a8",
 										"type" 		=> "color"
-								);				
+								);
 				
 // Backup Options
 $of_options[] = array( 	"name" 		=> "Backup Options",
 						"type" 		=> "heading",
-						"icon"		=> ADMIN_IMAGES . "icon-backup2.png"
+						"icon"		=> ADMIN_IMAGES . "icon-slider.png"
 				);
 				
 $of_options[] = array( 	"name" 		=> "Backup and Restore Options",

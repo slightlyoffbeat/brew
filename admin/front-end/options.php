@@ -75,4 +75,4 @@
 	<div style="clear:both;"></div>
 
 </div><!--wrap-->
-<div class="smof_footer_info">Slightly Modified Options Framework <strong><?php echo SMOF_VERSION; ?></strong></div>
+<div class="smof_footer_info">Open the pod bay doors, please.</div>
