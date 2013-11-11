@@ -13,11 +13,22 @@
 						<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
 							<header class="article-header single-header">
-
-								<h1 class="entry-title single-title" itemprop="headline"><?php the_title(); ?></h1>
-								<p class="byline vcard"><?php
-                  printf( __( '<time class="updated" datetime="%1$s" pubdate>%2$s</time> by <span class="author">%3$s</span>', 'bonestheme' ), get_the_time('Y-m-j'), get_the_time(get_option('date_format')), bones_get_the_author_posts_link(), get_the_category_list(', '));
-								?></p>
+								<?php if ( has_post_thumbnail() ) { ?>
+									<?php global $smof_data; ?>
+									<?php if( $smof_data['featured'] == 'Always' || ( $smof_data['featured'] == 'Single post only' && is_single() ) || ( $smof_data['featured'] == 'Index only' && is_home() ) ) { ?>
+									<div class="thumbnail alignleft">
+                                        <a class="thumbnail-link fademe" href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( '%s', 'standard' ), the_title_attribute( 'echo=0' ) ); ?>">
+                                                <?php the_post_thumbnail( 'thumbnail' );        ?>
+                                        </a>
+                                	</div> <!-- /.thumbnail -->
+                                	<?php } // end if ?>
+                                <?php } // end if ?>
+								<div class="clearfix titlewrap">
+									<h1 class="entry-title single-title" itemprop="headline"><?php the_title(); ?></h1>
+									<p class="byline vcard"><?php
+	                  printf( __( '<time class="updated" datetime="%1$s" pubdate>%2$s</time> by <span class="author">%3$s</span>', 'bonestheme' ), get_the_time('Y-m-j'), get_the_time(get_option('date_format')), bones_get_the_author_posts_link(), get_the_category_list(', '));
+									?></p>
+								</div>
 
 							</header> <?php // end article header ?>
 

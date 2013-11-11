@@ -7383,6 +7383,9 @@ POSTS
 .article-header h6 {
   margin-top: 0;
 }
+.article-header .thumbnail {
+  margin: 0 20px 0 0;
+}
 .entry-title {
   margin: 0 0 5px;
   font-weight: bold;
