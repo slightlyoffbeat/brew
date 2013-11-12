@@ -7354,6 +7354,7 @@ Basic Styling for Wordpress posts/pages etc
 POSTS
 *********************/
 .post,
+.closed,
 #comments,
 #pings,
 #no-comments,
@@ -7383,19 +7384,27 @@ POSTS
 .article-header h6 {
   margin-top: 0;
 }
-.article-header .thumbnail {
-  margin: 0 20px 0 0;
-}
 .entry-title {
   margin: 0 0 5px;
   font-weight: bold;
-  font-size: 38px;
+  font-size: 28px;
   line-height: 1.2;
+}
+@media (min-width: 992px) {
+  .entry-title {
+    font-size: 38px;
+  }
 }
 .byline {
   color: #999;
   margin: 0;
   font-size: 14px;
+}
+.sticky-ind {
+  display: none;
+}
+.sticky .sticky-ind {
+  display: inline !important;
 }
 .entry-title,
 .entry-title a,
@@ -7434,6 +7443,15 @@ cite {
   text-align: right;
   width: 30%;
 }
+.article-footer .commentnum a {
+  text-decoration: none;
+  color: #999999;
+  -webkit-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+.article-footer .commentnum a:hover {
+  color: #333333;
+}
 .article-footer .tags {
   width: 70%;
 }
@@ -7443,6 +7461,73 @@ cite {
 }
 .article-footer .post-link:hover {
   text-decoration: none;
+}
+.closed h3 {
+  padding: 20px 20px;
+  margin: 0;
+}
+#pings {
+  padding: 20px;
+}
+#pings h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+/*********************
+THUMBNAILS
+*********************/
+.article-header .thumbnail {
+  margin: 0 20px 0 0;
+}
+.thumbnail-link img {
+  height: 80px;
+  width: auto;
+}
+@media (min-width: 992px) {
+  .thumbnail-link img {
+    height: 150px;
+    width: auto;
+  }
+}
+/*********************
+AUTHOR BOX
+*********************/
+#author-info {
+  padding: 20px;
+}
+#author-info h4 {
+  margin-top: 0;
+}
+.author-img {
+  float: left;
+  margin-right: 20px;
+}
+@media (min-width: 480px) {
+  .author-desc {
+    overflow: hidden;
+    _overflow: visible;
+    zoom: 1;
+  }
+}
+.social-links {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.social-links li {
+  float: left;
+  text-decoration: none;
+  list-style: none;
+}
+.social-links a {
+  color: #999999;
+  padding-right: 15px;
+  -webkit-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+  font-size: 1.4em;
+}
+.social-links a:hover {
+  color: #333333;
 }
 /*********************
 TABLES
@@ -7622,7 +7707,7 @@ OTHER
 @media (min-width: 992px) {
   #single-post-nav .pager span {
     width: auto;
-    padding: 2px 10px;
+    padding: 5px 10px;
   }
 }
 .pager .previous-page {
@@ -7650,6 +7735,9 @@ OTHER
   color: #444;
   text-decoration: none;
   cursor: pointer;
+}
+.archive-title {
+  margin-top: 0;
 }
 /******************************************************************
 Site Name: BREW

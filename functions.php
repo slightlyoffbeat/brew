@@ -221,5 +221,15 @@ function bones_comments( $comment, $args, $depth ) {
 <?php
 } // don't remove this bracket!
 
+/*************** PINGS LAYOUT **************/
 
+function list_pings( $comment, $args, $depth ) {
+	$GLOBALS['comment'] = $comment; ?>
+	<li id="comment-<?php comment_ID(); ?>">
+		<span class="pingcontent">
+			<?php printf(__('<cite class="fn">%s</cite> <span class="says"></span>'), get_comment_author_link()) ?>
+			<?php comment_text(); ?>
+		</span>
+	</li>
+<?php } // end list_pings
 ?>

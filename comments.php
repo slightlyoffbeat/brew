@@ -18,24 +18,25 @@ The comments page for Bones
 
 <?php // You can start editing here. ?>
 
-<div id="single-post-nav">
-                <ul class="pager">
+  <div id="single-post-nav">
+    <ul class="pager">
 
-                        <?php $trunc_limit = 30; ?>
+      <?php $trunc_limit = 30; ?>
 
-                        <?php if( '' != get_previous_post() ) { ?>
-                                <li class="previous">
-                                        <?php previous_post_link( '<span class="previous-page">%link</span>', __( '<i class="fa fa-caret-left"></i>', 'bones' ) . '&nbsp;' . brew_truncate_text( get_previous_post()->post_title, $trunc_limit ) ); ?>
-                                </li>
-                        <?php } // end if ?>
+      <?php if( '' != get_previous_post() ) { ?>
+        <li class="previous">
+          <?php previous_post_link( '<span class="previous-page">%link</span>', __( '<i class="fa fa-caret-left"></i>', 'bones' ) . '&nbsp;' . brew_truncate_text( get_previous_post()->post_title, $trunc_limit ) ); ?>
+        </li>
+      <?php } // end if ?>
 
-                        <?php if( '' != get_next_post() ) { ?>
-                                <li class="next">
-                                <?php next_post_link( '<span class="no-previous-page-link next-page">%link</span>', '&nbsp;' . brew_truncate_text( get_next_post()->post_title, $trunc_limit ) . '&nbsp;' . __( '<i class="fa fa-caret-right"></i>', 'bones' ) ); ?>
-                                </li>
-                        <?php } // end if ?>
-                </ul>
-        </div><!-- /#single-post-nav -->
+      <?php if( '' != get_next_post() ) { ?>
+        <li class="next">
+          <?php next_post_link( '<span class="no-previous-page-link next-page">%link</span>', '&nbsp;' . brew_truncate_text( get_next_post()->post_title, $trunc_limit ) . '&nbsp;' . __( '<i class="fa fa-caret-right"></i>', 'bones' ) ); ?>
+        </li>
+      <?php } // end if ?>
+
+    </ul>
+  </div><!-- /#single-post-nav -->
 
 <?php if ( have_comments() ) : ?>
 
@@ -136,14 +137,32 @@ The comments page for Bones
 
 </div> <!-- END #respond -->
 
+
 <?php else : ?>
 
   <?php if ( have_comments() ) : ?>
 
   </div> <!-- END #COMMENTS (have comments, comments now closed) -->
 
+  <div class="closed">
+    <h3>comments are closed</h3>
+  </div>
+
   <?php endif; ?>
 
+
 <?php endif; // if you delete this the sky will fall on your head ?>
+
+<?php $comments_by_type = &separate_comments($comments); ?>
+  <?php if ( ! empty( $comments_by_type['pings'] ) ) { ?>
+  <div id="pings">
+    <h3>
+      <?php _e( 'Trackbacks and Pingbacks:', 'standard' ); ?>
+    </h3>
+    <ol class="pinglist">
+      <?php wp_list_comments( 'type=pings&callback=list_pings' ); ?>
+    </ol>
+  </div><!-- /#pings -->
+  <?php } // end if ?>
 
 

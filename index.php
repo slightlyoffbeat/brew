@@ -15,29 +15,38 @@
 										<?php global $smof_data; ?>
 										<?php if( $smof_data['featured'] == 'Always' || ( $smof_data['featured'] == 'Single post only' && is_single() ) || ( $smof_data['featured'] == 'Index only' && is_home() ) ) { ?>
 										<div class="thumbnail alignleft">
-	                                        <a class="thumbnail-link fademe" href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( '%s', 'standard' ), the_title_attribute( 'echo=0' ) ); ?>">
-	                                                <?php the_post_thumbnail( 'thumbnail' );        ?>
+	                                        <a class="thumbnail-link fademe" href="<?php the_permalink(); ?>">
+                                            	<?php the_post_thumbnail( 'thumbnail' );        ?>
 	                                        </a>
 	                                	</div> <!-- /.thumbnail -->
 	                                	<?php } // end if ?>
                                 	<?php } // end if ?>
 									<div class="titlewrap clearfix">
 										<h1 class="post-title entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
-										<p class="byline vcard"><?php
-											printf( __( '<time class="updated" datetime="%1$s" pubdate>%2$s</time> by <span class="author">%3$s</span>', 'bonestheme' ), get_the_time('Y-m-j'), get_the_time(get_option('date_format')), bones_get_the_author_posts_link(), get_the_category_list(', '));
-										?></p>
+										<p class="byline vcard">
+											by <span class="author"><em><?php echo bones_get_the_author_posts_link() ?></em></span> - 
+											<time class="updated" datetime="<?php get_the_time('Y-m-j') ?>"><?php echo get_the_time(get_option('date_format')) ?></time>
+											<span class="sticky-ind pull-right"><i class="fa fa-star"></i></span>
+										</p>
 									</div>
 
 								</header> <?php // end article header ?>
 
 								<section class="entry-content clearfix">
 									<?php the_content('dddd'); ?>
+									<?php wp_link_pages(
+                                		array(
+                                		
+	                                        'before' => '<div class="page-link"><span>' . __( 'Pages:', 'brew' ) . '</span>',
+	                                        'after' => '</div>'
+                                		) 
+                                	); ?>
 								</section> <?php // end article section ?>
 
 								<footer class="article-footer clearfix">
 									<span class="tags pull-left"><?php printf( '<span class="">' . __( 'in %1$s&nbsp;&nbsp;', 'bonestheme' ) . '</span>', get_the_category_list(', ') ); ?> <?php the_tags( '<span class="tags-title">' . __( '<i class="fa fa-tags"></i>', 'bonestheme' ) . '</span> ', ', ', '' ); ?></span>
-                  <span class="commentnum pull-right"><a href="<?php comments_link(); ?>"><?php comments_number( 'no comments', '1 comment', '% comments' ); ?></a></span>
-                </footer> <?php // end article footer ?>
+                  					<span class="commentnum pull-right"><a href="<?php comments_link(); ?>"><?php comments_number( '<i class="fa fa-comment"></i> 0', '<i class="fa fa-comment"></i> 1', '<i class="fa fa-comment"></i> %' ); ?></a></span>
+                				</footer> <?php // end article footer ?>
 
 								<?php // comments_template(); // uncomment if you want to use them ?>
 

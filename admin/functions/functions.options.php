@@ -126,7 +126,15 @@ $of_options[] = array( 	"name" 		=> "Breadcrumbs",
 						"id" 		=> "breadcrumb",
 						"std" 		=> 1,
 						"type" 		=> "switch"
-				);   	
+				);  
+
+$of_options[] = array( 	"name" 		=> "Author Profiles",
+						"desc" 		=> "Display an author profile after a post",
+						"id" 		=> "author_profile",
+						"std" 		=> 1,
+						"type" 		=> "switch"
+				);   
+
 $of_featured_select 	= array("Never","Always","Index only","Single post only");
 
 $of_options[] = array( 	"name" 		=> "Display Featured Images",
@@ -135,16 +143,6 @@ $of_options[] = array( 	"name" 		=> "Display Featured Images",
 						"std" 		=> "Never",
 						"type" 		=> "select",
 						"options" 	=> $of_featured_select
-				);
-
-$of_author_select 		= array("Never","Always");
-
-$of_options[] = array( 	"name" 		=> "Display Author Profile",
-						"desc" 		=> "Choose if you would like to display author profiles after a post",
-						"id" 		=> "author",
-						"std" 		=> "Never",
-						"type" 		=> "select",
-						"options" 	=> $of_author_select
 				);
 
 

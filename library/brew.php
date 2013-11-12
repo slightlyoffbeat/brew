@@ -233,7 +233,28 @@ function brew_truncate_text( $string, $character_limit = 50, $truncation_indicat
 
     return $truncated;
 
-} // end standard_truncate_text
+} // end brew_truncate_text
+
+
+// customize author fields
+function brew_contact_methods( $contactmethods ) {
+ 
+    // This isn't 2004
+    unset( $contactmethods[ 'aim' ] );
+    unset( $contactmethods[ 'yim' ] );
+    unset( $contactmethods[ 'jabber' ] );
+ 
+    // Add some useful ones
+    $contactmethods[ 'twitter' ] = 'Twitter Profile URL';
+    $contactmethods[ 'facebook' ] = 'Facebook Profile URL';
+    $contactmethods[ 'linkedin' ] = 'LinkedIn Public Profile URL';
+    $contactmethods[ 'googleplus' ] = 'Google+ Profile URL';
+    $contactmethods[ 'pinterest' ] = 'Pinterest Profile URL';
+ 
+    return $contactmethods;
+}
+ 
+add_filter( 'user_contactmethods', 'brew_contact_methods' );
 
 
 /*
