@@ -15,8 +15,8 @@
 							<header class="article-header">
 
 								<?php if ( has_post_thumbnail() ) { ?>
-									<?php global $smof_data; ?>
-									<?php if( $smof_data['featured'] == 'Always' || ( $smof_data['featured'] == 'Single post only' && is_single() ) || ( $smof_data['featured'] == 'Index only' && is_home() ) ) { ?>
+									<?php global $brew_options; ?>
+									<?php if( $brew_options['featured'] == '2' || ( $brew_options['featured'] == '4' && is_single() ) || ( $brew_options['featured'] == '3' && is_home() ) ) { ?>
 									<div class="thumbnail alignleft">
                                         <a class="thumbnail-link fademe" href="<?php the_permalink(); ?>">
                                         	<?php the_post_thumbnail( 'thumbnail' );        ?>

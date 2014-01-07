@@ -1,5 +1,5 @@
-<?php global $smof_data; ?>
-<?php if ( $smof_data['author_profile'] == '1' ) { ?>
+<?php global $brew_options; ?>
+<?php if ( $brew_options['author_profile'] == '1' ) { ?>
 
 
 <div id="author-info" class="clearfix well">

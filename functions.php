@@ -16,7 +16,23 @@ require_once( 'library/navwalker.php' ); // needed for bootstrap navigation
 // SMOF.  Needed for custom admin panel
 // github.com/syamilmj/Options-Framework
 // WIP
-require_once ('admin/index.php');
+//require_once ('admin/index.php');
+
+
+// REDUX.  Needed for custom admin panel
+// https://github.com/ReduxFramework/ReduxFramework
+// WIP
+// if(!class_exists('ReduxFramework')){
+//     require_once(dirname(__FILE__) . '/library/admin/ReduxCore/framework.php');
+// }
+// require_once(dirname(__FILE__).'/library/option-config.php');
+
+if ( !class_exists( 'ReduxFramework' ) && file_exists( dirname( __FILE__ ) . '/library/admin/ReduxCore/framework.php' ) ) {
+	require_once( dirname( __FILE__ ) . '/library/admin/ReduxCore/framework.php' );
+}
+if ( !isset( $redux_demo ) && file_exists( dirname( __FILE__ ) . '/library/sample-config.php' ) ) {
+	require_once( dirname( __FILE__ ) . '/library/sample-config.php' );
+}
 
 
 // Custom metaboxes and fields
