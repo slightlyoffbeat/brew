@@ -247,40 +247,6 @@ if ( !class_exists( "Redux_Framework_sample_config" ) ) {
 			// ACTUAL DECLARATION OF SECTIONS
 
 			$this->sections[] = array(
-				'title' => 'Home Settings',
-				'desc' => 'basic settings',
-				'fields' => array(
-					array(
-						'desc' => 'Turn breadcrumbs on or off (site-wide)',
-						'id' => 'breadcrumb',
-						'type' => 'switch',
-						'title' => 'Breadcrumbs',
-						'default' => 1,
-					),
-					array(
-						'desc' => 'Display an author profile after a post',
-						'id' => 'author_profile',
-						'type' => 'switch',
-						'title' => 'Author Profiles',
-						'default' => 1,
-					),
-					array(
-						'desc' => 'Choose where you would like to display featured images',
-						'id' => 'featured',
-						'type' => 'select',
-						'options' => array (
-							0 => 'Never',
-							1 => 'Always',
-							2 => 'Index only',
-							3 => 'Single post only',
-						),
-						'title' => 'Display Featured Images',
-						'default' => 'Never',
-					),
-				)
-		)
-
-			$this->sections[] = array(
 				'title' => __('Home Settings', 'redux-framework-demo'),
 				'desc' => __('Redux Framework was created with the developer in mind. It allows for any theme developer to have an advanced theme panel with most of the features a developer would need. For more information check out the Github repo at: <a href="https://github.com/ReduxFramework/Redux-Framework">https://github.com/ReduxFramework/Redux-Framework</a>', 'redux-framework-demo'),
 				'icon' => 'el-icon-home',
