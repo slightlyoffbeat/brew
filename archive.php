@@ -55,16 +55,6 @@
 					<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article">
 
 								<header class="article-header">
-									<?php if ( has_post_thumbnail() ) { ?>
-										<?php global $brew_options; ?>
-										<?php if( $brew_options['featured'] == '2' || ( $brew_options['featured'] == '4' && is_single() ) || ( $brew_options['featured'] == '3' && is_home() ) ) { ?>
-										<div class="thumbnail alignleft">
-	                                        <a class="thumbnail-link fademe" href="<?php the_permalink(); ?>">
-                                            	<?php the_post_thumbnail( 'thumbnail' );        ?>
-	                                        </a>
-	                                	</div> <!-- /.thumbnail -->
-	                                	<?php } // end if ?>
-                                	<?php } // end if ?>
 									<div class="titlewrap clearfix">
 										<h1 class="post-title entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 										<p class="byline vcard">

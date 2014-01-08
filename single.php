@@ -13,17 +13,6 @@
 						<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
 							<header class="article-header">
-
-								<?php if ( has_post_thumbnail() ) { ?>
-									<?php global $brew_options; ?>
-									<?php if( $brew_options['featured'] == '2' || ( $brew_options['featured'] == '4' && is_single() ) || ( $brew_options['featured'] == '3' && is_home() ) ) { ?>
-									<div class="thumbnail alignleft">
-                                        <a class="thumbnail-link fademe" href="<?php the_permalink(); ?>">
-                                        	<?php the_post_thumbnail( 'thumbnail' );        ?>
-                                        </a>
-                                	</div> <!-- /.thumbnail -->
-                                	<?php } // end if ?>
-                            	<?php } // end if ?>
 								<div class="titlewrap clearfix">
 									<h1 class="post-title entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 									<p class="byline vcard">
@@ -34,6 +23,30 @@
 								</div>
 
 							</header> <?php // end article header ?>
+
+							<?php global $brew_options; ?>
+							<?php if( $brew_options['featured'] == '2' || ( $brew_options['featured'] == '4' && is_single() ) || ( $brew_options['featured'] == '3' && is_home() ) ) { ?>
+								<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'post-featured' ); ?>
+								<?php if ( $image[1] < '750' ) { ?>
+									<section class="featured-content featured-img featured-img-bg" style="background: url('<?php echo $image[0]; ?>')">
+								<?php } // end if 
+								else { ?>
+									<section class="featured-content featured-img">
+										<?php if ( has_post_thumbnail() ) { ?>
+		                                    <a class="featured-img" href="<?php the_permalink(); ?>">
+		                                    	<?php the_post_thumbnail( 'post-featured' ); ?>
+		                                    </a>
+			                            <?php } // end if 
+										else { ?>
+			                            	<hr>
+			                            <?php } //end else?>
+				                <?php } // end else ?>
+							<?php } // end if 
+							else { ?>
+								<section class="featured-content featured-img">
+							<?php } // end else ?>
+
+							</section>
 
 							<section class="entry-content clearfix" itemprop="articleBody">
 								<?php the_content(); ?>

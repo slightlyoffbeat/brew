@@ -217,7 +217,7 @@ table {
   img {
     max-width: 100% !important;
   }
-  @page  {
+  @page {
     margin: 2cm .5cm;
   }
   p,
@@ -553,10 +553,8 @@ dd {
   .dl-horizontal dd:after {
     content: " ";
     /* 1 */
-  
     display: table;
     /* 2 */
-  
   }
   .dl-horizontal dd:after {
     clear: both;
@@ -565,10 +563,8 @@ dd {
   .dl-horizontal dd:after {
     content: " ";
     /* 1 */
-  
     display: table;
     /* 2 */
-  
   }
   .dl-horizontal dd:after {
     clear: both;
@@ -681,10 +677,8 @@ pre code {
 .container:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .container:after {
   clear: both;
@@ -693,10 +687,8 @@ pre code {
 .container:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .container:after {
   clear: both;
@@ -709,10 +701,8 @@ pre code {
 .row:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .row:after {
   clear: both;
@@ -721,10 +711,8 @@ pre code {
 .row:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .row:after {
   clear: both;
@@ -1576,7 +1564,6 @@ input[type="checkbox"] {
   margin: 4px 0 0;
   margin-top: 1px \9;
   /* IE8-9 */
-
   line-height: normal;
 }
 input[type="file"] {
@@ -1846,10 +1833,8 @@ textarea.input-lg {
 .form-horizontal .form-group:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .form-horizontal .form-group:after {
   clear: both;
@@ -1858,10 +1843,8 @@ textarea.input-lg {
 .form-horizontal .form-group:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .form-horizontal .form-group:after {
   clear: both;
@@ -3026,10 +3009,8 @@ input[type="button"].btn-block {
 .btn-toolbar:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .btn-toolbar:after {
   clear: both;
@@ -3038,10 +3019,8 @@ input[type="button"].btn-block {
 .btn-toolbar:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .btn-toolbar:after {
   clear: both;
@@ -3141,10 +3120,8 @@ input[type="button"].btn-block {
 .btn-group-vertical > .btn-group:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .btn-group-vertical > .btn-group:after {
   clear: both;
@@ -3153,10 +3130,8 @@ input[type="button"].btn-block {
 .btn-group-vertical > .btn-group:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .btn-group-vertical > .btn-group:after {
   clear: both;
@@ -3357,10 +3332,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .nav:after {
   clear: both;
@@ -3369,10 +3342,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .nav:after {
   clear: both;
@@ -3587,10 +3558,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .navbar:after {
   clear: both;
@@ -3599,10 +3568,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .navbar:after {
   clear: both;
@@ -3616,10 +3583,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-header:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .navbar-header:after {
   clear: both;
@@ -3628,10 +3593,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-header:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .navbar-header:after {
   clear: both;
@@ -3654,10 +3617,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-collapse:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .navbar-collapse:after {
   clear: both;
@@ -3666,10 +3627,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-collapse:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .navbar-collapse:after {
   clear: both;
@@ -4231,10 +4190,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pager:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .pager:after {
   clear: both;
@@ -4243,10 +4200,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pager:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .pager:after {
   clear: both;
@@ -4729,10 +4684,8 @@ a.list-group-item:focus {
 .panel-body:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .panel-body:after {
   clear: both;
@@ -4741,10 +4694,8 @@ a.list-group-item:focus {
 .panel-body:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .panel-body:after {
   clear: both;
@@ -5080,10 +5031,8 @@ button.close {
 .modal-footer:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .modal-footer:after {
   clear: both;
@@ -5092,10 +5041,8 @@ button.close {
 .modal-footer:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .modal-footer:after {
   clear: both;
@@ -5524,10 +5471,8 @@ button.close {
 .clearfix:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .clearfix:after {
   clear: both;
@@ -7354,6 +7299,7 @@ Basic Styling for Wordpress posts/pages etc
 POSTS
 *********************/
 .post,
+.type-page,
 .closed,
 #comments,
 #pings,
@@ -7371,27 +7317,35 @@ POSTS
   font-size: 16px;
   line-height: 1.5;
 }
-.article-header {
+.article-header,
+.page-head {
   margin-bottom: 15px;
-  padding: 20px;
-  border-bottom: 1px solid #eee;
+  padding: 20px 20px 0;
 }
 .article-header h1,
+.page-head h1,
 .article-header h2,
+.page-head h2,
 .article-header h3,
+.page-head h3,
 .article-header h4,
+.page-head h4,
 .article-header h5,
-.article-header h6 {
+.page-head h5,
+.article-header h6,
+.page-head h6 {
   margin-top: 0;
 }
-.entry-title {
+.entry-title,
+.page-title {
   margin: 0 0 5px;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 28px;
   line-height: 1.2;
 }
 @media (min-width: 992px) {
-  .entry-title {
+  .entry-title,
+  .page-title {
     font-size: 38px;
   }
 }
@@ -7416,16 +7370,34 @@ POSTS
   color: #888;
   text-decoration: none;
 }
-.entry-content {
+.featured-content {
+  margin-bottom: 20px;
+}
+.featured-img-bg {
+  height: 300px;
+  background-width: 100% !important;
+  background-size: cover !important;
+  background-repeat: none !important;
+  background-position: center center !important;
+}
+.featured-img img {
+  width: 100%;
+  height: auto;
+}
+.entry-content,
+.page-content {
   padding: 0 20px 20px;
 }
 .entry-content > ol,
-.entry-content > ul {
+.page-content > ol,
+.entry-content > ul,
+.page-content > ul {
   margin: 0 0 20px 10px;
   font-size: 16px;
   line-height: 1.5;
 }
-.entry-content img {
+.entry-content img,
+.page-content img {
   max-width: 100%;
   height: auto;
 }
@@ -7786,7 +7758,6 @@ body.admin-bar .navbar-fixed-top {
 html,
 body {
   /* height: 100%; */
-
 }
 body {
   padding-top: 50px;
@@ -7839,11 +7810,8 @@ body {
 a,
 a:visited {
   /* on hover */
-
   /* on click */
-
   /* mobile tap color */
-
 }
 a:link,
 a:visited:link {
@@ -7852,7 +7820,6 @@ a:visited:link {
 		so it basically works like the :hover selector
 		for mobile devices.
 		*/
-
 }
 /******************************************************************
 05. H1, H2, H3, H4, H5 STYLES
@@ -7872,11 +7839,8 @@ and more scalable.
 */
 .nav {
   /* end .menu li */
-
   /* highlight current page */
-
   /* end current highlighters */
-
 }
 /* end .nav */
 /*********************
@@ -7906,7 +7870,6 @@ and more scalable.
 			and floating images at the next breakpoint,
 			but it's up to you. Feel free to change it up.
 			*/
-
 }
 .entry-content dd {
   margin-left: 0;
@@ -7927,7 +7890,6 @@ and more scalable.
 /* end .entry-content */
 .wp-caption {
   /* images inside wp-caption */
-
 }
 /* end .wp-caption */
 /* image gallery styles */
@@ -7952,7 +7914,6 @@ and more scalable.
 /* h3 comment title */
 #comments {
   /* number of comments span */
-
 }
 .comment-nav ul li {
   list-style-type: none;
@@ -7960,25 +7921,16 @@ and more scalable.
 .commentlist {
   padding-left: 0;
   /* general comment classes */
-
   /* vcard */
-
   /* end .commentlist .vcard */
-
   /* comment meta */
-
   /* comment content */
-
   /* end .commentlist .comment_content */
-
   /* comment reply link */
-
   /* end .commentlist .comment-reply-link */
-
 }
 .commentlist li {
   /* end .commentlist li ul.children */
-
 }
 .commentlist li:last-child {
   margin-bottom: 0;
@@ -7986,9 +7938,7 @@ and more scalable.
 .commentlist li ul.children {
   margin: 0;
   /* variations */
-
   /* change number for different depth */
-
 }
 .commentlist li[class*=depth-] {
   margin-top: 1.1em;
@@ -8089,7 +8039,6 @@ and more scalable.
   border: 2px solid #cecece;
   line-height: 1.5em;
   /* form validation */
-
 }
 .respond-form form input[type=text]:focus,
 .respond-form form input[type=email]:focus,
@@ -8156,7 +8105,6 @@ and more scalable.
   padding: 5px 0;
   list-style: none;
   /* deep nesting */
-
 }
 /*********************
 13. FOOTER STYLES
@@ -8247,50 +8195,47 @@ query for retina AND a certain size if you want. Go Nuts.
 */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /******************************************************************
-  Site Name: 
-  Author: 
-  
-  Stylesheet: Retina Screens & Devices Stylesheet
-  
-  When handling retina screens you need to make adjustments, especially
-  if you're not using font icons. Here you can add them in one neat
-  place.
-  
-  ******************************************************************/
+Site Name: 
+Author: 
+
+Stylesheet: Retina Screens & Devices Stylesheet
+
+When handling retina screens you need to make adjustments, especially
+if you're not using font icons. Here you can add them in one neat
+place.
+
+******************************************************************/
   /* 
-  
-  EXAMPLE 
-  Let's say you have an image and you need to make sure it looks ok
-  on retina screens. Let's say we have an icon which dimension are
-  24px x 24px. In your regular stylesheets, it would look something
-  like this:
-  
-  .icon {
-  	width: 24px;
-  	height: 24px;
-  	background: url(img/test.png) no-repeat;
-  }
-  
-  For retina screens, we have to make some adjustments, so that image
-  doesn't look blurry. So, taking into account the image above and the
-  dimensions, this is what we would put in our retina stylesheet:
-  
-  .icon {
-  	background: url(img/test@2x.png) no-repeat;
-  	background-size: 24px 24px;
-  }
-  
-  So, you would create the same icon, but at double the resolution, meaning 
-  it would be 48px x 48px. You'd name it the same, but with a @2x at the end
-  (this is pretty standard practice). Set the background image so it matches
-  the original dimensions and you are good to go. 
-  
-  */
+
+EXAMPLE 
+Let's say you have an image and you need to make sure it looks ok
+on retina screens. Let's say we have an icon which dimension are
+24px x 24px. In your regular stylesheets, it would look something
+like this:
+
+.icon {
+	width: 24px;
+	height: 24px;
+	background: url(img/test.png) no-repeat;
+}
+
+For retina screens, we have to make some adjustments, so that image
+doesn't look blurry. So, taking into account the image above and the
+dimensions, this is what we would put in our retina stylesheet:
+
+.icon {
+	background: url(img/test@2x.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+So, you would create the same icon, but at double the resolution, meaning 
+it would be 48px x 48px. You'd name it the same, but with a @2x at the end
+(this is pretty standard practice). Set the background image so it matches
+the original dimensions and you are good to go. 
+
+*/
 }
 /*
 iPHONE 5 MEDIA QUERY
 Want to get fancy for no good reason? Knock yourself out.
 */
-@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  
-}

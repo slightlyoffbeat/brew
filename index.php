@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+
     <div class="container">
 
 			<div id="content" class="row clearfix">
@@ -11,16 +12,6 @@
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article">
 
 								<header class="article-header">
-									<?php if ( has_post_thumbnail() ) { ?>
-										<?php global $brew_options; ?>
-										<?php if( $brew_options['featured'] == '2' || ( $brew_options['featured'] == '4' && is_single() ) || ( $brew_options['featured'] == '3' && is_home() ) ) { ?>
-										<div class="thumbnail alignleft">
-	                                        <a class="thumbnail-link fademe" href="<?php the_permalink(); ?>">
-                                            	<?php the_post_thumbnail( 'thumbnail' );        ?>
-	                                        </a>
-	                                	</div> <!-- /.thumbnail -->
-	                                	<?php } // end if ?>
-                                	<?php } // end if ?>
 									<div class="titlewrap clearfix">
 										<h1 class="post-title entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 										<p class="byline vcard">
@@ -31,6 +22,30 @@
 									</div>
 
 								</header> <?php // end article header ?>
+
+								<?php global $brew_options; ?>
+    								<?php if( $brew_options['featured'] == '2' || ( $brew_options['featured'] == '4' && is_single() ) || ( $brew_options['featured'] == '3' && is_home() ) ) { ?>
+										<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'post-featured' ); ?>
+										<?php if ( $image[1] < '750' && has_post_thumbnail() ) { ?>
+											<section class="featured-content featured-img featured-img-bg" style="background: url('<?php echo $image[0]; ?>')">
+										<?php } // end if 
+										else { ?>
+											<section class="featured-content featured-img">
+												<?php if ( has_post_thumbnail() ) { ?>
+				                                    <a class="featured-img" href="<?php the_permalink(); ?>">
+				                                    	<?php the_post_thumbnail( 'post-featured' ); ?>
+				                                    </a>
+					                            <?php } // end if 
+												else { ?>
+					                            	<hr>
+					                            <?php } //end else?>
+						                <?php } // end else ?>
+									<?php } // end if 
+									else { ?>
+										<section class="featured-content featured-img">
+									<?php } // end else ?>
+
+								</section>
 
 								<section class="entry-content clearfix">
 									<?php the_content('dddd'); ?>
@@ -44,21 +59,9 @@
 								</section> <?php // end article section ?>
 
 								<footer class="article-footer clearfix">
-									<span class="tags pull-left"><?php printf( '<span class="">' . __( 'in %1$s&nbsp;&nbsp;', 'bonestheme' ) . '</span>', get_the_category_list(', ') ); ?> 
-									<?php $posttags = get_the_tags();
-										if ($posttags) {
-											foreach($posttags as $tag) {
-												echo '<a href="';echo bloginfo(url);
-												echo '/?tag=' . $tag->slug . '" class="tag label label-primary">' . $tag->name . '</a>';
-											}
-											echo '</span>';
-										}
-										else {
-											echo '</span>';
-										}
-									?>
-                  					<span class="commentnum pull-right"><a href="<?php comments_link(); ?>"><?php comments_number( '<i class="fa fa-comment"></i> 0', '<i class="fa fa-comment"></i> 1', '<i class="fa fa-comment"></i> %' ); ?></a></span>
-                				</footer> <?php // end article footer ?>
+									<span class="tags pull-left"><?php printf( '<span class="">' . __( 'in %1$s&nbsp;&nbsp;', 'bonestheme' ) . '</span>', get_the_category_list(', ') ); ?> <?php the_tags( '<span class="tags-title">' . __( '<i class="fa fa-tags"></i>', 'bonestheme' ) . '</span> ', ', ', '' ); ?></span>
+              						<span class="commentnum pull-right"><a href="<?php comments_link(); ?>"><?php comments_number( '<i class="fa fa-comment"></i> 0', '<i class="fa fa-comment"></i> 1', '<i class="fa fa-comment"></i> %' ); ?></a></span>
+            					</footer> <?php // end article footer ?>
 
 								<?php // comments_template(); // uncomment if you want to use them ?>
 

@@ -16,7 +16,7 @@ Basic Styling for Wordpress posts/pages etc
 POSTS
 *********************/
 
-.post, .closed, #comments,
+.post, .type-page, .closed, #comments,
 #pings, #no-comments, #respond {
   margin: 0 0 20px 0;
   border-radius: 0px;
@@ -34,17 +34,16 @@ POSTS
   }
 }
 
-.article-header {
+.article-header, .page-head {
   margin-bottom: 15px;
-  padding: 20px;
-  border-bottom: 1px solid #eee;
+  padding: 20px 20px 0;
   h1, h2, h3, h4, h5, h6 {margin-top: 0;}
 }
 
 
-.entry-title {
+.entry-title, .page-title {
   margin: 0 0 5px;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 28px;
   @media (min-width: @screen-md) {
     font-size: 38px;
@@ -75,7 +74,26 @@ POSTS
   text-decoration: none;
 }
 
-.entry-content {
+.featured-content {
+  margin-bottom: 20px;
+}
+
+.featured-img-bg {
+  height: 300px;
+  background-width: 100% !important;
+  background-size: cover !important;
+  background-repeat: none !important;
+  background-position: center center !important;
+}
+
+.featured-img { 
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.entry-content, .page-content {
   padding: 0 20px 20px;
   > ol, > ul {
     margin: 0 0 20px 10px;
