@@ -44,7 +44,19 @@
 								</section> <?php // end article section ?>
 
 								<footer class="article-footer clearfix">
-									<span class="tags pull-left"><?php printf( '<span class="">' . __( 'in %1$s&nbsp;&nbsp;', 'bonestheme' ) . '</span>', get_the_category_list(', ') ); ?> <?php the_tags( '<span class="tags-title">' . __( '<i class="fa fa-tags"></i>', 'bonestheme' ) . '</span> ', ', ', '' ); ?></span>
+									<span class="tags pull-left"><?php printf( '<span class="">' . __( 'in %1$s&nbsp;&nbsp;', 'bonestheme' ) . '</span>', get_the_category_list(', ') ); ?> 
+									<?php $posttags = get_the_tags();
+										if ($posttags) {
+											foreach($posttags as $tag) {
+												echo '<a href="';echo bloginfo(url);
+												echo '/?tag=' . $tag->slug . '" class="tag label label-primary">' . $tag->name . '</a>';
+											}
+											echo '</span>';
+										}
+										else {
+											echo '</span>';
+										}
+									?>
                   					<span class="commentnum pull-right"><a href="<?php comments_link(); ?>"><?php comments_number( '<i class="fa fa-comment"></i> 0', '<i class="fa fa-comment"></i> 1', '<i class="fa fa-comment"></i> %' ); ?></a></span>
                 				</footer> <?php // end article footer ?>
 
