@@ -24,14 +24,14 @@ Template Name: Home Page Template
     
     <!--Section 1-->
     <div class="col-sm-4 about">
-      <i class="fa fa-mobile-phone fa-4x light-gray"></i>
+      <i class="fa fa-laptop fa-4x light-gray"></i>
       <h3>Built with Bootstrap</h3>
       <p>Enjoy Wordpress with all of the benefits of Bootstrap.  Quickly build themes while utilizing one of the most powerful frameworks available on the web.</p>
     </div>
     
     <!--Section 2-->
     <div class="col-sm-4 about">
-      <i class="fa fa-thumbs-up fa-4x light-gray"></i>
+      <i class="fa fa-github-square fa-4x light-gray"></i>
       <h3>Free and Open-Source</h3>
       <p>BREW pulls together some of the best open source projects in to one awesome starter theme.  Feel free to fork, edit and contribute.</p>
     </div>

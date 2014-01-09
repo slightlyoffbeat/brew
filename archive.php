@@ -5,9 +5,8 @@
 			<div id="content" class="clearfix row">
 
 				<div id="main" class="col-md-8 clearfix" role="main">
-					<?php global $smof_data; ?>
-					<?php $brew_options = $smof_data['breadcrumb']; ?>
-					<?php if ( $brew_options == '0' ) { ?>
+					<?php global $brew_options; ?>
+					<?php if ( $brew_options['breadcrumb'] == 0) { ?>
 
 						<?php if (is_category()) { ?>
 							<h1 class="archive-title h2">

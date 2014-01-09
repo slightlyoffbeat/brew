@@ -18,23 +18,15 @@ custom.less is a WIP
 05. H1, H2, H3, H4, H5 STYLES
 06. HEADER STYLES
 07. NAVIGATION STYLES
-08. POSTS & CONTENT STYLES
+08. POSTS & CONTENT STYLES (also other/content.less)
 09. PAGE NAVI STYLES
-10. COMMENT STYLES
+10. COMMENT STYLES (also other/comments.less)
 11. COMMENT FORM STYLES
 12. SIDEBARS & ASIDES
 13. FOOTER STYLES
+14. TABLES (in separate file - other/tables.less)
 
 ******************************************************************/
-
-/* Admin Top Navigation fixes */
-
-body.admin-bar .navbar-fixed-top {
-	top: 46px;
-	@media (min-width: 783px) {
-		top: 28px;
-	}
-}
 
 /*********************
 01. GENERAL STYLES
@@ -44,7 +36,7 @@ html, body {
 	/* height: 100%; */
 }
 body {
-  padding-top: @navbar-height; //THIS IS IF YOU HAVE top-nav-fixed ENABLED
+  padding-top: @navbar-height; // THIS IS IF YOU HAVE top-nav-fixed ENABLED
 }
 
 /********************
@@ -225,6 +217,7 @@ and more scalable.
 
 /*********************
 08. POSTS & CONTENT STYLES
+(also check other/content.less)
 *********************/
 
 #content {
@@ -262,6 +255,7 @@ and more scalable.
     }
 
 		.archive-title { 
+			margin-top: 0;
     }
 
 		/* want to style individual post classes? Booya! */
@@ -282,6 +276,8 @@ and more scalable.
 
     /* breadcrumb */
     .breadcrumb {
+    	padding: 4px 17px;
+ 		background: #f9f9f9;
       
       > li {}
     }
@@ -877,6 +873,8 @@ and more scalable.
 
 .about:hover i {
 	color: #626c72;
-	transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease;
 }
+
+/* end CSS for Sample Home Page */
 

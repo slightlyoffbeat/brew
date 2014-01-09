@@ -5,9 +5,9 @@ Author: Dan Brown
 Stylesheet: Main Stylesheet
 
 Here's where the magic happens. First we are calling the bootstrap
-LESS files.  Then we'll load custom.less which is based on the bones 
-_base.less file.  Any customizations should be placed in either 
-variables.less, custom.less or any additional LESS files.
+LESS files.  Then we'll load Font Awesome.  Any customizations 
+should be placed in either custom-variables.less, custom.less 
+or any additional LESS files.
 ******************************************************************/
 
 
@@ -16,7 +16,8 @@ variables.less, custom.less or any additional LESS files.
 //
 
 // Core variables and mixins
-@import "bootstrap/variables.less";
+//@import "bootstrap/variables.less";
+@import "custom-variables.less"; // custom variables
 @import "bootstrap/mixins.less";
 
 // Reset
@@ -68,9 +69,15 @@ variables.less, custom.less or any additional LESS files.
 // Font Awesome
 @import "font-awesome/less/font-awesome.less";
 
+// BREW files
+@import "other/wp-core.less"; // styles for text formatting, captions, galleries, etc
+@import "other/comments.less"; // styles for comments
+@import "other/tables.less"; // styles for tables
+@import "other/content.less"; // styles for wordpress pages/posts etc
+@import "other/brew.less"; // components built for BREW such as breadcrumbs, next/previous buttons, etc
+
 // Customize
-@import "custom-variables.less"; // custom variables
-@import "wp-styles.less"; // styles for wordpress pages/posts etc
+// custom variables are located at the top of this file
 @import "custom.less"; // custom css for wordpress
 
 
@@ -86,7 +93,7 @@ query for retina AND a certain size if you want. Go Nuts.
        only screen and (min-device-pixel-ratio: 1.5) {
 
 	// styles in 2x.less
-	@import "_2x.less";
+	@import "other/_2x.less";
 
 } // end of media query
 

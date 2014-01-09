@@ -5,9 +5,9 @@ Author: Dan Brown
 Stylesheet: Main Stylesheet
 
 Here's where the magic happens. First we are calling the bootstrap
-LESS files.  Then we'll load custom.less which is based on the bones 
-_base.less file.  Any customizations should be placed in either 
-variables.less, custom.less or any additional LESS files.
+LESS files.  Then we'll load Font Awesome.  Any customizations 
+should be placed in either custom-variables.less, custom.less 
+or any additional LESS files.
 ******************************************************************/
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 article,
@@ -7284,251 +7284,96 @@ td.visible-print {
   content: "\f195";
 }
 /******************************************************************
-Site Name: Brew
+Site Name: BREW
 Author: Dan Brown
 
-Stylesheet: Wordpress Styles
+Stylesheet: WP Core Styles
 
-Basic Styling for Wordpress posts/pages etc
+This stylesheet contains various snippets of CSS needed for WP Core
+
 ******************************************************************/
 * {
   -ms-word-wrap: break-word;
   word-wrap: break-word;
 }
-/*********************
-POSTS
-*********************/
-.post,
-.type-page,
-.closed,
-#comments,
-#pings,
-#no-comments,
-#respond {
-  margin: 0 0 20px 0;
-  border-radius: 0px;
-  background: #fff;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  border: 1px solid #ddd;
+.alignnone {
+  margin: 5px 20px 20px 0;
 }
-.entry-content p {
-  margin-bottom: 20px;
-  font-size: 16px;
-  line-height: 1.5;
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
 }
-.article-header,
-.page-head {
-  margin-bottom: 15px;
-  padding: 20px 20px 0;
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
 }
-.article-header h1,
-.page-head h1,
-.article-header h2,
-.page-head h2,
-.article-header h3,
-.page-head h3,
-.article-header h4,
-.page-head h4,
-.article-header h5,
-.page-head h5,
-.article-header h6,
-.page-head h6 {
-  margin-top: 0;
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
 }
-.entry-title,
-.page-title {
-  margin: 0 0 5px;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 1.2;
+.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
 }
-@media (min-width: 992px) {
-  .entry-title,
-  .page-title {
-    font-size: 38px;
-  }
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
 }
-.byline {
-  color: #999;
-  margin: 0;
-  font-size: 14px;
+a img.alignnone {
+  margin: 5px 20px 20px 0;
 }
-.sticky-ind {
-  display: none;
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
 }
-.sticky .sticky-ind {
-  display: inline !important;
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.entry-title,
-.entry-title a,
-.entry-title a:visited {
-  color: #444;
-}
-.entry-title a:hover,
-.entry-title a:active {
-  color: #888;
-  text-decoration: none;
-}
-.featured-content {
-  margin-bottom: 20px;
-}
-.featured-img-bg {
-  height: 300px;
-  background-width: 100% !important;
-  background-size: cover !important;
-  background-repeat: none !important;
-  background-position: center center !important;
-}
-.featured-img img {
-  width: 100%;
-  height: auto;
-}
-.entry-content,
-.page-content {
-  padding: 0 20px 20px;
-}
-.entry-content > ol,
-.page-content > ol,
-.entry-content > ul,
-.page-content > ul {
-  margin: 0 0 20px 10px;
-  font-size: 16px;
-  line-height: 1.5;
-}
-.entry-content img,
-.page-content img {
-  max-width: 100%;
-  height: auto;
-}
-/* end .entry-content */
 cite {
   font-style: italic;
 }
-.article-footer {
-  padding: 10px 20px 10px;
-  border-top: 1px solid #eee;
-  color: #888;
-  font-size: 12px;
+.wp-caption {
+  max-width: 100%;
+  background: #eee;
 }
-.article-footer .commentnum {
-  text-align: right;
-  width: 30%;
+.wp-caption img {
+  max-width: 100%;
+  margin-bottom: 0;
+  width: 100%;
 }
-.article-footer .commentnum a {
-  text-decoration: none;
-  color: #999999;
-  -webkit-transition: color 0.4s ease;
-  transition: color 0.4s ease;
+.wp-caption p.wp-caption-text {
+  font-size: 0.85em;
+  margin: 2px 0 7px;
+  text-align: center;
 }
-.article-footer .commentnum a:hover {
-  color: #333333;
-}
-.article-footer .tags {
-  width: 70%;
-}
-.article-footer .post-link {
-  margin-top: -1px;
-  padding-left: 10px;
-}
-.article-footer .post-link:hover {
-  text-decoration: none;
-}
-.closed h3 {
-  padding: 20px 20px;
-  margin: 0;
-}
-#pings {
-  padding: 20px;
-}
-#pings h3 {
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-/*********************
-THUMBNAILS
-*********************/
-.article-header .thumbnail {
-  margin: 0 20px 0 0;
-}
-.thumbnail-link img {
-  height: 80px;
-  width: auto;
-}
-@media (min-width: 992px) {
-  .thumbnail-link img {
-    height: 150px;
-    width: auto;
-  }
-}
-/*********************
-AUTHOR BOX
-*********************/
-#author-info {
-  padding: 20px;
-}
-#author-info h4 {
-  margin-top: 0;
-}
-.author-img {
-  float: left;
+/* end .wp-caption */
+.wp-caption.alignleft {
   margin-right: 20px;
 }
-@media (min-width: 480px) {
-  .author-desc {
-    overflow: hidden;
-    _overflow: visible;
-    zoom: 1;
-  }
+.wp-caption.alignright {
+  margin-left: 20px;
 }
-.social-links {
+/* image gallery styles */
+.gallery dl {
   float: left;
-  padding: 0;
-  margin: 0;
+  margin-top: 10px;
+  text-align: center;
+  width: 33%;
 }
-.social-links li {
-  float: left;
-  text-decoration: none;
-  list-style: none;
+.gallery dl img {
+  border: 2px solid #cfcfcf;
 }
-.social-links a {
-  color: #999999;
-  padding-right: 15px;
-  -webkit-transition: color 0.4s ease;
-  transition: color 0.4s ease;
-  font-size: 1.4em;
-}
-.social-links a:hover {
-  color: #333333;
-}
-/*********************
-TABLES
-*********************/
-/* content Tables */
-#main table {
-  margin: 20px 0;
-  width: 100%;
-  border: 1px solid #dddddd;
-  border-collapse: separate;
-  border-left: 0;
-}
-#main table th,
-#main table td {
-  padding: 8px;
-  border-top: 1px solid #dddddd;
-  border-left: 1px solid #dddddd;
-  vertical-align: top;
-  text-align: left;
-  line-height: 18px;
-}
-#main table thead:first-child tr:first-child th,
-#main table tbody:first-child tr:first-child th,
-#main table tbody:first-child tr:first-child td {
-  border-top: 0;
-}
-/*********************
-COMMENTS
-*********************/
+/* end .gallery */
+/******************************************************************
+Site Name: BREW
+Author: Dan Brown
+
+Stylesheet: Comments
+
+******************************************************************/
 #comments {
   margin-bottom: 20px;
 }
@@ -7590,86 +7435,207 @@ ol.commentlist {
 #respond {
   padding: 20px;
 }
-/*********************
-WP CORE
-*********************/
-.alignnone {
-  margin: 5px 20px 20px 0;
+#pings {
+  padding: 20px;
 }
-.aligncenter,
-div.aligncenter {
-  display: block;
-  margin: 5px auto 5px auto;
+#pings h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
 }
-.alignright {
-  float: right;
-  margin: 5px 0 20px 20px;
+.closed h3 {
+  padding: 20px 20px;
+  margin: 0;
 }
-.alignleft {
-  float: left;
-  margin: 5px 20px 20px 0;
-}
-.aligncenter {
-  display: block;
-  margin: 5px auto 5px auto;
-}
-a img.alignright {
-  float: right;
-  margin: 5px 0 20px 20px;
-}
-a img.alignnone {
-  margin: 5px 20px 20px 0;
-}
-a img.alignleft {
-  float: left;
-  margin: 5px 20px 20px 0;
-}
-a img.aligncenter {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.wp-caption {
-  max-width: 100%;
-  background: #eee;
-}
-.wp-caption img {
-  max-width: 100%;
-  margin-bottom: 0;
+/******************************************************************
+Site Name: BREW
+Author: Dan Brown
+
+Stylesheet: Tables
+
+******************************************************************/
+#main table {
+  margin: 20px 0;
   width: 100%;
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+  border-left: 0;
 }
-.wp-caption p.wp-caption-text {
-  font-size: 0.85em;
-  margin: 2px 0 7px;
-  text-align: center;
+#main table th,
+#main table td {
+  padding: 8px;
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  vertical-align: top;
+  text-align: left;
+  line-height: 18px;
 }
-/* end .wp-caption */
-.wp-caption.alignleft {
-  margin-right: 20px;
+#main table thead:first-child tr:first-child th,
+#main table tbody:first-child tr:first-child th,
+#main table tbody:first-child tr:first-child td {
+  border-top: 0;
 }
-.wp-caption.alignright {
-  margin-left: 20px;
+/******************************************************************
+Site Name: Brew
+Author: Dan Brown
+
+Stylesheet: Content Styles
+
+Basic Styling for Wordpress posts/pages etc
+******************************************************************/
+/********************************
+Content (pages and blog posts)
+********************************/
+/* content background/border */
+.post,
+.type-page,
+.closed,
+#comments,
+#pings,
+#no-comments,
+#respond {
+  margin: 0 0 20px 0;
+  border-radius: 0px;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  border: 1px solid #ddd;
 }
-/* image gallery styles */
-.gallery dl {
-  float: left;
-  margin-top: 10px;
-  text-align: center;
-  width: 33%;
+/* content header */
+.article-header,
+.page-head {
+  margin-bottom: 15px;
+  padding: 20px 20px 0;
 }
-.gallery dl img {
-  border: 2px solid #cfcfcf;
+.article-header h1,
+.page-head h1,
+.article-header h2,
+.page-head h2,
+.article-header h3,
+.page-head h3,
+.article-header h4,
+.page-head h4,
+.article-header h5,
+.page-head h5,
+.article-header h6,
+.page-head h6 {
+  margin-top: 0;
 }
-/* end .gallery */
-/*********************
-OTHER
-*********************/
-/* breadcrumb */
-.breadcrumb {
-  padding: 4px 17px;
-  background: #f9f9f9;
+.entry-title,
+.page-title {
+  margin: 0 0 5px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
 }
-/* next/previous posts */
+@media (min-width: 992px) {
+  .entry-title,
+  .page-title {
+    font-size: 38px;
+  }
+}
+.entry-title,
+.entry-title a,
+.entry-title a:visited {
+  color: #444;
+}
+.entry-title a:hover,
+.entry-title a:active {
+  color: #888;
+  text-decoration: none;
+}
+.byline {
+  color: #999;
+  margin: 0;
+  font-size: 14px;
+}
+.sticky-ind {
+  display: none;
+}
+.sticky .sticky-ind {
+  display: inline !important;
+}
+/* content featured image */
+.featured-content {
+  margin-bottom: 20px;
+}
+.featured-img-bg {
+  height: 300px;
+  background-width: 100% !important;
+  background-size: cover !important;
+  background-repeat: none !important;
+  background-position: center center !important;
+}
+.featured-img img {
+  width: 100%;
+  height: auto;
+}
+/* content main */
+.entry-content p,
+.page-content p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.entry-content,
+.page-content {
+  padding: 0 20px 20px;
+}
+.entry-content > ol,
+.page-content > ol,
+.entry-content > ul,
+.page-content > ul {
+  margin: 0 0 20px 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.entry-content img,
+.page-content img {
+  max-width: 100%;
+  height: auto;
+}
+/* content footer */
+.article-footer {
+  padding: 10px 20px 10px;
+  border-top: 1px solid #eee;
+  color: #888;
+  font-size: 12px;
+}
+.article-footer .commentnum {
+  text-align: right;
+  width: 30%;
+}
+.article-footer .commentnum a {
+  text-decoration: none;
+  color: #999999;
+  -webkit-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+.article-footer .commentnum a:hover {
+  color: #333333;
+}
+.article-footer .tags {
+  width: 70%;
+}
+.article-footer .post-link {
+  margin-top: -1px;
+  padding-left: 10px;
+}
+.article-footer .post-link:hover {
+  text-decoration: none;
+}
+/******************************************************************
+Site Name: BREW Styles
+Author: Dan Brown
+
+Stylesheet: Tables
+
+A few random components built for BREW such as breadcrumbs and
+next/previous posts
+
+******************************************************************/
+/***********************************
+Next/Previous buttons under posts
+***********************************/
 #single-post-nav .pager span {
   width: 100%;
   text-align: center;
@@ -7708,8 +7674,56 @@ OTHER
   text-decoration: none;
   cursor: pointer;
 }
-.archive-title {
+/*********************
+AUTHOR BOX
+*********************/
+#author-info {
+  padding: 20px;
+}
+#author-info h4 {
   margin-top: 0;
+}
+.author-img {
+  float: left;
+  margin-right: 20px;
+}
+@media (min-width: 480px) {
+  .author-desc {
+    overflow: hidden;
+    _overflow: visible;
+    zoom: 1;
+  }
+}
+.social-links {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.social-links li {
+  float: left;
+  text-decoration: none;
+  list-style: none;
+}
+.social-links a {
+  color: #999999;
+  padding-right: 15px;
+  -webkit-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+  font-size: 1.4em;
+}
+.social-links a:hover {
+  color: #333333;
+}
+/*********************
+ADMIN TOP NAV FIXES
+*********************/
+body.admin-bar .navbar-fixed-top {
+  top: 46px;
+}
+@media (min-width: 783px) {
+  body.admin-bar .navbar-fixed-top {
+    top: 28px;
+  }
 }
 /******************************************************************
 Site Name: BREW
@@ -7731,23 +7745,15 @@ custom.less is a WIP
 05. H1, H2, H3, H4, H5 STYLES
 06. HEADER STYLES
 07. NAVIGATION STYLES
-08. POSTS & CONTENT STYLES
+08. POSTS & CONTENT STYLES (also other/content.less)
 09. PAGE NAVI STYLES
-10. COMMENT STYLES
+10. COMMENT STYLES (also other/comments.less)
 11. COMMENT FORM STYLES
 12. SIDEBARS & ASIDES
 13. FOOTER STYLES
+14. TABLES (in separate file - other/tables.less)
 
 ******************************************************************/
-/* Admin Top Navigation fixes */
-body.admin-bar .navbar-fixed-top {
-  top: 46px;
-}
-@media (min-width: 783px) {
-  body.admin-bar .navbar-fixed-top {
-    top: 28px;
-  }
-}
 /*********************
 01. GENERAL STYLES
 *********************/
@@ -7841,12 +7847,16 @@ and more scalable.
 /* end .nav */
 /*********************
 08. POSTS & CONTENT STYLES
+(also check other/content.less)
 *********************/
 #content {
   padding-top: 40px;
   min-height: 600px;
 }
 /* end .hentry */
+.archive-title {
+  margin-top: 0;
+}
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
 /* general post style */
@@ -7858,6 +7868,10 @@ and more scalable.
 /* style by tag (i.e. tag-news) */
 /* post meta */
 /* breadcrumb */
+.breadcrumb {
+  padding: 4px 17px;
+  background: #f9f9f9;
+}
 /* entry content */
 .entry-content {
   /*
@@ -8241,8 +8255,9 @@ and more scalable.
 }
 .about:hover i {
   color: #626c72;
-  transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease;
 }
+/* end CSS for Sample Home Page */
 /*
 RETINA (2x RESOLUTION DEVICES)
 This applies to the retina iPhone (4s) and iPad (2,3) along with
