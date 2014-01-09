@@ -27,7 +27,7 @@
 							<?php global $brew_options; ?>
 							<?php if( $brew_options['featured'] == '2' || ( $brew_options['featured'] == '4' && is_single() ) || ( $brew_options['featured'] == '3' && is_home() ) ) { ?>
 								<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'post-featured' ); ?>
-								<?php if ( $image[1] < '750' ) { ?>
+								<?php if ( $image[1] < '750' && has_post_thumbnail() ) { ?>
 									<section class="featured-content featured-img featured-img-bg" style="background: url('<?php echo $image[0]; ?>')">
 								<?php } // end if 
 								else { ?>

@@ -157,7 +157,7 @@ The comments page for Bones
   <?php if ( ! empty( $comments_by_type['pings'] ) ) { ?>
   <div id="pings">
     <h3>
-      <?php _e( 'Trackbacks and Pingbacks:', 'standard' ); ?>
+      <?php _e( 'Trackbacks and Pingbacks:', 'bones' ); ?>
     </h3>
     <ol class="pinglist">
       <?php wp_list_comments( 'type=pings&callback=list_pings' ); ?>
