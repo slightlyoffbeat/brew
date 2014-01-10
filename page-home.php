@@ -40,7 +40,7 @@ Template Name: Home Page Template
     <div class="col-sm-4 about">
       <i class="fa fa-flag fa-4x light-gray"></i>
       <h3>Over 350 Icons</h3>
-      <p>Font Awesome 3 support is already baked in.  Quickly and easily place icons in menus, buttons, headers, lists and more.</p>
+      <p>Font Awesome 4 support is already baked in.  Quickly and easily place icons in menus, buttons, headers, lists and more.</p>
     </div>
     
   </div>
