@@ -11,7 +11,7 @@ Just pulling together all the various functions needed for BREW.
 
 function my_more_link( $link, $link_button ) {
             
-    return str_replace( $link_button, '<p><a href="' . get_permalink() . '" class="readmore btn btn-sm btn-primary ">' . __( 'Read More', 'bonestheme' ) . ' </a> </p>', $link );
+    return str_replace( $link_button, '<p><a href="' . get_permalink() . '" class="readmore btn btn-sm btn-primary ">' . __( 'Continue Reading...', 'bonestheme' ) . ' </a> </p>', $link );
 }
 
 add_filter( 'the_content_more_link', 'my_more_link', 10, 2 );
@@ -193,6 +193,69 @@ function be_sample_metaboxes( $meta_boxes ) {
   return $meta_boxes;
 }
 add_filter( 'cmb_meta_boxes', 'be_sample_metaboxes' );
+
+// Checking if comment navigation is enabled
+function page_has_comments_nav() {
+ global $wp_query;
+ return ($wp_query->max_num_comment_pages > 1);
+}
+
+
+//  Truncating Strings
+//  Function Author:  8bit (Standard Theme)
+/**
+ * Truncates string at the last breakable space within the string at the
+ * character limit and then adds the truncation indicator.
+ *
+ * @param        string $string                  The string to possibly truncate
+ * @param        int $character_limit            Optional. The number of characters to limit the string to
+ * @param        string $truncation_indicator    Optional. The characters to end truncation with (if needed)
+ * @return        string The original or the truncated string based on the length of the original string.
+ * @since        3.0
+ * @version        3.0
+ */
+
+function brew_truncate_text( $string, $character_limit = 50, $truncation_indicator = '...' ) {
+
+        $truncated = null == $string ? '' : $string;
+    if ( strlen( $string ) >= ( $character_limit + 1 ) ) {
+
+        $truncated = substr( $string, 0, $character_limit );
+
+        if ( substr_count( $truncated, ' ') > 1 ) {
+            $last_space = strrpos( $truncated, ' ' );
+            $truncated = substr( $truncated, 0, $last_space );
+        } // end if
+
+        $truncated = $truncated . $truncation_indicator;
+
+    } // end if/else
+
+    return $truncated;
+
+} // end brew_truncate_text
+
+
+// customize author fields
+function brew_contact_methods( $contactmethods ) {
+ 
+    // This isn't 2004
+    unset( $contactmethods[ 'aim' ] );
+    unset( $contactmethods[ 'yim' ] );
+    unset( $contactmethods[ 'jabber' ] );
+ 
+    // Add some useful ones
+    $contactmethods[ 'twitter' ] = 'Twitter Profile URL';
+    $contactmethods[ 'facebook' ] = 'Facebook Profile URL';
+    $contactmethods[ 'linkedin' ] = 'LinkedIn Public Profile URL';
+    $contactmethods[ 'googleplus' ] = 'Google+ Profile URL';
+    $contactmethods[ 'pinterest' ] = 'Pinterest Profile URL';
+ 
+    return $contactmethods;
+}
+ 
+add_filter( 'user_contactmethods', 'brew_contact_methods' );
+
 
 /*
 my mind is going. I can feel it

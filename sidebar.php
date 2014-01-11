@@ -1,4 +1,4 @@
-				<div id="sidebar" class="pull-right well">
+				<div id="sidebar" class="pull-right col-md-4">
 
           <?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
 

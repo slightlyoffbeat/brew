@@ -1,0 +1,79 @@
+/******************************************************************
+Site Name: BREW
+Author: Dan Brown
+
+Stylesheet: Comments
+
+******************************************************************/
+#comments {
+  margin-bottom: 20px;
+}
+.havecomments > h3 {
+  border-bottom: 1px solid #eee;
+  padding: 20px 20px 20px;
+}
+.nocomments > p {
+  padding: 0 20px 10px;
+}
+.nocomments > h3 {
+  padding: 20px 20px 10px;
+  line-height: 1;
+  margin: 0;
+}
+#comments > h3 {
+  line-height: 1;
+  margin: 0;
+}
+#comments .comment-container {
+  padding: 20px 20px;
+  border-bottom: 1px solid #eee;
+}
+.comment-author {
+  width: 10%;
+  float: left;
+}
+.comment-author img {
+  width: 100%;
+  height: auto;
+}
+.comment-content {
+  width: 88%;
+  margin-left: 2%;
+  float: left;
+}
+.comment {
+  position: relative;
+  clear: both;
+  overflow: hidden;
+  list-style-type: none;
+}
+.comment img,
+.comment iframe {
+  max-width: 100%;
+}
+ol.commentlist {
+  margin: 0;
+}
+.comment-nav {
+  padding: 10px 20px;
+}
+.comment-prev {
+  float: left;
+}
+.comment-next {
+  float: right;
+}
+#respond {
+  padding: 20px;
+}
+#pings {
+  padding: 20px;
+}
+#pings h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.closed h3 {
+  padding: 20px 20px;
+  margin: 0;
+}

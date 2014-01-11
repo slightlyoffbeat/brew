@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: Page - Right Sidebar
+*/
+?>
+
 <?php get_header(); ?>
 
       <div class="container">
@@ -6,20 +12,19 @@
         
           <div id="main" class="col-md-8 clearfix" role="main">
 
-            <!-- UNCOMMENT FOR BREADCRUMBS
-            <?php if ( function_exists('custom_breadcrumb') ) { custom_breadcrumb(); } ?> -->
+          <?php get_template_part( 'breadcrumb' ); ?>
 
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             
             <article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
               
-              <header>
+              <header class="page-head">
                 
                 <div class=""><h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1></div>
               
               </header> <!-- end article header -->
             
-              <section class="post_content clearfix" itemprop="articleBody">
+              <section class="page-content clearfix" itemprop="articleBody">
                 <?php the_content(); ?>
             
               </section> <!-- end article section -->
@@ -52,8 +57,8 @@
             <?php endif; ?>
         
           </div> <!-- end #main -->
-      
-          <?php get_sidebar(); // sidebar 1 ?>
+
+          <?php get_sidebar(); ?>
       
         </div> <!-- end #content -->
 
