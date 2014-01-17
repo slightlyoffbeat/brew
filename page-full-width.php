@@ -19,13 +19,13 @@ Template Name: Page - Full Width
             
             <article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
               
-              <header>
+              <header class="page-head">
                 
                 <div class=""><h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1></div>
               
               </header> <!-- end article header -->
             
-              <section class="post_content clearfix" itemprop="articleBody">
+              <section class="page-content clearfix" itemprop="articleBody">
                 <?php the_content(); ?>
             
               </section> <!-- end article section -->
