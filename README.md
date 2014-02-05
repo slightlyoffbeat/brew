@@ -22,13 +22,12 @@ footer screenshot:
 
 Features:
 * LESS
-* SASS (thanks [garrettboatman](https://github.com/garrettboatman)!
 * Bootstrap 3
 * Bones
 * sidebar and footer widgets
 * Very clean out-of-the-box experience
 * pagination
-* breadcrumbs (just uncomment in the page templates)
+* breadcrumbs
 * Font Awesome 
 
 
@@ -41,8 +40,11 @@ To use:
 
 
 To do:
-* clean up custom.less
-* Set up (just a few) options using Redux
+* Continue organizing .less files
+* Combine JS files
+* look in to combining functions.php/brew.php/bones.php
+* Explore cleaning up classes on index/single/pages
+
 
 
 Providing credit where credit is due:

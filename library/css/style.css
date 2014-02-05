@@ -7530,6 +7530,10 @@ Basic Styling for Wordpress posts/pages etc
 /********************************
 Content (pages and blog posts)
 ********************************/
+#content {
+  padding-top: 40px;
+  min-height: 600px;
+}
 /* content background/border */
 .post,
 .type-page,
@@ -7770,6 +7774,13 @@ body.admin-bar .navbar-fixed-top {
     top: 28px;
   }
 }
+/*********************
+BREADCRUMBS
+*********************/
+.breadcrumb {
+  padding: 4px 17px;
+  background: #f9f9f9;
+}
 /******************************************************************
 Site Name: BREW
 Author: Dan Brown
@@ -7894,10 +7905,6 @@ and more scalable.
 08. POSTS & CONTENT STYLES
 (also check other/content.less)
 *********************/
-#content {
-  padding-top: 40px;
-  min-height: 600px;
-}
 /* end .hentry */
 .archive-title {
   margin-top: 0;
@@ -7913,10 +7920,6 @@ and more scalable.
 /* style by tag (i.e. tag-news) */
 /* post meta */
 /* breadcrumb */
-.breadcrumb {
-  padding: 4px 17px;
-  background: #f9f9f9;
-}
 /* entry content */
 .entry-content {
   /*
