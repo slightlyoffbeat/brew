@@ -263,12 +263,6 @@ wp_enqueue_script('fitvids', get_template_directory_uri() . '/library/js/libs/Fi
 wp_enqueue_script('fitvids-xtra', get_template_directory_uri() . '/library/js/fitvid.js', array(), '', TRUE);
 
 
-// load jquery from Google CDN
-
-
-
-add_action('template_redirect', 'load_jquery');
-
 
 
 /*
