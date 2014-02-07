@@ -1,0 +1,88 @@
+/******************************************************************
+Site Name: BREW Styles
+Author: Dan Brown
+
+Stylesheet: Tables
+
+This is just for the sample BREW site.  Feel free to delete
+
+******************************************************************/
+
+
+.featured {
+  margin-bottom: 40px;
+  @media (min-width: @screen-md) {
+    margin-bottom: 0;
+  }
+}
+
+.homebanner {
+  margin-bottom: 60px;
+  padding-top: 30px;
+  text-align: center;
+  height: 350px;
+  background: url('../images/hero.png') #2A5781;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  @media (min-width: @screen-xs) {
+    padding-top: 70px;
+  }
+  p {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .btn-default {
+    background: none;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    .transition(all .2s ease);
+  }
+  .btn-primary {
+    background: none;
+    border: 2px solid #fff;
+    margin-left: 20px;
+    .transition(all .2s ease);
+  }
+}
+
+.homebanner .btn-default:hover {
+    background: white;
+    color: #000;
+}
+
+.homebanner .btn-primary:hover {
+  background: white;
+  color: #000;
+}
+
+.about {
+  margin-bottom: 30px;
+  @media (min-width: @screen-sm) {
+    margin-bottom: 0px;
+  }
+  a {
+    text-decoration: none;
+  }
+  i {
+    color: #929292;
+  }
+  p {
+    color: #929292;
+  }
+
+  h3 {
+    color: #626c72;
+  }
+}
+
+.about:hover i {
+  color: #626c72;
+  transition: all 0.35s ease;
+}
+
+
