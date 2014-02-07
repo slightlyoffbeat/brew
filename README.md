@@ -51,9 +51,10 @@ To use:
 3. add customize and add new LESS files in /less/brew
 
 
-To do:
+To do before v1.0:
 * Combine JS files
-* look in to combining functions.php/brew.php/bones.php
+* Look in to combining functions.php/brew.php/bones.php
+* Finalize all included pages/php files.  Not all have been updated.
 * Set up Grunt
 
 
