@@ -7694,7 +7694,9 @@ These are the styles for posts, pages, archive, & blog index
 02. ARTICLE WRAPPER
 (background, borders etc for individual posts/pages)
 ********************************/
-.hentry {
+.hentry,
+#comments,
+.respond-form {
   margin: 0 0 20px 0;
   border-radius: 0px;
   background: #fff;
