@@ -18,6 +18,7 @@ The comments page for Bones
 
 <?php // You can start editing here. ?>
 
+<?php if ( is_single() ) {?>
   <div id="single-post-nav">
     <ul class="pager">
 
@@ -37,6 +38,7 @@ The comments page for Bones
 
     </ul>
   </div><!-- /#single-post-nav -->
+<?php } ?>
 
 <?php if ( have_comments() ) : ?>
 
