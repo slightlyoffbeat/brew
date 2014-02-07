@@ -6,8 +6,8 @@ Stylesheet: Main Stylesheet
 
 Here's where the magic happens. First we are calling the bootstrap
 LESS files.  Then we'll load Font Awesome.  Any customizations 
-should be placed in either custom-variables.less, custom.less 
-or any additional LESS files.
+should be placed in either custom-variables.less, a new less file,
+or the proper file inside less/brew
 ******************************************************************/
 
 
@@ -70,16 +70,18 @@ or any additional LESS files.
 @import "font-awesome/less/font-awesome.less";
 
 // BREW files
-@import "other/wp-core.less"; // styles for text formatting, captions, galleries, etc
-@import "other/comments.less"; // styles for comments
-@import "other/tables.less"; // styles for tables
-@import "other/content.less"; // styles for wordpress pages/posts etc
-@import "other/brew.less"; // components built for BREW such as breadcrumbs, next/previous buttons, etc
-
-// Customize
-// custom variables are located at the top of this file
-@import "custom.less"; // custom css for wordpress
-
+@import "brew/wp-core.less"; // styles for text formatting, captions, galleries, etc
+@import "brew/global.less"; // BREW global styles
+@import "brew/comments.less"; // styles for comments
+@import "brew/tables.less"; // styles for tables
+@import "brew/form.less"; // styles for forms
+@import "brew/sidebar.less"; // styles for sidebars
+@import "brew/footer.less"; // styles for footer
+@import "brew/content.less"; // styles for wordpress pages/posts etc
+@import "brew/nav.less"; // styles for navigation and header
+@import "brew/body.less"; // target specific body classes
+@import "brew/components.less"; // components built for BREW such as breadcrumbs, next/previous buttons, etc
+@import "brew/brew.less"; // this is for the sample BREW site.  Feel free to delete
 
 
 /*

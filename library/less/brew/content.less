@@ -1,0 +1,278 @@
+/******************************************************************
+Site Name: Brew
+Author: Dan Brown
+
+Stylesheet: Content Styles
+
+These are the styles for posts, pages, archive, & blog index
+
+
+
+------------ MAP ------------
+
+01. #CONTENT & #MAIN WRAPPERS 
+02. ARTICLE WRAPPER
+03. ENTRY/PAGE HEADER
+04. FEATURED IMAGE
+05. ENTRY/PAGE CONTENT
+06. ENTRY/PAGE FOOTER
+
+******************************************************************/
+
+
+/*******************************
+01. #CONTENT & #MAIN WRAPPERS
+(#content usually includes sidebar.
+#main is all post/entry/page content)
+********************************/
+
+#content {
+  padding-top: 40px;
+  min-height: 600px;
+	#main {}
+}
+
+
+/*******************************
+02. ARTICLE WRAPPER
+(background, borders etc for individual posts/pages)
+********************************/
+
+.hentry, #comments, .respond-form {
+  margin: 0 0 20px 0;
+  border-radius: 0px;
+  background: #fff;
+  .box-shadow(0 1px 1px rgba(0,0,0,0.05) );
+  border: 1px solid #ddd;
+}
+
+
+
+/*******************************
+03. ENTRY HEADER
+********************************/
+
+// all headers
+.article-header, {
+  margin-bottom: 15px;
+  padding: 20px 20px 0;
+  h1, h2, h3, h4, h5, h6 {margin-top: 0;}
+}
+
+// specific headers
+.single-header {}
+.page-head {}
+.single-header {}
+
+
+// all titles
+.entry-title {
+  margin: 0 0 5px;
+  font-weight: 400;
+  font-size: 28px;
+  @media (min-width: @screen-md) {
+    font-size: 38px;
+  }
+  line-height: 1.2;
+  a, a:visited { 
+  	color: #444; 
+  	.transition (color .2s ease);
+  }
+  a:hover, a:active { 
+    color: #888;
+    text-decoration: none;
+  }
+}
+
+// specific titles
+.single-title {}
+.page-title {}
+.archive-title { 
+  margin-top: 0;
+}
+
+.byline {
+  color: #999;
+  margin: 0;
+  font-size: 14px;
+  time {}
+}
+
+
+///want to style individual post classes? Booya!
+.post-id {}         /* post by id (i.e. post-3) */
+.post {}            /* general post style */
+.page {}            /* general article on a page style */
+.attachment {}      /* general style on an attatchment */
+.sticky {}          /* sticky post style */
+.hentry {}          /* hentry class */
+.category-slug {}   /* style by category (i.e. category-videos) */
+.tag-slug {}        /* style by tag (i.e. tag-news) */
+.sticky-ind {
+  display: none;
+}
+.sticky .sticky-ind {display:inline !important;}
+
+
+/*******************************
+04. FEATURED IMAGE
+********************************/
+
+.featured-content {
+  margin-bottom: 20px;
+}
+
+
+.featured-img-bg {
+  height: 300px;
+  background-width: 100% !important;
+  background-size: cover !important;
+  background-repeat: none !important;
+  background-position: center center !important;
+}
+
+.featured-img { 
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+/*******************************
+05. ENTRY CONTENT
+********************************/
+
+// all content
+.entry-content {
+	padding: 0 20px 20px;
+  p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  > ol, > ul {
+    margin: 0 0 20px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  ul, ol, table, dl {}
+  
+  ul, ol {
+    li {}
+  }
+
+  ul {
+    li {}
+  }
+
+  ol {
+    li {}
+  }
+
+  blockquote {
+    &:before {}
+  }
+
+  dl {}
+  dt {}
+  dd {
+    margin-left: 0;
+    font-size: 0.9em;
+    color: #787878;
+    margin-bottom: 1.5em;
+  }
+
+  .alignleft, img.alignleft {}
+  .alignright, img.alignright {}
+  .aligncenter, img.aligncenter {}
+
+  video, object {
+    max-width: 100%;
+    height: auto;
+  }
+
+  pre {
+    background: #eee;
+    border: 1px solid #cecece;
+    padding: 10px;
+  }
+
+} /* end entry-content */
+
+// specific content
+.page-content {}
+.single-content {}
+
+// captions
+.wp-caption {
+  img {}
+  p.wp-caption-text {}
+}
+
+// image galleries
+
+.gallery {
+  dl {
+    a {}
+    img {}
+  }
+  dt {}
+  dd {}
+}
+
+// gallery caption styles
+.gallery-caption {}
+
+// target specific image sizes
+.size-full {}
+.size-large {}
+.size-medium {}
+.size-thumbnail {}
+
+
+
+
+
+/*******************************
+06. ENTRY FOOTER
+********************************/
+
+// loop footer + single footer
+.article-footer  {
+  padding: 10px 20px 10px;
+  border-top: 1px solid #eee;
+  color: #888;
+  font-size: 12px;
+  .commentnum {
+  	text-align: right;
+  	width: 30%;
+  	a {
+    	text-decoration: none;
+    	color: @gray-light;
+    	.transition(color .4s ease);
+  	}
+  	a:hover {
+    	color: @gray-dark;
+  	}
+  }
+  .tags {
+  	width: 70%;
+  }
+  .post-link {
+  	margin-top: -1px;
+  	padding-left: 10px;
+  	&:hover {
+    	text-decoration: none;
+  	}
+  }
+}
+
+// just single footer
+.single-footer {}

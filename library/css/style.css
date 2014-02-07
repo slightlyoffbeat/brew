@@ -6,8 +6,8 @@ Stylesheet: Main Stylesheet
 
 Here's where the magic happens. First we are calling the bootstrap
 LESS files.  Then we'll load Font Awesome.  Any customizations 
-should be placed in either custom-variables.less, custom.less 
-or any additional LESS files.
+should be placed in either custom-variables.less, a new less file,
+or the proper file inside less/brew
 ******************************************************************/
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
@@ -7280,23 +7280,25 @@ cite {
 Site Name: BREW
 Author: Dan Brown
 
+Stylesheet: Global Stylesheet
+
+Styles and classes used throughout the entire BREW framework
+
+******************************************************************/
+body {
+  padding-top: 50px;
+}
+/******************************************************************
+Site Name: BREW
+Author: Dan Brown
+
 Stylesheet: Comments
 
 ******************************************************************/
+/* h3 comment title */
 #comments {
   margin-bottom: 20px;
-}
-.havecomments > h3 {
-  border-bottom: 1px solid #eee;
-  padding: 20px 20px 20px;
-}
-.nocomments > p {
-  padding: 0 20px 10px;
-}
-.nocomments > h3 {
-  padding: 20px 20px 10px;
-  line-height: 1;
-  margin: 0;
+  /* number of comments span */
 }
 #comments > h3 {
   line-height: 1;
@@ -7306,35 +7308,126 @@ Stylesheet: Comments
   padding: 20px 20px;
   border-bottom: 1px solid #eee;
 }
-.comment-author {
-  width: 10%;
-  float: left;
-}
-.comment-author img {
-  width: 100%;
-  height: auto;
-}
 .comment-content {
   width: 88%;
   margin-left: 2%;
   float: left;
 }
-.comment {
+.comment-nav {
+  padding: 10px 20px;
+}
+.comment-nav ul li {
+  list-style-type: none;
+}
+.commentlist {
+  padding-left: 0;
+  /* general comment classes */
+  /* vcard */
+  /* end .commentlist .vcard */
+  /* comment meta */
+  /* comment content */
+  /* end .commentlist .comment_content */
+  /* comment reply link */
+  /* end .commentlist .comment-reply-link */
+}
+.commentlist ol {
+  margin: 0;
+}
+.commentlist li {
+  /* end .commentlist li ul.children */
+}
+.commentlist li:last-child {
+  margin-bottom: 0;
+}
+.commentlist li ul.children {
+  margin: 0;
+  /* variations */
+  /* change number for different depth */
+}
+.commentlist li[class*=depth-] {
+  margin-top: 1.1em;
+}
+.commentlist li.depth-1 {
+  margin-left: 0;
+  margin-top: 0;
+}
+.commentlist li:not(.depth-1) {
+  margin-top: 0;
+  padding-bottom: 0;
+}
+.commentlist .odd {
+  background: #fcfcfc;
+}
+.commentlist .even {
+  background: #f9f9f9;
+}
+.commentlist .comment {
   position: relative;
   clear: both;
   overflow: hidden;
   list-style-type: none;
 }
-.comment img,
-.comment iframe {
+.commentlist .comment img,
+.commentlist .comment iframe {
   max-width: 100%;
 }
-ol.commentlist {
-  margin: 0;
+.commentlist .children article {
+  border-left: 1px solid #eee;
 }
-.comment-nav {
-  padding: 10px 20px;
+.commentlist .bypostauthor {
+  background: #eff5fb;
 }
+.commentlist .comment-author {
+  width: 10%;
+  float: left;
+}
+.commentlist .comment-author img {
+  width: 100%;
+  height: auto;
+}
+.commentlist .alert {
+  margin: 10px 0 0 82px;
+}
+.commentlist .vcard cite.fn {
+  font-weight: 700;
+  font-style: normal;
+}
+.commentlist .vcard time {
+  float: right;
+}
+.commentlist .vcard time a {
+  color: #999;
+  text-decoration: none;
+}
+.commentlist .vcard time a:hover {
+  text-decoration: underline;
+}
+.commentlist .vcard img.avatar {
+  padding: 2px;
+  border: 1px solid #cecece;
+  background: #fff;
+}
+.commentlist .comment_content p {
+  margin: 0.7335em 0 1.5em;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+.commentlist .comment-reply-link {
+  text-decoration: none;
+  float: right;
+  background: #4598bb;
+  padding: 3px 5px;
+  color: #fff;
+  opacity: 0.65;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+.commentlist .comment-reply-link:hover,
+.commentlist .comment-reply-link:focus {
+  opacity: 1;
+}
+/* end .commentlist */
 .comment-prev {
   float: left;
 }
@@ -7351,10 +7444,23 @@ ol.commentlist {
   margin-top: 0;
   margin-bottom: 20px;
 }
+.havecomments > h3 {
+  border-bottom: 1px solid #eee;
+  padding: 20px 20px 20px;
+}
 .closed h3 {
   padding: 20px 20px;
   margin: 0;
 }
+.nocomments > p {
+  padding: 0 20px 10px;
+}
+.nocomments > h3 {
+  padding: 20px 20px 10px;
+  line-height: 1;
+  margin: 0;
+}
+/********************************************/
 /******************************************************************
 Site Name: BREW
 Author: Dan Brown
@@ -7384,28 +7490,213 @@ Stylesheet: Tables
   border-top: 0;
 }
 /******************************************************************
+Site Name: BREW
+Author: Dan Brown
+
+Stylesheet: Form Styles
+
+******************************************************************/
+.respond-form {
+  margin: 1.5em 10px;
+  padding-bottom: 2.2em;
+}
+.respond-form ul {
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+.respond-form form {
+  margin: 0.75em 0;
+}
+.respond-form form li {
+  list-style-type: none;
+  clear: both;
+  margin-bottom: 0.7335em;
+  border: none;
+}
+.respond-form form li label,
+.respond-form form li small {
+  display: none;
+}
+.respond-form form input[type=text],
+.respond-form form input[type=email],
+.respond-form form input[type=url],
+.respond-form form textarea {
+  padding: 3px 6px;
+  background: #efefef;
+  border: 2px solid #cecece;
+  line-height: 1.5em;
+  /* form validation */
+}
+.respond-form form input[type=text]:focus,
+.respond-form form input[type=email]:focus,
+.respond-form form input[type=url]:focus,
+.respond-form form textarea:focus {
+  background: #fff;
+}
+.respond-form form input[type=text]:invalid,
+.respond-form form input[type=email]:invalid,
+.respond-form form input[type=url]:invalid,
+.respond-form form textarea:invalid {
+  outline: none;
+  border-color: #fbc2c4;
+  background-color: #f6e7eb;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  box-shadow: none;
+}
+.respond-form form input[type=text],
+.respond-form form input[type=email],
+.respond-form form input[type=url] {
+  max-width: 400px;
+  min-width: 250px;
+}
+.respond-form form textarea {
+  resize: none;
+  width: 97.3%;
+  height: 150px;
+}
+/* comment submit button */
+/* comment form title */
+#comment-form-title {
+  margin: 0 0 1.1em;
+}
+/* cancel comment reply link */
+/* logged in comments */
+/* allowed tags */
+#allowed_tags {
+  margin: 1.5em 10px 0.7335em 0;
+}
+/* no comments */
+.nocomments {
+  margin: 0 20px 1.1em;
+}
+/******************************************************************
+Site Name: BREW
+Author: Dan Brown
+
+Stylesheet: Sidebars
+
+******************************************************************/
+#sidebar .widget {
+  margin-bottom: 30px;
+}
+.widgettitle {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 18px;
+  line-height: 24px;
+}
+.widget ul {
+  padding: 0;
+  margin: 0;
+}
+.widget ul li {
+  padding: 5px 0;
+  list-style: none;
+  /* deep nesting */
+}
+/******************************************************************
+Site Name: BREW
+Author: Dan Brown
+
+Stylesheet: Footer
+
+******************************************************************/
+#footer {
+  border-top: 5px solid #428bca;
+  background: #3b3b3b;
+  padding-top: 30px;
+  margin-top: 60px;
+  clear: both;
+  color: #aaa;
+}
+#footer h4 {
+  color: #fff;
+  text-transform: uppercase;
+}
+#footer a {
+  color: #aaa;
+}
+#footer li {
+  padding: 7px 0;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+  margin: 0px 0px;
+}
+#footer .widgettitle {
+  margin: 0;
+  padding: 0 0 15px 0;
+  border-bottom: none;
+}
+#footer-wrapper {
+  margin-bottom: 30px;
+}
+#sub-floor {
+  color: #aaa;
+  background: #292929;
+  padding: 10px 0;
+}
+.copyright {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .copyright {
+    text-align: left;
+  }
+}
+.attribution {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .attribution {
+    text-align: right;
+  }
+}
+.widgetFooter {
+  padding-bottom: 25px;
+}
+@media (min-width: 992px) {
+  .widgetFooter {
+    padding-bottom: 0px;
+  }
+}
+/******************************************************************
 Site Name: Brew
 Author: Dan Brown
 
 Stylesheet: Content Styles
 
-Basic Styling for Wordpress posts/pages etc
+These are the styles for posts, pages, archive, & blog index
+
+
+
+------------ MAP ------------
+
+01. #CONTENT & #MAIN WRAPPERS 
+02. ARTICLE WRAPPER
+03. ENTRY/PAGE HEADER
+04. FEATURED IMAGE
+05. ENTRY/PAGE CONTENT
+06. ENTRY/PAGE FOOTER
+
 ******************************************************************/
-/********************************
-Content (pages and blog posts)
+/*******************************
+01. #CONTENT & #MAIN WRAPPERS
+(#content usually includes sidebar.
+#main is all post/entry/page content)
 ********************************/
 #content {
   padding-top: 40px;
   min-height: 600px;
 }
-/* content background/border */
-.post,
-.type-page,
-.closed,
+/*******************************
+02. ARTICLE WRAPPER
+(background, borders etc for individual posts/pages)
+********************************/
+.hentry,
 #comments,
-#pings,
-#no-comments,
-#respond {
+.respond-form {
   margin: 0 0 20px 0;
   border-radius: 0px;
   background: #fff;
@@ -7413,61 +7704,68 @@ Content (pages and blog posts)
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   border: 1px solid #ddd;
 }
-/* content header */
-.article-header,
-.page-head {
+/*******************************
+03. ENTRY HEADER
+********************************/
+.article-header {
   margin-bottom: 15px;
   padding: 20px 20px 0;
 }
 .article-header h1,
-.page-head h1,
 .article-header h2,
-.page-head h2,
 .article-header h3,
-.page-head h3,
 .article-header h4,
-.page-head h4,
 .article-header h5,
-.page-head h5,
-.article-header h6,
-.page-head h6 {
+.article-header h6 {
   margin-top: 0;
 }
-.entry-title,
-.page-title {
+.entry-title {
   margin: 0 0 5px;
   font-weight: 400;
   font-size: 28px;
   line-height: 1.2;
 }
 @media (min-width: 992px) {
-  .entry-title,
-  .page-title {
+  .entry-title {
     font-size: 38px;
   }
 }
-.entry-title,
 .entry-title a,
 .entry-title a:visited {
   color: #444;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
 }
 .entry-title a:hover,
 .entry-title a:active {
   color: #888;
   text-decoration: none;
 }
+.archive-title {
+  margin-top: 0;
+}
 .byline {
   color: #999;
   margin: 0;
   font-size: 14px;
 }
+/* post by id (i.e. post-3) */
+/* general post style */
+/* general article on a page style */
+/* general style on an attatchment */
+/* sticky post style */
+/* hentry class */
+/* style by category (i.e. category-videos) */
+/* style by tag (i.e. tag-news) */
 .sticky-ind {
   display: none;
 }
 .sticky .sticky-ind {
   display: inline !important;
 }
-/* content featured image */
+/*******************************
+04. FEATURED IMAGE
+********************************/
 .featured-content {
   margin-bottom: 20px;
 }
@@ -7482,31 +7780,47 @@ Content (pages and blog posts)
   width: 100%;
   height: auto;
 }
-/* content main */
-.entry-content p,
-.page-content p {
+/*******************************
+05. ENTRY CONTENT
+********************************/
+.entry-content {
+  padding: 0 20px 20px;
+}
+.entry-content p {
   margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.5;
 }
-.entry-content,
-.page-content {
-  padding: 0 20px 20px;
-}
 .entry-content > ol,
-.page-content > ol,
-.entry-content > ul,
-.page-content > ul {
+.entry-content > ul {
   margin: 0 0 20px 10px;
   font-size: 16px;
   line-height: 1.5;
 }
-.entry-content img,
-.page-content img {
+.entry-content img {
   max-width: 100%;
   height: auto;
 }
-/* content footer */
+.entry-content dd {
+  margin-left: 0;
+  font-size: 0.9em;
+  color: #787878;
+  margin-bottom: 1.5em;
+}
+.entry-content video,
+.entry-content object {
+  max-width: 100%;
+  height: auto;
+}
+.entry-content pre {
+  background: #eee;
+  border: 1px solid #cecece;
+  padding: 10px;
+}
+/* end entry-content */
+/*******************************
+06. ENTRY FOOTER
+********************************/
 .article-footer {
   padding: 10px 20px 10px;
   border-top: 1px solid #eee;
@@ -7537,10 +7851,74 @@ Content (pages and blog posts)
   text-decoration: none;
 }
 /******************************************************************
+Site Name: BREW
+Author: Dan Brown
+
+Stylesheet: Header & Navigation
+
+******************************************************************/
+/*
+all navs have a .nav class applied via
+the wp_menu function; this is so we can
+easily write one group of styles for
+the navs on the site so our css is cleaner
+and more scalable.
+*/
+.nav {
+  /* end .menu li */
+  /* highlight current page */
+  /* end current highlighters */
+}
+/* end .nav */
+/******************************************************************
+Site Name: Brew
+Author: Dan Brown
+
+Stylesheet: Body
+
+Wordpress automatically adds classes to certain pages.  You can target
+pages with something such as  body.tag or body.archive
+******************************************************************/
+/* for sites that are read right to left (i.e. hebrew) */
+/* home page */
+/* blog template page */
+/* archive page */
+/* date archive page */
+/* replace the number to the corresponding page number */
+/* search page */
+/* search result page */
+/* no results search page */
+/* individual paged search (i.e. body.search-paged-3) */
+/* 404 page */
+/* single post page */
+/* individual post page by id (i.e. body.postid-73) */
+/* individual paged single (i.e. body.single-paged-3) */
+/* attatchment page */
+/* individual attatchment page (i.e. body.attachmentid-763) */
+/* style mime type pages */
+/* author page */
+/* user nicename (i.e. body.author-samueladams) */
+/* paged author archives (i.e. body.author-paged-4) for page 4 */
+/* category page */
+/* individual category page (i.e. body.category-6) */
+/* replace the number to the corresponding page number */
+/* tag page */
+/* individual tag page (i.e. body.tag-news) */
+/* replace the number to the corresponding page number */
+/* custom page template page */
+/* individual page template (i.e. body.page-template-contact-php */
+/* replace the number to the corresponding page number */
+/* parent page template */
+/* child page template */
+/* replace the number to the corresponding page number */
+/* if user is logged in */
+/* paged items like search results or archives */
+/* individual paged (i.e. body.paged-3) */
+/******************************************************************
 Site Name: BREW Styles
 Author: Dan Brown
 
-Stylesheet: Tables
+Stylesheet: Components
 
 A few random components built for BREW such as breadcrumbs and
 next/previous posts
@@ -7628,470 +8006,35 @@ AUTHOR BOX
   color: #333333;
 }
 /*********************
-ADMIN TOP NAV FIXES
-*********************/
-body.admin-bar .navbar-fixed-top {
-  top: 46px;
-}
-@media (min-width: 783px) {
-  body.admin-bar .navbar-fixed-top {
-    top: 28px;
-  }
-}
-/*********************
 BREADCRUMBS
 *********************/
 .breadcrumb {
   padding: 4px 17px;
   background: #f9f9f9;
 }
-/******************************************************************
-Site Name: BREW
-Author: Dan Brown
-
-Stylesheet: Custom Stylesheet
-
-If you really want to customize bootstrap, you should start with 
-custom-variables.less.  
-
-custom.less is a WIP
-
------------- MAP ------------
-
-01. GENERAL STYLES
-02. WORDPRESS BODY CLASSES
-03. LAYOUT & GRID STYLES
-04. LINK STYLES
-05. H1, H2, H3, H4, H5 STYLES
-06. HEADER STYLES
-07. NAVIGATION STYLES
-08. POSTS & CONTENT STYLES (also other/content.less)
-09. PAGE NAVI STYLES
-10. COMMENT STYLES (also other/comments.less)
-11. COMMENT FORM STYLES
-12. SIDEBARS & ASIDES
-13. FOOTER STYLES
-14. TABLES (in separate file - other/tables.less)
-
-******************************************************************/
 /*********************
-01. GENERAL STYLES
+PAGINATION
 *********************/
-html,
-body {
-  /* height: 100%; */
-}
-body {
-  padding-top: 50px;
-}
-/********************
-02. WORDPRESS BODY CLASSES
-    style a page via class
-********************/
-/* for sites that are read right to left (i.e. hebrew) */
-/* home page */
-/* blog template page */
-/* archive page */
-/* date archive page */
-/* replace the number to the corresponding page number */
-/* search page */
-/* search result page */
-/* no results search page */
-/* individual paged search (i.e. body.search-paged-3) */
-/* 404 page */
-/* single post page */
-/* individual post page by id (i.e. body.postid-73) */
-/* individual paged single (i.e. body.single-paged-3) */
-/* attatchment page */
-/* individual attatchment page (i.e. body.attachmentid-763) */
-/* style mime type pages */
-/* author page */
-/* user nicename (i.e. body.author-samueladams) */
-/* paged author archives (i.e. body.author-paged-4) for page 4 */
-/* category page */
-/* individual category page (i.e. body.category-6) */
-/* replace the number to the corresponding page number */
-/* tag page */
-/* individual tag page (i.e. body.tag-news) */
-/* replace the number to the corresponding page number */
-/* custom page template page */
-/* individual page template (i.e. body.page-template-contact-php */
-/* replace the number to the corresponding page number */
-/* parent page template */
-/* child page template */
-/* replace the number to the corresponding page number */
-/* if user is logged in */
-/* paged items like search results or archives */
-/* individual paged (i.e. body.paged-3) */
-/*********************
-03. LAYOUT & GRID STYLES
-*********************/
-/*********************
-04. LINK STYLES
-*********************/
-a,
-a:visited {
-  /* on hover */
-  /* on click */
-  /* mobile tap color */
-}
-a:link,
-a:visited:link {
-  /*
-		this highlights links on iPhones/iPads.
-		so it basically works like the :hover selector
-		for mobile devices.
-		*/
-}
-/******************************************************************
-05. H1, H2, H3, H4, H5 STYLES
-******************************************************************/
-/*********************
-06. HEADER STYLES
-*********************/
-/*********************
-07. NAVIGATION STYLES
-*********************/
-/*
-all navs have a .nav class applied via
-the wp_menu function; this is so we can
-easily write one group of styles for
-the navs on the site so our css is cleaner
-and more scalable.
-*/
-.nav {
-  /* end .menu li */
-  /* highlight current page */
-  /* end current highlighters */
-}
-/* end .nav */
-/*********************
-08. POSTS & CONTENT STYLES
-(also check other/content.less)
-*********************/
-/* end .hentry */
-.archive-title {
-  margin-top: 0;
-}
-/* want to style individual post classes? Booya! */
-/* post by id (i.e. post-3) */
-/* general post style */
-/* general article on a page style */
-/* general style on an attatchment */
-/* sticky post style */
-/* hentry class */
-/* style by category (i.e. category-videos) */
-/* style by tag (i.e. tag-news) */
-/* post meta */
-/* breadcrumb */
-/* entry content */
-.entry-content {
-  /*
-			image alignment on a screen this size may be
-			a bit difficult. It's set to start aligning
-			and floating images at the next breakpoint,
-			but it's up to you. Feel free to change it up.
-			*/
-}
-.entry-content dd {
-  margin-left: 0;
-  font-size: 0.9em;
-  color: #787878;
-  margin-bottom: 1.5em;
-}
-.entry-content video,
-.entry-content object {
-  max-width: 100%;
-  height: auto;
-}
-.entry-content pre {
-  background: #eee;
-  border: 1px solid #cecece;
-  padding: 10px;
-}
-/* end .entry-content */
-.wp-caption {
-  /* images inside wp-caption */
-}
-/* end .wp-caption */
-/* image gallery styles */
-/* end .gallery */
-/* gallery caption styles */
-/******************************************************************
-09. PAGE NAVI STYLES
-******************************************************************/
-.page-navigation,
-.wp-prev-next {
-  margin: 1.1em 0 2.2em;
-}
 .pagination li a:hover,
 .pagination li a:focus {
   background-color: #428bca;
   color: #fff;
 }
+.pagination li .active,
+.pagination li span:hover {
+  background-color: #6aa3d5;
+  color: #fff;
+}
 /* end pagination */
 /******************************************************************
-10. COMMENT STYLES
+Site Name: BREW Styles
+Author: Dan Brown
+
+Stylesheet: Tables
+
+This is just for the sample BREW site.  Feel free to delete
+
 ******************************************************************/
-/* h3 comment title */
-#comments {
-  /* number of comments span */
-}
-.comment-nav ul li {
-  list-style-type: none;
-}
-.commentlist {
-  padding-left: 0;
-  /* general comment classes */
-  /* vcard */
-  /* end .commentlist .vcard */
-  /* comment meta */
-  /* comment content */
-  /* end .commentlist .comment_content */
-  /* comment reply link */
-  /* end .commentlist .comment-reply-link */
-}
-.commentlist li {
-  /* end .commentlist li ul.children */
-}
-.commentlist li:last-child {
-  margin-bottom: 0;
-}
-.commentlist li ul.children {
-  margin: 0;
-  /* variations */
-  /* change number for different depth */
-}
-.commentlist li[class*=depth-] {
-  margin-top: 1.1em;
-}
-.commentlist li.depth-1 {
-  margin-left: 0;
-  margin-top: 0;
-}
-.commentlist li:not(.depth-1) {
-  margin-top: 0;
-  padding-bottom: 0;
-}
-.commentlist .odd {
-  background: #fcfcfc;
-}
-.commentlist .even {
-  background: #f9f9f9;
-}
-.commentlist .children article {
-  border-left: 1px solid #eee;
-}
-.commentlist .bypostauthor {
-  background: #eff5fb;
-}
-.commentlist .alert {
-  margin: 10px 0 0 82px;
-}
-.commentlist .vcard cite.fn {
-  font-weight: 700;
-  font-style: normal;
-}
-.commentlist .vcard time {
-  float: right;
-}
-.commentlist .vcard time a {
-  color: #999;
-  text-decoration: none;
-}
-.commentlist .vcard time a:hover {
-  text-decoration: underline;
-}
-.commentlist .vcard img.avatar {
-  padding: 2px;
-  border: 1px solid #cecece;
-  background: #fff;
-}
-.commentlist .comment_content p {
-  margin: 0.7335em 0 1.5em;
-  font-size: 1em;
-  line-height: 1.5em;
-}
-.commentlist .comment-reply-link {
-  text-decoration: none;
-  float: right;
-  background: #4598bb;
-  padding: 3px 5px;
-  color: #fff;
-  opacity: 0.65;
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 0.9em;
-}
-.commentlist .comment-reply-link:hover,
-.commentlist .comment-reply-link:focus {
-  opacity: 1;
-}
-/* end .commentlist */
-/******************************************************************
-11. COMMENT FORM STYLES
-******************************************************************/
-.respond-form {
-  margin: 1.5em 10px;
-  padding-bottom: 2.2em;
-}
-.respond-form ul {
-  padding-left: 0;
-  padding-bottom: 20px;
-}
-.respond-form form {
-  margin: 0.75em 0;
-}
-.respond-form form li {
-  list-style-type: none;
-  clear: both;
-  margin-bottom: 0.7335em;
-  border: none;
-}
-.respond-form form li label,
-.respond-form form li small {
-  display: none;
-}
-.respond-form form input[type=text],
-.respond-form form input[type=email],
-.respond-form form input[type=url],
-.respond-form form textarea {
-  padding: 3px 6px;
-  background: #efefef;
-  border: 2px solid #cecece;
-  line-height: 1.5em;
-  /* form validation */
-}
-.respond-form form input[type=text]:focus,
-.respond-form form input[type=email]:focus,
-.respond-form form input[type=url]:focus,
-.respond-form form textarea:focus {
-  background: #fff;
-}
-.respond-form form input[type=text]:invalid,
-.respond-form form input[type=email]:invalid,
-.respond-form form input[type=url]:invalid,
-.respond-form form textarea:invalid {
-  outline: none;
-  border-color: #fbc2c4;
-  background-color: #f6e7eb;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  -ms-box-shadow: none;
-  box-shadow: none;
-}
-.respond-form form input[type=text],
-.respond-form form input[type=email],
-.respond-form form input[type=url] {
-  max-width: 400px;
-  min-width: 250px;
-}
-.respond-form form textarea {
-  resize: none;
-  width: 97.3%;
-  height: 150px;
-}
-/* comment submit button */
-/* comment form title */
-#comment-form-title {
-  margin: 0 0 1.1em;
-}
-/* cancel comment reply link */
-/* logged in comments */
-/* allowed tags */
-#allowed_tags {
-  margin: 1.5em 10px 0.7335em 0;
-}
-/* no comments */
-.nocomments {
-  margin: 0 20px 1.1em;
-}
-/*********************
-12. SIDEBARS & ASIDES
-*********************/
-#sidebar .widget {
-  margin-bottom: 30px;
-}
-.widgettitle {
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #e0e0e0;
-  font-size: 18px;
-  line-height: 24px;
-}
-.widget ul {
-  padding: 0;
-  margin: 0;
-}
-.widget ul li {
-  padding: 5px 0;
-  list-style: none;
-  /* deep nesting */
-}
-/*********************
-13. FOOTER STYLES
-*********************/
-#footer {
-  border-top: 5px solid #428bca;
-  background: #3b3b3b;
-  padding-top: 30px;
-  margin-top: 60px;
-  clear: both;
-  color: #aaa;
-}
-#footer h4 {
-  color: #fff;
-  text-transform: uppercase;
-}
-#footer a {
-  color: #aaa;
-}
-#footer li {
-  padding: 7px 0;
-  border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
-  margin: 0px 0px;
-}
-#footer .widgettitle {
-  margin: 0;
-  padding: 0 0 15px 0;
-  border-bottom: none;
-}
-#footer-wrapper {
-  margin-bottom: 30px;
-}
-#sub-floor {
-  color: #aaa;
-  background: #292929;
-  padding: 10px 0;
-}
-.copyright {
-  text-align: center;
-}
-@media (min-width: 992px) {
-  .copyright {
-    text-align: left;
-  }
-}
-.attribution {
-  text-align: center;
-}
-@media (min-width: 992px) {
-  .attribution {
-    text-align: right;
-  }
-}
-.widgetFooter {
-  padding-bottom: 25px;
-}
-@media (min-width: 992px) {
-  .widgetFooter {
-    padding-bottom: 0px;
-  }
-}
-/*********************
-14. CUSTOM STYLES
-*********************/
-/* CSS for sample home page (can delete) */
 .featured {
   margin-bottom: 40px;
 }
@@ -8169,7 +8112,6 @@ and more scalable.
   color: #626c72;
   transition: all 0.35s ease;
 }
-/* end CSS for Sample Home Page */
 /*
 RETINA (2x RESOLUTION DEVICES)
 This applies to the retina iPhone (4s) and iPad (2,3) along with

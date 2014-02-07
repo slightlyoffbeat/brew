@@ -2,7 +2,7 @@
 Site Name: BREW Styles
 Author: Dan Brown
 
-Stylesheet: Tables
+Stylesheet: Components
 
 A few random components built for BREW such as breadcrumbs and
 next/previous posts
@@ -94,16 +94,6 @@ AUTHOR BOX
   }
 }
 
-/*********************
-ADMIN TOP NAV FIXES
-*********************/
-
-body.admin-bar .navbar-fixed-top {
-  top: 46px;
-  @media (min-width: 783px) {
-    top: 28px;
-  }
-}
 
 /*********************
 BREADCRUMBS
@@ -113,3 +103,23 @@ BREADCRUMBS
   background: #f9f9f9;   
   > li {}
 }
+
+/*********************
+PAGINATION
+*********************/
+
+.pagination {
+  li {
+    a {
+      &:hover,
+      &:focus {
+        background-color: @brand-primary;
+        color: #fff;
+      }
+    }
+    .active, span:hover {
+      background-color: lighten(@brand-primary, 10%);
+      color: #fff;
+    }
+  }
+} /* end pagination */

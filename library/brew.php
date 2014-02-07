@@ -169,7 +169,6 @@ function custom_breadcrumb() {
 }
 
 // Custom Metaboxes
-// uncomment if you wish to use
 
 function be_sample_metaboxes( $meta_boxes ) {
   $prefix = '_brew_'; // Prefix for all fields
@@ -263,7 +262,13 @@ wp_enqueue_script('fitvids', get_template_directory_uri() . '/library/js/libs/Fi
 
 wp_enqueue_script('fitvids-xtra', get_template_directory_uri() . '/library/js/fitvid.js', array(), '', TRUE);
 
-wp_register_script( 'bones-bootstrap', get_template_directory_uri() . '/library/js/libs/bootstrap.min.js', array(), '3.0.0', true );
+
+// load jquery from Google CDN
+
+
+
+add_action('template_redirect', 'load_jquery');
+
 
 
 /*
