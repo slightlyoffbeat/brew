@@ -138,9 +138,8 @@ function bones_scripts_and_styles() {
     // ie-only style sheet
     wp_register_style( 'bones-ie-only', get_template_directory_uri() . '/library/css/ie.css', array(), '' );
 
-
+    // FitVid (responsive video)
     wp_register_script( 'fitvids', get_template_directory_uri() . '/library/js/libs/FitVids.js-master/jquery.fitvids.js', array('jquery'), '', TRUE );
-
     wp_register_script( 'fitvids-xtra', get_template_directory_uri() . '/library/js/fitvid.js', array(), '', TRUE );
 
 

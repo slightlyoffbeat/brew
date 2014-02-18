@@ -256,12 +256,6 @@ function brew_contact_methods( $contactmethods ) {
 add_filter( 'user_contactmethods', 'brew_contact_methods' );
 
 
-// make video embeds responsive
-
-
-
-
-
 /*
 my mind is going. I can feel it
 */
