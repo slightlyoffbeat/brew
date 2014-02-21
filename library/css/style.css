@@ -7288,6 +7288,34 @@ Styles and classes used throughout the entire BREW framework
 body {
   padding-top: 50px;
 }
+body.admin-bar .navbar-fixed-top {
+  top: 46px;
+}
+@media (min-width: 783px) {
+  body.admin-bar .navbar-fixed-top {
+    top: 32px;
+  }
+}
+/******************************************************************
+H1, H2, H3, H4, H5 STYLES
+******************************************************************/
+/*********************
+LINK STYLES
+*********************/
+a,
+a:visited {
+  /* on hover */
+  /* on click */
+  /* mobile tap color */
+}
+a:link,
+a:visited:link {
+  /*
+		this highlights links on iPhones/iPads.
+		so it basically works like the :hover selector
+		for mobile devices.
+		*/
+}
 /******************************************************************
 Site Name: BREW
 Author: Dan Brown
