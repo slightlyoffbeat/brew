@@ -18,28 +18,6 @@ The comments page for Bones
 
 <?php // You can start editing here. ?>
 
-<?php if ( is_single() ) {?>
-  <div id="single-post-nav">
-    <ul class="pager">
-
-      <?php $trunc_limit = 30; ?>
-
-      <?php if( '' != get_previous_post() ) { ?>
-        <li class="previous">
-          <?php previous_post_link( '<span class="previous-page">%link</span>', __( '<i class="fa fa-caret-left"></i>', 'bones' ) . '&nbsp;' . brew_truncate_text( get_previous_post()->post_title, $trunc_limit ) ); ?>
-        </li>
-      <?php } // end if ?>
-
-      <?php if( '' != get_next_post() ) { ?>
-        <li class="next">
-          <?php next_post_link( '<span class="no-previous-page-link next-page">%link</span>', '&nbsp;' . brew_truncate_text( get_next_post()->post_title, $trunc_limit ) . '&nbsp;' . __( '<i class="fa fa-caret-right"></i>', 'bones' ) ); ?>
-        </li>
-      <?php } // end if ?>
-
-    </ul>
-  </div><!-- /#single-post-nav -->
-<?php } ?>
-
 <?php if ( have_comments() ) : ?>
 
   <div id="comments" class="havecomments">

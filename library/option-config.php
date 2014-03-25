@@ -105,7 +105,7 @@ if ( !class_exists( "Redux_Framework_sample_config" ) ) {
 		    $sections[] = array(
 		        'title' => __('Section via hook', 'brew-framework'),
 		        'desc' => __('<p class="description">This is a section created by adding a filter to the sections array. Can be used by child themes to add/remove sections from the options.</p>', 'brew-framework'),
-				'icon' => 'el-icon-paper-clip',
+				'icon' => 'fa fa-paperclip',
 				    // Leave this as a blank section, no options just some intro text set above.
 		        'fields' => array()
 		    );
@@ -247,7 +247,7 @@ if ( !class_exists( "Redux_Framework_sample_config" ) ) {
 			// ACTUAL DECLARATION OF SECTIONS
 
 			$this->sections[] = array(
-				'icon' => 'el-icon-wrench',
+				'icon' => 'fa fa-beer',
 				'title' => __('General Settings', 'brew-framework'),
 				'fields' => array (
 					array (
@@ -264,7 +264,7 @@ if ( !class_exists( "Redux_Framework_sample_config" ) ) {
 			);
 
 			$this->sections[] = array(
-				'icon' => 'el-icon-folder',
+				'icon' => 'fa fa-folder',
 				'title' => __('Content Settings', 'brew-framework'),
 				'desc' => __('Choose how certain content is displayed'),
 				'fields' => array (
@@ -335,7 +335,7 @@ if ( !class_exists( "Redux_Framework_sample_config" ) ) {
 
 
 			$this->sections[] = array(
-				'icon' => 'el-icon-info-sign',
+				'icon' => 'fa fa-info-circle',
 				'title' => __('Theme Information', 'brew-framework'),
 				'desc' => __('<p class="description">This is the Description. Again HTML is allowed</p>', 'brew-framework'),
 				'fields' => array(
@@ -350,7 +350,7 @@ if ( !class_exists( "Redux_Framework_sample_config" ) ) {
 
 			if(file_exists(trailingslashit(dirname(__FILE__)) . 'README.html')) {
 			    $tabs['docs'] = array(
-					'icon' => 'el-icon-book',
+					'icon' => 'fa fa-book',
 					    'title' => __('Documentation', 'brew-framework'),
 			        'content' => nl2br(file_get_contents(trailingslashit(dirname(__FILE__)) . 'README.html'))
 			    );
@@ -410,7 +410,7 @@ if ( !class_exists( "Redux_Framework_sample_config" ) ) {
 	            'page_permissions'   	=> 'manage_options', // Permissions needed to access the options panel.
 	            'menu_icon'          	=> '', // Specify a custom URL to an icon
 	            'last_tab'           	=> '', // Force your panel to always open to a specific tab (by id)
-	            'page_icon'          	=> 'icon-themes', // Icon displayed in the admin panel next to your menu_title
+	            'page_icon'          	=> 'fa fa-bell-o', // Icon displayed in the admin panel next to your menu_title
 	            'page_slug'          	=> '_options', // Page slug used to denote the panel
 	            'save_defaults'      	=> true, // On load save the defaults to DB before user clicks save or not
 	            'default_show'       	=> false, // If true, shows the default value next to each field that is not the default value.
@@ -441,13 +441,13 @@ if ( !class_exists( "Redux_Framework_sample_config" ) ) {
 			$this->args['share_icons'][] = array(
 			    'url' => 'https://github.com/slightlyoffbeat',
 			    'title' => 'My GitHub', 
-			    'icon' => 'el-icon-github'
+			    'icon' => 'fa fa-github-square'
 			    // 'img' => '', // You can use icon OR img. IMG needs to be a full URL.
 			);		
 			$this->args['share_icons'][] = array(
 			    'url' => 'http://twitter.com/slightlyoffbeat',
 			    'title' => 'Follow me on Twitter', 
-			    'icon' => 'el-icon-twitter'
+			    'icon' => 'fa fa-twitter-square'
 			);
 
 			
@@ -507,3 +507,20 @@ if ( !function_exists( 'redux_validate_callback_function' ) ):
 	    return $return;
 	}
 endif;
+
+function newIconFont() {
+    // Uncomment this to remove elusive icon from the panel completely
+    wp_deregister_style( 'redux-elusive-icon' );
+    wp_deregister_style( 'redux-elusive-icon-ie7' );
+ 
+    wp_register_style(
+        'redux-font-awesome',
+        '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css',
+        array(),
+        time(),
+        'all'
+    );  
+    wp_enqueue_style( 'redux-font-awesome' );
+}
+// This example assumes the opt_name is set to redux_demo.  Please replace it with your opt_name value.
+add_action( 'redux/page/brew_options/enqueue', 'newIconFont' );

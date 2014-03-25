@@ -36,9 +36,7 @@ Template Name: Page - Right Sidebar
               </footer> <!-- end article footer -->
             
             </article> <!-- end article -->
-            
-            <?php comments_template('',true); ?>
-            
+                        
             <?php endwhile; ?>    
             
             <?php else : ?>
