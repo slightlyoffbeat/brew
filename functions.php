@@ -25,14 +25,13 @@ if ( !isset( $redux_demo ) && file_exists( dirname( __FILE__ ) . '/library/optio
 }
 
 
-// Custom metaboxes and fields
-// https://github.com/jaredatch/Custom-Metaboxes-and-Fields-for-WordPress
-add_action( 'init', 'be_initialize_cmb_meta_boxes', 9999 );
-function be_initialize_cmb_meta_boxes() {
-  if ( !class_exists( 'cmb_Meta_Box' ) ) {
-    require_once( 'library/metabox/init.php' );
-  }
-}
+// Load Required Plugins
+// Required for metaboxes and admin panel (redux)
+// Edit require-plugins.php if you don't want to use these plugins
+require_once( 'library/require-plugins.php' );
+
+require_once( 'library/metabox.php' ); // if you remove this, BREW will break
+
 
 
 /* library/bones.php (functions specific to BREW)
@@ -43,6 +42,7 @@ function be_initialize_cmb_meta_boxes() {
   - Bootstrap style breadcrumbs
 */
 require_once( 'library/brew.php' ); // if you remove this, BREW will break
+
 /*
 1. library/bones.php
 	- head cleanup (remove rsd, uri links, junk css, ect)
