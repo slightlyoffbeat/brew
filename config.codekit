@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16828",
+"creatorBuild": "17756",
 "files": {
 	"\/404.php": {
 		"fileType": 8192,
@@ -8,6 +8,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/404.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/archive-custom_type.php": {
@@ -16,6 +17,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/archive-custom_type.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/archive.php": {
@@ -24,6 +26,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/archive.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/author-info.php": {
@@ -32,6 +35,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/author-info.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/breadcrumb.php": {
@@ -40,6 +44,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/breadcrumb.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/comments.php": {
@@ -48,6 +53,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/comments.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/favicon.png": {
@@ -57,6 +63,7 @@
 		"initialSize": 1488,
 		"inputAbbreviatedPath": "\/favicon.png",
 		"outputAbbreviatedPath": "\/favicon.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -66,6 +73,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/footer.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/functions.php": {
@@ -74,6 +82,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/functions.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/header.php": {
@@ -82,6 +91,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/header.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/index.php": {
@@ -90,6 +100,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin.php": {
@@ -98,6 +109,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/bin\/makepot\/extract\/extract.php": {
@@ -106,6 +118,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/bin\/makepot\/extract\/extract.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/bin\/makepot\/gen.php": {
@@ -114,6 +127,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/bin\/makepot\/gen.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/bin\/makepot\/index.php": {
@@ -122,6 +136,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/bin\/makepot\/index.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/bin\/makepot\/makepot.php": {
@@ -130,6 +145,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/bin\/makepot\/makepot.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/bin\/makepot\/not-gettexted.php": {
@@ -138,6 +154,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/bin\/makepot\/not-gettexted.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/bin\/makepot\/pomo\/entry.php": {
@@ -146,6 +163,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/bin\/makepot\/pomo\/entry.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/bin\/makepot\/pomo\/mo.php": {
@@ -154,6 +172,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/bin\/makepot\/pomo\/mo.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/bin\/makepot\/pomo\/po.php": {
@@ -162,6 +181,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/bin\/makepot\/pomo\/po.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/bin\/makepot\/pomo\/streams.php": {
@@ -170,6 +190,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/bin\/makepot\/pomo\/streams.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/bin\/makepot\/pomo\/translations.php": {
@@ -178,6 +199,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/bin\/makepot\/pomo\/translations.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/bin\/makepot\/pot-ext-meta.php": {
@@ -186,6 +208,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/bin\/makepot\/pot-ext-meta.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/bootstrap_tests.php": {
@@ -194,6 +217,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/bootstrap_tests.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/class.redux-plugin.php": {
@@ -202,6 +226,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/class.redux-plugin.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/Gruntfile.js": {
@@ -210,6 +235,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/Gruntfile.js",
 		"outputAbbreviatedPath": "\/library\/admin\/min\/Gruntfile-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -220,6 +246,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/index.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/kill-travis.php": {
@@ -228,6 +255,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/kill-travis.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/README.md": {
@@ -239,6 +267,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/README.md",
 		"outputAbbreviatedPath": "\/library\/admin\/README.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/redux-framework.php": {
@@ -247,6 +276,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/redux-framework.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/assets\/css\/admin.css": {
@@ -255,6 +285,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/admin.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/assets\/css\/admin.less": {
@@ -267,6 +298,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/admin.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/admin.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -282,6 +314,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/redux.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/assets\/css\/rtl.css": {
@@ -290,6 +323,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/rtl.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/assets\/css\/vendor\/elusive-icons\/elusive-webfont-ie7.css": {
@@ -298,6 +332,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/elusive-icons\/elusive-webfont-ie7.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/assets\/css\/vendor\/elusive-icons\/elusive-webfont.css": {
@@ -306,6 +341,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/elusive-icons\/elusive-webfont.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/assets\/css\/vendor\/elusive-icons\/elusive-webfont.less": {
@@ -318,6 +354,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/elusive-icons\/elusive-webfont.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/css\/elusive-webfont.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -334,6 +371,7 @@
 		"initialSize": 180,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -344,6 +382,7 @@
 		"initialSize": 120,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_glass_55_fbf9ee_1x400.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_glass_55_fbf9ee_1x400.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -354,6 +393,7 @@
 		"initialSize": 105,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_glass_65_ffffff_1x400.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_glass_65_ffffff_1x400.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -364,6 +404,7 @@
 		"initialSize": 111,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_glass_75_dadada_1x400.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_glass_75_dadada_1x400.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -374,6 +415,7 @@
 		"initialSize": 110,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -384,6 +426,7 @@
 		"initialSize": 107,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_glass_75_ffffff_1x400.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_glass_75_ffffff_1x400.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -394,6 +437,7 @@
 		"initialSize": 101,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -404,6 +448,7 @@
 		"initialSize": 123,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_inset-soft_95_fef1ec_1x100.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_inset-soft_95_fef1ec_1x100.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -414,6 +459,7 @@
 		"initialSize": 4369,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_222222_256x240.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_222222_256x240.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -424,6 +470,7 @@
 		"initialSize": 4369,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_2e83ff_256x240.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_2e83ff_256x240.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -434,6 +481,7 @@
 		"initialSize": 4369,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_454545_256x240.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_454545_256x240.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -444,6 +492,7 @@
 		"initialSize": 4369,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_888888_256x240.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_888888_256x240.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -454,6 +503,7 @@
 		"initialSize": 4369,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_cd0a0a_256x240.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_cd0a0a_256x240.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -464,6 +514,7 @@
 		"initialSize": 8884,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_f6cf3b_256x240.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_f6cf3b_256x240.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -473,6 +524,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/jquery-ui-1.10.0.custom.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/assets\/img\/1c.png": {
@@ -482,6 +534,7 @@
 		"initialSize": 138,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/1c.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/1c.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -492,6 +545,7 @@
 		"initialSize": 2895,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/1col.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/1col.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -502,6 +556,7 @@
 		"initialSize": 1045,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/2-col-portfolio.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/2-col-portfolio.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -512,6 +567,7 @@
 		"initialSize": 2984,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/2cl.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/2cl.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -522,6 +578,7 @@
 		"initialSize": 2985,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/2cr.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/2cr.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -532,6 +589,7 @@
 		"initialSize": 1025,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/3-col-portfolio.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/3-col-portfolio.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -542,6 +600,7 @@
 		"initialSize": 3156,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/3cl.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/3cl.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -552,6 +611,7 @@
 		"initialSize": 3036,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/3cm.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/3cm.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -562,6 +622,7 @@
 		"initialSize": 3050,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/3cr.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/3cr.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -572,6 +633,7 @@
 		"initialSize": 1033,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/4-col-portfolio.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/4-col-portfolio.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -582,6 +644,7 @@
 		"initialSize": 1447,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/menu_icon.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/menu_icon.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -592,6 +655,7 @@
 		"initialSize": 358,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/toggle_tabs.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/img\/toggle_tabs.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -601,6 +665,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/redux.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/min\/redux-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -611,6 +676,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/redux.min-ck.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/min\/redux.min-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -621,6 +687,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/redux.min.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/min\/redux.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -631,6 +698,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor.min.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/min\/vendor.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -641,6 +709,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/ace.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/ace-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -651,6 +720,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/mode-css.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/mode-css-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -661,6 +731,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/mode-html.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/mode-html-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -671,6 +742,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/mode-javascript.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/mode-javascript-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -681,6 +753,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/mode-json.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/mode-json-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -691,6 +764,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/mode-less.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/mode-less-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -701,6 +775,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/mode-markdown.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/mode-markdown-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -711,6 +786,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/mode-mysql.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/mode-mysql-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -721,6 +797,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/mode-php.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/mode-php-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -731,6 +808,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/mode-plain_text.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/mode-plain_text-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -741,6 +819,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/mode-sass.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/mode-sass-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -751,6 +830,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/mode-scss.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/mode-scss-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -761,6 +841,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/mode-text.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/mode-text-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -771,6 +852,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/mode-xml.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/mode-xml-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -781,6 +863,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/css.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/min\/css-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -791,6 +874,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/html.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/min\/html-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -801,6 +885,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/javascript.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/min\/javascript-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -811,6 +896,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/json.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/min\/json-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -821,6 +907,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/less.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/min\/less-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -831,6 +918,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/markdown.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/min\/markdown-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -841,6 +929,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/mysql.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/min\/mysql-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -851,6 +940,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/php.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/min\/php-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -861,6 +951,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/plain_text.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/min\/plain_text-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -871,6 +962,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/sass.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/min\/sass-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -881,6 +973,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/scss.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/min\/scss-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -891,6 +984,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/text.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/min\/text-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -901,6 +995,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/xml.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/snippets\/min\/xml-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -911,6 +1006,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/theme-chrome.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/theme-chrome-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -921,6 +1017,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/theme-monokai.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/theme-monokai-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -931,6 +1028,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/worker-css.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/worker-css-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -941,6 +1039,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/worker-javascript.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/worker-javascript-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -951,6 +1050,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/worker-json.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/worker-json-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -961,6 +1061,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/worker-php.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/ace_editor\/min\/worker-php-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -971,6 +1072,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/cookie.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/min\/cookie-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -981,6 +1083,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/jquery.alphanum.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/min\/jquery.alphanum-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -991,6 +1094,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/jquery.tipsy.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/min\/jquery.tipsy-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1001,6 +1105,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/jquery.typewatch.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/min\/jquery.typewatch-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1011,6 +1116,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/jsonview.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/min\/jsonview-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1021,6 +1127,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/jsonview.min.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/min\/jsonview.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1031,6 +1138,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/lte-ie7.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/min\/lte-ie7-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1041,6 +1149,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/minicolors\/jquery.minicolors.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/assets\/js\/vendor\/minicolors\/jquery.minicolors.js": {
@@ -1049,6 +1158,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/minicolors\/jquery.minicolors.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/minicolors\/min\/jquery.minicolors-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1059,6 +1169,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/minicolors\/jquery.minicolors.min.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/minicolors\/min\/jquery.minicolors.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1070,6 +1181,7 @@
 		"initialSize": 77459,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/minicolors\/jquery.minicolors.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/minicolors\/jquery.minicolors.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1082,6 +1194,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/minicolors\/readme.md",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/minicolors\/readme.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2.sortable.js": {
@@ -1090,6 +1203,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2.sortable.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/min\/select2.sortable-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1103,6 +1217,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/README.md",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/README.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2.css": {
@@ -1111,6 +1226,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2.js": {
@@ -1119,6 +1235,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1129,6 +1246,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2.min.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1140,6 +1258,7 @@
 		"initialSize": 613,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1149,6 +1268,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ar.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_ar-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1159,6 +1279,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_bg.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_bg-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1169,6 +1290,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ca.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_ca-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1179,6 +1301,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_cs.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_cs-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1189,6 +1312,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_da.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_da-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1199,6 +1323,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_de.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_de-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1209,6 +1334,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_el.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_el-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1219,6 +1345,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_es.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_es-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1229,6 +1356,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_et.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_et-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1239,6 +1367,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_eu.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_eu-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1249,6 +1378,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_fa.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_fa-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1259,6 +1389,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_fi.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_fi-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1269,6 +1400,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_fr.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_fr-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1279,6 +1411,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_gl.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_gl-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1289,6 +1422,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_he.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_he-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1299,6 +1433,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_hr.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_hr-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1309,6 +1444,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_hu.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_hu-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1319,6 +1455,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_id.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_id-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1329,6 +1466,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_is.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_is-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1339,6 +1477,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_it.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_it-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1349,6 +1488,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ja.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_ja-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1359,6 +1499,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ko.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_ko-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1369,6 +1510,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_lt.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_lt-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1379,6 +1521,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_lv.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_lv-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1389,6 +1532,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_mk.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_mk-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1399,6 +1543,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ms.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_ms-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1409,6 +1554,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_nl.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_nl-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1419,6 +1565,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_no.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_no-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1429,6 +1576,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_pl.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_pl-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1439,6 +1587,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_pt-BR.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_pt-BR-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1449,6 +1598,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_pt-PT.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_pt-PT-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1459,6 +1609,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ro.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_ro-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1469,6 +1620,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ru.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_ru-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1479,6 +1631,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_sk.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_sk-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1489,6 +1642,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_sv.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_sv-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1499,6 +1653,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_th.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_th-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1509,6 +1664,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_tr.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_tr-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1519,6 +1675,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ua.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_ua-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1529,6 +1686,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_vi.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_vi-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1539,6 +1697,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_zh-CN.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_zh-CN-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1549,6 +1708,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_zh-TW.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/min\/select2_locale_zh-TW-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1560,6 +1720,7 @@
 		"initialSize": 845,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2x2.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/select2\/select2x2.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1569,6 +1730,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/spinner_custom.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/assets\/js\/vendor\/min\/spinner_custom-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1579,6 +1741,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/extensions\/customizer\/extension_customizer.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/extensions\/edd\/edd_license\/EDD_License_Handler.php": {
@@ -1587,6 +1750,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/extensions\/edd\/edd_license\/EDD_License_Handler.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/extensions\/edd\/edd_license\/EDD_SL_Plugin_Updater.php": {
@@ -1595,6 +1759,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/extensions\/edd\/edd_license\/EDD_SL_Plugin_Updater.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/extensions\/edd\/edd_license\/EDD_SL_Theme_Updater.php": {
@@ -1603,6 +1768,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/extensions\/edd\/edd_license\/EDD_SL_Theme_Updater.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/extensions\/edd\/edd_license\/field_edd_license.css": {
@@ -1611,6 +1777,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/extensions\/edd\/edd_license\/field_edd_license.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/extensions\/edd\/edd_license\/field_edd_license.js": {
@@ -1619,6 +1786,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/extensions\/edd\/edd_license\/field_edd_license.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/extensions\/edd\/edd_license\/min\/field_edd_license-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1633,6 +1801,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/extensions\/edd\/edd_license\/field_edd_license.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/extensions\/edd\/css\/field_edd_license.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -1648,6 +1817,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/extensions\/edd\/edd_license\/field_edd_license.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/extensions\/edd\/extension_edd.php": {
@@ -1656,6 +1826,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/extensions\/edd\/extension_edd.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/extensions\/edd\/README.md": {
@@ -1667,6 +1838,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/extensions\/edd\/README.md",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/extensions\/edd\/README.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/framework.php": {
@@ -1675,6 +1847,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/framework.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/browser.php": {
@@ -1683,6 +1856,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/browser.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/ace_editor\/field_ace_editor.css": {
@@ -1691,6 +1865,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/ace_editor\/field_ace_editor.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/ace_editor\/field_ace_editor.js": {
@@ -1699,6 +1874,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/ace_editor\/field_ace_editor.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/ace_editor\/min\/field_ace_editor-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1713,6 +1889,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/ace_editor\/field_ace_editor.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_ace_editor.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -1728,6 +1905,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/ace_editor\/field_ace_editor.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/border\/field_border.css": {
@@ -1736,6 +1914,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/border\/field_border.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/border\/field_border.js": {
@@ -1744,6 +1923,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/border\/field_border.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/border\/min\/field_border-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1758,6 +1938,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/border\/field_border.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_border.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -1773,6 +1954,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/border\/field_border.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/button_set\/field_button_set.js": {
@@ -1781,6 +1963,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/button_set\/field_button_set.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/button_set\/min\/field_button_set-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1791,6 +1974,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/button_set\/field_button_set.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/checkbox\/field_checkbox.css": {
@@ -1799,6 +1983,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/checkbox\/field_checkbox.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/checkbox\/field_checkbox.less": {
@@ -1811,6 +1996,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/checkbox\/field_checkbox.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_checkbox.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -1826,6 +2012,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/checkbox\/field_checkbox.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/color\/field_color.css": {
@@ -1834,6 +2021,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/color\/field_color.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/color\/field_color.js": {
@@ -1842,6 +2030,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/color\/field_color.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/color\/min\/field_color-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1856,6 +2045,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/color\/field_color.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_color.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -1871,6 +2061,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/color\/field_color.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/color_gradient\/field_color_gradient.php": {
@@ -1879,6 +2070,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/color_gradient\/field_color_gradient.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/color_rgba\/field_color_rgba.css": {
@@ -1887,6 +2079,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/color_rgba\/field_color_rgba.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/color_rgba\/field_color_rgba.js": {
@@ -1895,6 +2088,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/color_rgba\/field_color_rgba.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/color_rgba\/min\/field_color_rgba-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1909,6 +2103,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/color_rgba\/field_color_rgba.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_color_rgba.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -1924,6 +2119,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/color_rgba\/field_color_rgba.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/date\/field_date.js": {
@@ -1932,6 +2128,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/date\/field_date.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/date\/min\/field_date-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1942,6 +2139,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/date\/field_date.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/dimensions\/field_dimensions.css": {
@@ -1950,6 +2148,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/dimensions\/field_dimensions.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/dimensions\/field_dimensions.js": {
@@ -1958,6 +2157,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/dimensions\/field_dimensions.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/dimensions\/min\/field_dimensions-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1972,6 +2172,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/dimensions\/field_dimensions.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_dimensions.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -1987,6 +2188,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/dimensions\/field_dimensions.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/divide\/field_divide.php": {
@@ -1995,6 +2197,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/divide\/field_divide.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/editor\/field_editor.css": {
@@ -2003,6 +2206,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/editor\/field_editor.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/editor\/field_editor.less": {
@@ -2015,6 +2219,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/editor\/field_editor.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_editor.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -2030,6 +2235,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/editor\/field_editor.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/gallery\/field_gallery.js": {
@@ -2038,6 +2244,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/gallery\/field_gallery.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/gallery\/min\/field_gallery-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -2048,6 +2255,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/gallery\/field_gallery.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/group\/field_group.css": {
@@ -2056,6 +2264,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/group\/field_group.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/group\/field_group.js": {
@@ -2064,6 +2273,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/group\/field_group.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/group\/min\/field_group-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -2078,6 +2288,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/group\/field_group.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_group.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -2093,6 +2304,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/group\/field_group.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/image_select\/field_image_select.css": {
@@ -2101,6 +2313,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/image_select\/field_image_select.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/image_select\/field_image_select.js": {
@@ -2109,6 +2322,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/image_select\/field_image_select.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/image_select\/min\/field_image_select-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -2123,6 +2337,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/image_select\/field_image_select.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_image_select.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -2138,6 +2353,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/image_select\/field_image_select.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/info\/field_info.css": {
@@ -2146,6 +2362,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/info\/field_info.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/info\/field_info.less": {
@@ -2158,6 +2375,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/info\/field_info.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_info.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -2173,6 +2391,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/info\/field_info.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/link_color\/field_link_color.php": {
@@ -2181,6 +2400,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/link_color\/field_link_color.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/media\/field_media.css": {
@@ -2189,6 +2409,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/media\/field_media.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/media\/field_media.js": {
@@ -2197,6 +2418,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/media\/field_media.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/media\/min\/field_media-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -2211,6 +2433,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/media\/field_media.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_media.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -2226,6 +2449,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/media\/field_media.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/multi_text\/field_multi_text.css": {
@@ -2234,6 +2458,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/multi_text\/field_multi_text.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/multi_text\/field_multi_text.js": {
@@ -2242,6 +2467,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/multi_text\/field_multi_text.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/multi_text\/min\/field_multi_text-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -2256,6 +2482,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/multi_text\/field_multi_text.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_multi_text.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -2271,6 +2498,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/multi_text\/field_multi_text.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/password\/field_password.php": {
@@ -2279,6 +2507,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/password\/field_password.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/radio\/field_radio.php": {
@@ -2287,6 +2516,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/radio\/field_radio.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/raw\/field_raw.php": {
@@ -2295,6 +2525,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/raw\/field_raw.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/raw_align\/field_raw_align.php": {
@@ -2303,6 +2534,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/raw_align\/field_raw_align.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/select\/elusive-icons.php": {
@@ -2311,6 +2543,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/select\/elusive-icons.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/select\/field_select.css": {
@@ -2319,6 +2552,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/select\/field_select.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/select\/field_select.js": {
@@ -2327,6 +2561,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/select\/field_select.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/select\/min\/field_select-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -2341,6 +2576,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/select\/field_select.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_select.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -2356,6 +2592,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/select\/field_select.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/select_image\/field_select_image.css": {
@@ -2364,6 +2601,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/select_image\/field_select_image.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/select_image\/field_select_image.js": {
@@ -2372,6 +2610,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/select_image\/field_select_image.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/select_image\/min\/field_select_image-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -2382,6 +2621,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/select_image\/field_select_image.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/slider\/field_slider.css": {
@@ -2390,6 +2630,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/slider\/field_slider.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/slider\/field_slider.js": {
@@ -2398,6 +2639,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/slider\/field_slider.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/slider\/min\/field_slider-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -2412,6 +2654,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/slider\/field_slider.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_slider.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -2427,6 +2670,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/slider\/field_slider.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/slider\/slider-control.png": {
@@ -2436,6 +2680,7 @@
 		"initialSize": 1690,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/slider\/slider-control.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/slider\/slider-control.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -2445,6 +2690,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/slides\/field_slides.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/slides\/field_slides.js": {
@@ -2453,6 +2699,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/slides\/field_slides.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/slides\/min\/field_slides-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -2467,6 +2714,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/slides\/field_slides.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_slides.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -2482,6 +2730,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/slides\/field_slides.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/sortable\/field_sortable.css": {
@@ -2490,6 +2739,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/sortable\/field_sortable.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/sortable\/field_sortable.js": {
@@ -2498,6 +2748,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/sortable\/field_sortable.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/sortable\/min\/field_sortable-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -2512,6 +2763,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/sortable\/field_sortable.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_sortable.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -2527,6 +2779,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/sortable\/field_sortable.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/sorter\/field_sorter.css": {
@@ -2535,6 +2788,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/sorter\/field_sorter.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/sorter\/field_sorter.js": {
@@ -2543,6 +2797,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/sorter\/field_sorter.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/sorter\/min\/field_sorter-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -2557,6 +2812,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/sorter\/field_sorter.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_sorter.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -2572,6 +2828,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/sorter\/field_sorter.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/spacing\/field_spacing.css": {
@@ -2580,6 +2837,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/spacing\/field_spacing.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/spacing\/field_spacing.js": {
@@ -2588,6 +2846,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/spacing\/field_spacing.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/spacing\/min\/field_spacing-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -2602,6 +2861,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/spacing\/field_spacing.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_spacing.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -2617,6 +2877,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/spacing\/field_spacing.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/spinner\/arrow_left.png": {
@@ -2626,6 +2887,7 @@
 		"initialSize": 150,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/spinner\/arrow_left.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/spinner\/arrow_left.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -2636,6 +2898,7 @@
 		"initialSize": 154,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/spinner\/arrow_right.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/spinner\/arrow_right.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -2645,6 +2908,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/spinner\/field_spinner.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/spinner\/field_spinner.js": {
@@ -2653,6 +2917,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/spinner\/field_spinner.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/spinner\/min\/field_spinner-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -2667,6 +2932,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/spinner\/field_spinner.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_spinner.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -2682,6 +2948,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/spinner\/field_spinner.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/switch\/field_switch.css": {
@@ -2690,6 +2957,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/switch\/field_switch.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/switch\/field_switch.js": {
@@ -2698,6 +2966,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/switch\/field_switch.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/switch\/min\/field_switch-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -2712,6 +2981,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/switch\/field_switch.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_switch.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -2727,6 +2997,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/switch\/field_switch.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/switch\/slider-control.png": {
@@ -2736,6 +3007,7 @@
 		"initialSize": 1690,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/switch\/slider-control.png",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/switch\/slider-control.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -2745,6 +3017,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/text\/field_text.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/text\/field_text.less": {
@@ -2757,6 +3030,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/text\/field_text.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_text.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -2772,6 +3046,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/text\/field_text.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/textarea\/field_textarea.php": {
@@ -2780,6 +3055,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/textarea\/field_textarea.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/typography\/field_typography-ck.js": {
@@ -2788,6 +3064,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/typography\/field_typography-ck.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/typography\/min\/field_typography-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -2798,6 +3075,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/typography\/field_typography.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/fields\/typography\/field_typography.js": {
@@ -2806,6 +3084,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/typography\/field_typography.js",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/typography\/min\/field_typography-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -2820,6 +3099,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/typography\/field_typography.less",
 		"outputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/css\/field_typography.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -2835,6 +3115,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/fields\/typography\/field_typography.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/sysinfo.php": {
@@ -2843,6 +3124,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/sysinfo.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/tracking.php": {
@@ -2851,6 +3133,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/tracking.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/validation\/color\/validation_color.php": {
@@ -2859,6 +3142,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/validation\/color\/validation_color.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/validation\/color_rgba\/validation_color_rgba.php": {
@@ -2867,6 +3151,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/validation\/color_rgba\/validation_color_rgba.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/validation\/colorrgba\/validation_colorrgba.php": {
@@ -2875,6 +3160,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/validation\/colorrgba\/validation_colorrgba.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/validation\/comma_numeric\/validation_comma_numeric.php": {
@@ -2883,6 +3169,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/validation\/comma_numeric\/validation_comma_numeric.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/validation\/css\/validation_css.php": {
@@ -2891,6 +3178,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/validation\/css\/validation_css.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/validation\/date\/validation_date.php": {
@@ -2899,6 +3187,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/validation\/date\/validation_date.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/validation\/email\/validation_email.php": {
@@ -2907,6 +3196,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/validation\/email\/validation_email.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/validation\/html\/validation_html.php": {
@@ -2915,6 +3205,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/validation\/html\/validation_html.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/validation\/html_custom\/validation_html_custom.php": {
@@ -2923,6 +3214,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/validation\/html_custom\/validation_html_custom.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/validation\/js\/validation_js.php": {
@@ -2931,6 +3223,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/validation\/js\/validation_js.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/validation\/no_html\/validation_no_html.php": {
@@ -2939,6 +3232,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/validation\/no_html\/validation_no_html.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/validation\/no_special_chars\/validation_no_special_chars.php": {
@@ -2947,6 +3241,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/validation\/no_special_chars\/validation_no_special_chars.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/validation\/numeric\/validation_numeric.php": {
@@ -2955,6 +3250,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/validation\/numeric\/validation_numeric.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/validation\/preg_replace\/validation_preg_replace.php": {
@@ -2963,6 +3259,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/validation\/preg_replace\/validation_preg_replace.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/validation\/str_replace\/validation_str_replace.php": {
@@ -2971,6 +3268,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/validation\/str_replace\/validation_str_replace.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/ReduxCore\/inc\/validation\/url\/validation_url.php": {
@@ -2979,6 +3277,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/ReduxCore\/inc\/validation\/url\/validation_url.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/sample\/info-html.html": {
@@ -2987,6 +3286,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/sample\/info-html.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/sample\/patterns\/tree_bark.png": {
@@ -2996,6 +3296,7 @@
 		"initialSize": 42360,
 		"inputAbbreviatedPath": "\/library\/admin\/sample\/patterns\/tree_bark.png",
 		"outputAbbreviatedPath": "\/library\/admin\/sample\/patterns\/tree_bark.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -3006,6 +3307,7 @@
 		"initialSize": 210,
 		"inputAbbreviatedPath": "\/library\/admin\/sample\/patterns\/triangular.png",
 		"outputAbbreviatedPath": "\/library\/admin\/sample\/patterns\/triangular.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -3016,6 +3318,7 @@
 		"initialSize": 212,
 		"inputAbbreviatedPath": "\/library\/admin\/sample\/patterns\/triangular_@2X.png",
 		"outputAbbreviatedPath": "\/library\/admin\/sample\/patterns\/triangular_@2X.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -3026,6 +3329,7 @@
 		"initialSize": 47151,
 		"inputAbbreviatedPath": "\/library\/admin\/sample\/patterns\/wild_flowers.png",
 		"outputAbbreviatedPath": "\/library\/admin\/sample\/patterns\/wild_flowers.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -3036,6 +3340,7 @@
 		"initialSize": 18478,
 		"inputAbbreviatedPath": "\/library\/admin\/sample\/presets\/preset1.png",
 		"outputAbbreviatedPath": "\/library\/admin\/sample\/presets\/preset1.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -3046,6 +3351,7 @@
 		"initialSize": 30454,
 		"inputAbbreviatedPath": "\/library\/admin\/sample\/presets\/preset2.png",
 		"outputAbbreviatedPath": "\/library\/admin\/sample\/presets\/preset2.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -3055,6 +3361,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/sample\/sample-config.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/tests\/bootstrap.php": {
@@ -3063,6 +3370,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/tests\/bootstrap.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/tests\/test-sample.php": {
@@ -3071,6 +3379,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/tests\/test-sample.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/admin\/uninstall.php": {
@@ -3079,6 +3388,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/admin\/uninstall.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/bones.php": {
@@ -3087,6 +3397,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/bones.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/brew.php": {
@@ -3095,6 +3406,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/brew.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/css\/ie.css": {
@@ -3103,6 +3415,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/css\/ie.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/css\/login.css": {
@@ -3111,6 +3424,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/css\/login.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/css\/style.css": {
@@ -3119,6 +3433,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/css\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/custom-post-type.php": {
@@ -3127,6 +3442,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/custom-post-type.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/images\/apple-icon-touch.png": {
@@ -3136,6 +3452,7 @@
 		"initialSize": 8439,
 		"inputAbbreviatedPath": "\/library\/images\/apple-icon-touch.png",
 		"outputAbbreviatedPath": "\/library\/images\/apple-icon-touch.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -3146,6 +3463,7 @@
 		"initialSize": 392,
 		"inputAbbreviatedPath": "\/library\/images\/beer-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/beer-icon.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -3156,6 +3474,18 @@
 		"initialSize": 462,
 		"inputAbbreviatedPath": "\/library\/images\/custom-post-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/custom-post-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/hal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17994,
+		"inputAbbreviatedPath": "\/library\/images\/hal.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/hal.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -3166,6 +3496,7 @@
 		"initialSize": 655710,
 		"inputAbbreviatedPath": "\/library\/images\/hero.png",
 		"outputAbbreviatedPath": "\/library\/images\/hero.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -3176,6 +3507,7 @@
 		"initialSize": 7019,
 		"inputAbbreviatedPath": "\/library\/images\/login-logo.png",
 		"outputAbbreviatedPath": "\/library\/images\/login-logo.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -3186,66 +3518,61 @@
 		"initialSize": 8048,
 		"inputAbbreviatedPath": "\/library\/images\/win8-tile-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/win8-tile-icon.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
 	"\/library\/js\/fitvid.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/library\/js\/fitvid.js",
 		"outputAbbreviatedPath": "\/library\/js\/min\/fitvid-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/library\/js\/libs\/bootstrap.min.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/library\/js\/libs\/bootstrap.min.js",
 		"outputAbbreviatedPath": "\/library\/js\/libs\/min\/bootstrap.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/library\/js\/libs\/FitVids.js-master\/CONTRIBUTING.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/js\/libs\/FitVids.js-master\/CONTRIBUTING.md",
-		"outputAbbreviatedPath": "\/library\/js\/libs\/FitVids.js-master\/CONTRIBUTING.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/library\/js\/libs\/FitVids.js-master\/jquery.fitvids.js": {
+	"\/library\/js\/libs\/jquery.fitvids.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/js\/libs\/FitVids.js-master\/jquery.fitvids.js",
-		"outputAbbreviatedPath": "\/library\/js\/libs\/FitVids.js-master\/min\/jquery.fitvids-ck.js",
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/library\/js\/libs\/jquery.fitvids.js",
+		"outputAbbreviatedPath": "\/library\/js\/libs\/min\/jquery.fitvids-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/library\/js\/libs\/modernizr.custom.min.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/library\/js\/libs\/modernizr.custom.min.js",
 		"outputAbbreviatedPath": "\/library\/js\/libs\/min\/modernizr.custom.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/library\/js\/scripts.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/library\/js\/scripts.js",
 		"outputAbbreviatedPath": "\/library\/js\/min\/scripts-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -3260,6 +3587,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/alerts.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/alerts.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3279,6 +3607,27 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/badges.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/badges.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/bootstrap.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/bootstrap.less",
+		"outputAbbreviatedPath": "\/library\/less\/css\/bootstrap.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3298,6 +3647,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/breadcrumbs.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/breadcrumbs.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3317,6 +3667,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/button-groups.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/button-groups.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3336,6 +3687,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/buttons.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/buttons.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3355,6 +3707,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/carousel.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/carousel.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3374,6 +3727,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/close.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/close.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3393,6 +3747,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/code.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/code.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3412,6 +3767,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/component-animations.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/component-animations.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3431,6 +3787,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/dropdowns.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/dropdowns.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3450,6 +3807,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/forms.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/forms.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3469,6 +3827,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/glyphicons.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/glyphicons.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3488,6 +3847,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/grid.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/grid.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3507,6 +3867,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/input-groups.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/input-groups.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3526,6 +3887,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/jumbotron.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/jumbotron.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3545,6 +3907,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/labels.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/labels.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3564,6 +3927,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/list-group.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/list-group.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3583,6 +3947,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/media.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/media.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3602,6 +3967,587 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/mixins.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/alerts.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/alerts.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/alerts.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/background-variant.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/background-variant.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/background-variant.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/border-radius.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/border-radius.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/border-radius.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/buttons.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/buttons.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/buttons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/center-block.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/center-block.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/center-block.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/clearfix.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/clearfix.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/clearfix.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/forms.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/forms.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/forms.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/gradients.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/gradients.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/gradients.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/grid-framework.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/grid-framework.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/grid-framework.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/grid.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/grid.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/grid.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/hide-text.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/hide-text.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/hide-text.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/image.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/image.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/image.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/labels.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/labels.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/labels.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/list-group.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/list-group.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/list-group.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/nav-divider.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/nav-divider.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/nav-divider.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/nav-vertical-align.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/nav-vertical-align.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/nav-vertical-align.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/opacity.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/opacity.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/opacity.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/pagination.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/pagination.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/pagination.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/panels.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/panels.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/panels.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/progress-bar.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/progress-bar.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/progress-bar.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/reset-filter.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/reset-filter.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/reset-filter.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/resize.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/resize.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/resize.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/responsive-visibility.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/responsive-visibility.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/responsive-visibility.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/size.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/size.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/size.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/tab-focus.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/tab-focus.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/tab-focus.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/table-row.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/table-row.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/table-row.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/text-emphasis.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/text-emphasis.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/text-emphasis.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/text-overflow.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/text-overflow.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/text-overflow.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/mixins\/vendor-prefixes.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/mixins\/vendor-prefixes.less",
+		"outputAbbreviatedPath": "\/library\/less\/bootstrap\/css\/vendor-prefixes.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3621,6 +4567,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/modals.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/modals.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3640,6 +4587,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/navbar.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/navbar.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3659,6 +4607,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/navs.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/navs.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3678,6 +4627,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/normalize.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/normalize.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3697,6 +4647,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/pager.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/pager.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3716,6 +4667,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/pagination.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/pagination.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3735,6 +4687,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/panels.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/panels.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3754,6 +4707,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/popovers.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/popovers.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3773,6 +4727,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/print.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/print.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3792,6 +4747,27 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/progress-bars.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/progress-bars.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/library\/less\/bootstrap\/responsive-embed.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/responsive-embed.less",
+		"outputAbbreviatedPath": "\/library\/less\/css\/responsive-embed.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3811,6 +4787,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/responsive-utilities.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/responsive-utilities.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3830,6 +4807,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/scaffolding.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/scaffolding.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3849,6 +4827,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/tables.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/tables.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3868,6 +4847,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/theme.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/theme.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3887,6 +4867,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/thumbnails.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/thumbnails.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3906,6 +4887,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/tooltip.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/tooltip.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3925,6 +4907,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/type.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/type.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3944,6 +4927,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/utilities.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/utilities.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3963,6 +4947,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/bootstrap\/wells.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/wells.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -3982,6 +4967,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/brew\/body.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/body.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4001,6 +4987,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/brew\/brew.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/brew.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4020,6 +5007,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/brew\/comments.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/comments.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4039,6 +5027,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/brew\/components.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/components.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4058,6 +5047,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/brew\/content.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/content.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4077,6 +5067,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/brew\/footer.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/footer.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4096,6 +5087,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/brew\/form.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/form.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4115,6 +5107,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/brew\/global.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/global.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4134,6 +5127,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/brew\/nav.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/nav.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4153,6 +5147,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/brew\/sidebar.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/sidebar.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4172,6 +5167,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/brew\/tables.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/tables.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4191,6 +5187,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/brew\/wp-core.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/wp-core.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4210,269 +5207,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/custom-variables.less",
 		"outputAbbreviatedPath": "\/library\/css\/custom-variables.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/library\/less\/font-awesome\/css\/font-awesome.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/less\/font-awesome\/css\/font-awesome.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/library\/less\/font-awesome\/css\/font-awesome.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/less\/font-awesome\/css\/font-awesome.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/library\/less\/font-awesome\/less\/bordered-pulled.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/less\/font-awesome\/less\/bordered-pulled.less",
-		"outputAbbreviatedPath": "\/library\/less\/font-awesome\/css\/bordered-pulled.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/library\/less\/font-awesome\/less\/core.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/less\/font-awesome\/less\/core.less",
-		"outputAbbreviatedPath": "\/library\/less\/font-awesome\/css\/core.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/library\/less\/font-awesome\/less\/fixed-width.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/less\/font-awesome\/less\/fixed-width.less",
-		"outputAbbreviatedPath": "\/library\/less\/font-awesome\/css\/fixed-width.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/library\/less\/font-awesome\/less\/font-awesome.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/less\/font-awesome\/less\/font-awesome.less",
-		"outputAbbreviatedPath": "\/library\/less\/font-awesome\/css\/font-awesome.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/library\/less\/font-awesome\/less\/icons.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/less\/font-awesome\/less\/icons.less",
-		"outputAbbreviatedPath": "\/library\/less\/font-awesome\/css\/icons.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/library\/less\/font-awesome\/less\/larger.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/less\/font-awesome\/less\/larger.less",
-		"outputAbbreviatedPath": "\/library\/less\/font-awesome\/css\/larger.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/library\/less\/font-awesome\/less\/list.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/less\/font-awesome\/less\/list.less",
-		"outputAbbreviatedPath": "\/library\/less\/font-awesome\/css\/list.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/library\/less\/font-awesome\/less\/mixins.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/less\/font-awesome\/less\/mixins.less",
-		"outputAbbreviatedPath": "\/library\/less\/font-awesome\/css\/mixins.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/library\/less\/font-awesome\/less\/path.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/less\/font-awesome\/less\/path.less",
-		"outputAbbreviatedPath": "\/library\/less\/font-awesome\/css\/path.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/library\/less\/font-awesome\/less\/rotated-flipped.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/less\/font-awesome\/less\/rotated-flipped.less",
-		"outputAbbreviatedPath": "\/library\/less\/font-awesome\/css\/rotated-flipped.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/library\/less\/font-awesome\/less\/spinning.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/less\/font-awesome\/less\/spinning.less",
-		"outputAbbreviatedPath": "\/library\/less\/font-awesome\/css\/spinning.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/library\/less\/font-awesome\/less\/stacked.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/less\/font-awesome\/less\/stacked.less",
-		"outputAbbreviatedPath": "\/library\/less\/font-awesome\/css\/stacked.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/library\/less\/font-awesome\/less\/variables.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/less\/font-awesome\/less\/variables.less",
-		"outputAbbreviatedPath": "\/library\/less\/font-awesome\/css\/variables.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4492,6 +5227,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/other\/_2x.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/_2x.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4511,6 +5247,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/other\/ie.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/ie.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4530,6 +5267,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/other\/login.less",
 		"outputAbbreviatedPath": "\/library\/less\/css\/login.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4549,6 +5287,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/less\/style.less",
 		"outputAbbreviatedPath": "\/library\/css\/style.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -4564,6 +5303,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/metabox\/example-functions.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/metabox\/helpers\/cmb_Meta_Box_ajax.php": {
@@ -4572,6 +5312,16 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/metabox\/helpers\/cmb_Meta_Box_ajax.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/library\/metabox\/helpers\/cmb_Meta_Box_Sanitize.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/metabox\/helpers\/cmb_Meta_Box_Sanitize.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/metabox\/helpers\/cmb_Meta_Box_Show_Filters.php": {
@@ -4580,6 +5330,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/metabox\/helpers\/cmb_Meta_Box_Show_Filters.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/metabox\/helpers\/cmb_Meta_Box_types.php": {
@@ -4588,6 +5339,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/metabox\/helpers\/cmb_Meta_Box_types.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/metabox\/images\/ico-delete.png": {
@@ -4597,6 +5349,7 @@
 		"initialSize": 715,
 		"inputAbbreviatedPath": "\/library\/metabox\/images\/ico-delete.png",
 		"outputAbbreviatedPath": "\/library\/metabox\/images\/ico-delete.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4607,6 +5360,7 @@
 		"initialSize": 180,
 		"inputAbbreviatedPath": "\/library\/metabox\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
 		"outputAbbreviatedPath": "\/library\/metabox\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4617,6 +5371,7 @@
 		"initialSize": 178,
 		"inputAbbreviatedPath": "\/library\/metabox\/images\/ui-bg_flat_75_ffffff_40x100.png",
 		"outputAbbreviatedPath": "\/library\/metabox\/images\/ui-bg_flat_75_ffffff_40x100.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4627,6 +5382,7 @@
 		"initialSize": 120,
 		"inputAbbreviatedPath": "\/library\/metabox\/images\/ui-bg_glass_55_fbf9ee_1x400.png",
 		"outputAbbreviatedPath": "\/library\/metabox\/images\/ui-bg_glass_55_fbf9ee_1x400.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4637,6 +5393,7 @@
 		"initialSize": 105,
 		"inputAbbreviatedPath": "\/library\/metabox\/images\/ui-bg_glass_65_ffffff_1x400.png",
 		"outputAbbreviatedPath": "\/library\/metabox\/images\/ui-bg_glass_65_ffffff_1x400.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4647,6 +5404,7 @@
 		"initialSize": 111,
 		"inputAbbreviatedPath": "\/library\/metabox\/images\/ui-bg_glass_75_dadada_1x400.png",
 		"outputAbbreviatedPath": "\/library\/metabox\/images\/ui-bg_glass_75_dadada_1x400.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4657,6 +5415,7 @@
 		"initialSize": 110,
 		"inputAbbreviatedPath": "\/library\/metabox\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
 		"outputAbbreviatedPath": "\/library\/metabox\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4667,6 +5426,7 @@
 		"initialSize": 119,
 		"inputAbbreviatedPath": "\/library\/metabox\/images\/ui-bg_glass_95_fef1ec_1x400.png",
 		"outputAbbreviatedPath": "\/library\/metabox\/images\/ui-bg_glass_95_fef1ec_1x400.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4677,6 +5437,7 @@
 		"initialSize": 101,
 		"inputAbbreviatedPath": "\/library\/metabox\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png",
 		"outputAbbreviatedPath": "\/library\/metabox\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4687,6 +5448,7 @@
 		"initialSize": 4369,
 		"inputAbbreviatedPath": "\/library\/metabox\/images\/ui-icons_222222_256x240.png",
 		"outputAbbreviatedPath": "\/library\/metabox\/images\/ui-icons_222222_256x240.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4697,6 +5459,7 @@
 		"initialSize": 4369,
 		"inputAbbreviatedPath": "\/library\/metabox\/images\/ui-icons_2e83ff_256x240.png",
 		"outputAbbreviatedPath": "\/library\/metabox\/images\/ui-icons_2e83ff_256x240.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4707,6 +5470,7 @@
 		"initialSize": 4369,
 		"inputAbbreviatedPath": "\/library\/metabox\/images\/ui-icons_454545_256x240.png",
 		"outputAbbreviatedPath": "\/library\/metabox\/images\/ui-icons_454545_256x240.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4717,6 +5481,7 @@
 		"initialSize": 5355,
 		"inputAbbreviatedPath": "\/library\/metabox\/images\/ui-icons_888888_256x240.png",
 		"outputAbbreviatedPath": "\/library\/metabox\/images\/ui-icons_888888_256x240.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4727,6 +5492,7 @@
 		"initialSize": 4369,
 		"inputAbbreviatedPath": "\/library\/metabox\/images\/ui-icons_cd0a0a_256x240.png",
 		"outputAbbreviatedPath": "\/library\/metabox\/images\/ui-icons_cd0a0a_256x240.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4736,6 +5502,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/metabox\/init.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/metabox\/js\/cmb.js": {
@@ -4744,6 +5511,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/metabox\/js\/cmb.js",
 		"outputAbbreviatedPath": "\/library\/metabox\/js\/min\/cmb-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -4754,6 +5522,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/metabox\/js\/cmb.min.js",
 		"outputAbbreviatedPath": "\/library\/metabox\/js\/min\/cmb.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -4764,6 +5533,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/metabox\/js\/jquery.timePicker.min.js",
 		"outputAbbreviatedPath": "\/library\/metabox\/js\/min\/jquery.timePicker.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -4777,6 +5547,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/metabox\/readme.md",
 		"outputAbbreviatedPath": "\/library\/metabox\/readme.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/metabox\/style.css": {
@@ -4785,6 +5556,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/metabox\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/metabox\/style.min.css": {
@@ -4793,6 +5565,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/metabox\/style.min.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/navwalker.php": {
@@ -4801,6 +5574,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/navwalker.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/option-config.php": {
@@ -4809,6 +5583,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/option-config.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/library\/translation\/translation.php": {
@@ -4817,6 +5592,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/translation\/translation.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/page-full-width.php": {
@@ -4825,6 +5601,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page-full-width.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/page-home.php": {
@@ -4833,6 +5610,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page-home.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/page.php": {
@@ -4841,6 +5619,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/README.md": {
@@ -4852,6 +5631,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/README.md",
 		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/screenshot.png": {
@@ -4861,6 +5641,7 @@
 		"initialSize": 3609,
 		"inputAbbreviatedPath": "\/screenshot.png",
 		"outputAbbreviatedPath": "\/screenshot.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4871,6 +5652,7 @@
 		"initialSize": 516601,
 		"inputAbbreviatedPath": "\/screenshots\/screen1.png",
 		"outputAbbreviatedPath": "\/screenshots\/screen1.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4881,6 +5663,7 @@
 		"initialSize": 125597,
 		"inputAbbreviatedPath": "\/screenshots\/screen2.png",
 		"outputAbbreviatedPath": "\/screenshots\/screen2.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4891,6 +5674,7 @@
 		"initialSize": 48692,
 		"inputAbbreviatedPath": "\/screenshots\/screen3.png",
 		"outputAbbreviatedPath": "\/screenshots\/screen3.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -4900,6 +5684,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/search.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/searchform.php": {
@@ -4908,6 +5693,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/searchform.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/sidebar.php": {
@@ -4916,6 +5702,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sidebar.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/single-custom_type.php": {
@@ -4924,6 +5711,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/single-custom_type.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/single.php": {
@@ -4932,6 +5720,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/single.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/style.css": {
@@ -4940,6 +5729,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/taxonomy-custom_cat.php": {
@@ -4948,6 +5738,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/taxonomy-custom_cat.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		}
 	},
@@ -4969,6 +5760,8 @@
 	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
 	"autoSyncProjectSettingsFile": 1,
 	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathEnabled": 1,
+	"coffeeAutoOutputPathFilenamePattern": "*.js",
 	"coffeeAutoOutputPathRelativePath": "",
 	"coffeeAutoOutputPathReplace1": "",
 	"coffeeAutoOutputPathReplace2": "",
@@ -5019,12 +5812,16 @@
 			"active": 0,
 			"flagValue": 3
 			},
-		"no-unnecessary_fat_arrows": {
+		"no_backticks": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"no_backticks": {
+		"no_debugger": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_empty_param_list": {
@@ -5036,6 +5833,10 @@
 			"flagValue": -1
 			},
 		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -5063,7 +5864,19 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -5078,6 +5891,8 @@
 	"externalServerAddress": "http:\/\/freshbrew.dev\/",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathEnabled": 1,
+	"hamlAutoOutputPathFilenamePattern": "*.html",
 	"hamlAutoOutputPathRelativePath": "",
 	"hamlAutoOutputPathReplace1": "",
 	"hamlAutoOutputPathReplace2": "",
@@ -5089,19 +5904,22 @@
 	"hamlUseCDATA": 0,
 	"hamlUseDoubleQuotes": 0,
 	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathEnabled": 1,
+	"jadeAutoOutputPathFilenamePattern": "*.html",
 	"jadeAutoOutputPathRelativePath": "",
 	"jadeAutoOutputPathReplace1": "",
 	"jadeAutoOutputPathReplace2": "",
 	"jadeAutoOutputPathStyle": 0,
 	"jadeCompileDebug": 1,
 	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
 	"javascriptAutoOutputPathRelativePath": "\/min",
 	"javascriptAutoOutputPathReplace1": "",
 	"javascriptAutoOutputPathReplace2": "",
 	"javascriptAutoOutputPathStyle": 2,
 	"javascriptCreateSourceMap": 1,
 	"javascriptOutputStyle": 1,
-	"javascriptOutputSuffix": "-ck",
 	"javascriptSyntaxCheckerStyle": 1,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
@@ -5178,10 +5996,6 @@
 			"flagValue": -1
 			},
 		"funcscope": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"gcl": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -5297,10 +6111,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"onevar": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"phantom": {
 			"active": 0,
 			"flagValue": -1
@@ -5337,10 +6147,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"smarttabs": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"strict": {
 			"active": 0,
 			"flagValue": -1
@@ -5353,10 +6159,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"trailing": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"typed": {
 			"active": 0,
 			"flagValue": -1
@@ -5367,10 +6169,6 @@
 			},
 		"unused": {
 			"active": 1,
-			"flagValue": -1
-			},
-		"white": {
-			"active": 0,
 			"flagValue": -1
 			},
 		"withstmt": {
@@ -5496,11 +6294,15 @@
 			"flagValue": -1
 			}
 		},
+	"kitAutoOutputPathEnabled": 1,
+	"kitAutoOutputPathFilenamePattern": "*.html",
 	"kitAutoOutputPathRelativePath": "",
 	"kitAutoOutputPathReplace1": "",
 	"kitAutoOutputPathReplace2": "",
 	"kitAutoOutputPathStyle": 0,
 	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathEnabled": 1,
+	"lessAutoOutputPathFilenamePattern": "*.css",
 	"lessAutoOutputPathRelativePath": "..\/css",
 	"lessAutoOutputPathReplace1": "less",
 	"lessAutoOutputPathReplace2": "css",
@@ -5513,6 +6315,8 @@
 	"lessStrictImports": 0,
 	"lessStrictMath": 0,
 	"lessStrictUnits": 0,
+	"markdownAutoOutputPathEnabled": 1,
+	"markdownAutoOutputPathFilenamePattern": "*.html",
 	"markdownAutoOutputPathRelativePath": "",
 	"markdownAutoOutputPathReplace1": "",
 	"markdownAutoOutputPathReplace2": "",
@@ -5521,6 +6325,8 @@
 	"markdownEnableSmartyPants": 1,
 	"markdownExpandTabs": 1,
 	"reloadFileURLs": 0,
+	"sassAutoOutputPathEnabled": 1,
+	"sassAutoOutputPathFilenamePattern": "*.css",
 	"sassAutoOutputPathRelativePath": "..\/css",
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
@@ -5533,6 +6339,8 @@
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,
 	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs",
+	"slimAutoOutputPathEnabled": 1,
+	"slimAutoOutputPathFilenamePattern": "*.html",
 	"slimAutoOutputPathRelativePath": "",
 	"slimAutoOutputPathReplace1": "",
 	"slimAutoOutputPathReplace2": "",
@@ -5541,14 +6349,19 @@
 	"slimLogicless": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathEnabled": 1,
+	"stylusAutoOutputPathFilenamePattern": "*.css",
 	"stylusAutoOutputPathRelativePath": "..\/css",
 	"stylusAutoOutputPathReplace1": "stylus",
 	"stylusAutoOutputPathReplace2": "css",
 	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
 	"stylusDebugStyle": 0,
 	"stylusImportCSS": 0,
 	"stylusOutputStyle": 0,
 	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathEnabled": 1,
+	"typescriptAutoOutputPathFilenamePattern": "*.js",
 	"typescriptAutoOutputPathRelativePath": "\/js",
 	"typescriptAutoOutputPathReplace1": "",
 	"typescriptAutoOutputPathReplace2": "",
