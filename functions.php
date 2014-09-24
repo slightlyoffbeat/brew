@@ -13,24 +13,15 @@ sidebars, comments, ect.
 require_once( 'library/navwalker.php' ); // needed for bootstrap navigation
 
 
-// REDUX.  Needed for custom admin panel
-// https://github.com/ReduxFramework/ReduxFramework
-// WIP
-
-if ( !class_exists( 'ReduxFramework' ) && file_exists( dirname( __FILE__ ) . '/library/admin/ReduxCore/framework.php' ) ) {
-	require_once( dirname( __FILE__ ) . '/library/admin/ReduxCore/framework.php' );
-}
-if ( !isset( $redux_demo ) && file_exists( dirname( __FILE__ ) . '/library/option-config.php' ) ) {
-	require_once( dirname( __FILE__ ) . '/library/option-config.php' );
-}
-
-
 // Load Required Plugins
 // Required for metaboxes and admin panel (redux)
 // Edit require-plugins.php if you don't want to use these plugins
 require_once( 'library/require-plugins.php' );
 
-require_once( 'library/metabox.php' ); // if you remove this, BREW will break
+require_once( 'library/metabox.php' ); // Requires CMB2 plugin
+require_once( 'library/option-config.php' ); // requires redux
+// Redux examples:  https://github.com/ReduxFramework/redux-framework/tree/master/sample
+
 
 
 

@@ -32,17 +32,13 @@ Features:
 * Redux Options Framework
 * Easy to add metaboxes
 
-Updates since v.6:
-* Updated to Bootstrap 3.1
-* Added FitVid to make video embeds responsive
-* Removed SASS for now (need to figure out how to keep it up to date)
-* added author profile box
-* updated default styles
-* organized LESS files
-* Added recommended CSS from wordpress for image alignment, text alignment, etc
-* Updated FontAwesome to v.4
-* Various Bug Fixes
-* Bunch of other stuff I can't remember
+Changes in 9.1:
+* bootstrap updated to 3.2
+* fontawesome updated to 4.2.0
+* modernizr updated to 2.6.2
+* fitvid updated to 1.1
+* metabox code no longer included. The theme will now prompt you to download and install the plugin.
+* Redux framework in no longer included. BREW will prompt you to download and install the plugin.
 
 
 To use:
@@ -70,3 +66,4 @@ Providing credit where credit is due:
 * [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
 * [Jeredatch](https://github.com/jaredatch/Custom-Metaboxes-and-Fields-for-WordPress) (Custom metaboxes and fields)
 * [FitVid](https://github.com/davatron5000/FitVids.js) (Making video embeds responsive)
+* [thomasgriffin](https://github.com/thomasgriffin/TGM-Plugin-Activation) (Plugin requirements and activation)

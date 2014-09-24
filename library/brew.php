@@ -168,30 +168,6 @@ function custom_breadcrumb() {
   }
 }
 
-// Custom Metaboxes
-
-function be_sample_metaboxes( $meta_boxes ) {
-  $prefix = '_brew_'; // Prefix for all fields
-  $meta_boxes[] = array(
-    'id' => 'test_metabox',
-    'title' => 'Test Metabox',
-    'pages' => array('custom_type'), // post type
-    'context' => 'normal',
-    'priority' => 'high',
-    'show_names' => true, // Show field names on the left
-    'fields' => array(
-      array(
-        'name' => 'Test Text',
-        'desc' => 'field description (optional)',
-        'id' => $prefix . 'test_text',
-        'type' => 'text'
-      ),
-    ),
-  );
-
-  return $meta_boxes;
-}
-add_filter( 'cmb_meta_boxes', 'be_sample_metaboxes' );
 
 // Checking if comment navigation is enabled
 function page_has_comments_nav() {
