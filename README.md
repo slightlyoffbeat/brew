@@ -1,4 +1,4 @@
-# Brew 0.9
+# Brew 0.9.1
 __A Wordpress starter theme based on Bones and Bootstrap 3__
 
 Created by **Dan Brown**: http://danvswild.com
@@ -32,7 +32,7 @@ Features:
 * Redux Options Framework
 * Easy to add metaboxes
 
-Changes in 9.1:
+Changes in 0.9.1:
 * bootstrap updated to 3.2
 * fontawesome updated to 4.2.0
 * modernizr updated to 2.6.2
@@ -52,6 +52,8 @@ To do before v1.0:
 * Look in to combining functions.php/brew.php/bones.php
 * Finalize all included pages/php files.  Not all have been updated.
 * Set up Grunt
+* clean up look and feel
+
 
 
 
